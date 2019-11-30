@@ -1223,7 +1223,7 @@ const colors = [
                     }
                 ]
             }, {
-                "name": "Blue-Grays",
+                "name": "Browns",
                 "swatches": [
                     {
                         "name": "Brown 50",
@@ -1268,7 +1268,7 @@ const colors = [
                     }
                 ]
             }, {
-                "name": "Browns",
+                "name": "Blue-Grays",
                 "swatches": [
                     {
                         "name": "Blue-Gray 50",
