@@ -169,6 +169,10 @@ em, i {
     border: thin solid #808080;
 }
 
+.swatches-title {
+    font-size: 1.5rem;
+}
+
 .swatch-value {
     font-family: 'Source Code Pro', monospace;
     text-transform: uppercase;
