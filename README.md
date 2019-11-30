@@ -1,5 +1,7 @@
 # Color Palette
 
+Demo: [https://davinaleong.github.io/proj-color-palette/](https://davinaleong.github.io/proj-color-palette/)
+
 Tech Stack
 - jQuery
 - HTML/CSS
