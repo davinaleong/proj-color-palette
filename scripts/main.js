@@ -4,17 +4,8 @@ $(document).ready(function () {
         // Convert name to kebab-case
         const name = {
             original: set.name,
-            split: set.name.toLowerCase().split(' ')
+            kebab: convertKebab(set.name)
         };
-        name.kebab = '';
-        name.split.forEach((word, index) => {
-            if (index >= name.split.length - 1) {
-                name.kebab += word;
-            } else {
-                name.kebab += word + '-';
-            }
-        });
-
         
         // Append links to <nav>
         $('ul.nav-links').append(
@@ -33,10 +24,15 @@ $(document).ready(function () {
 
                 let sets = '';
                 set.colors.forEach(color => {
-                    const nameLower = color.name.toLowerCase();
+
+                    const colorName = {
+                        original: color.name,
+                        kebab: convertKebab(color.name)
+                    };
+
                     sets += '<div>' +
                     '\t<h3 class="swatches-title">' + color.name + '</h3>' +
-                    '\t<div id="set-' + name.kebab + '-' +  nameLower + '-swatches" class="palette-swatches">' +
+                    '\t<div id="set-' + name.kebab + '-' +  colorName.kebab + '-swatches" class="palette-swatches">' +
                     '\t</div>' +
                     '</div>';
 
@@ -45,7 +41,11 @@ $(document).ready(function () {
 
                 set.colors.forEach(color => {
 
-                    const nameLower = color.name.toLowerCase();
+                    const colorName = {
+                        original: color.name,
+                        kebab: convertKebab(color.name)
+                    };
+
                     let swatches = '';
                     color.swatches.forEach(swatch => {
                         swatches += '<div class="palette-swatch" style="color: ' + swatch.text + '; background-color: ' + swatch.value + '">' +
@@ -53,7 +53,7 @@ $(document).ready(function () {
                         '\t<p class="swatch-value">' + swatch.value + '</p>' +
                         '</div>';
                     });
-                    $('#set-' + name.kebab + '-' + nameLower + '-swatches').append(swatches);
+                    $('#set-' + name.kebab + '-' + colorName.kebab + '-swatches').append(swatches);
 
                 });
                 break;
@@ -84,3 +84,18 @@ $(document).ready(function () {
     });
 
 });
+
+function convertKebab(string) {
+    
+    const split = string.toLowerCase().split(' ');
+    let kebab = '';
+    split.forEach((word, index) => {
+        if (index >= name.split.length - 1) {
+            kebab += word;
+        } else {
+            kebab += word + '-';
+        }
+    });
+    return kebab;
+
+}
