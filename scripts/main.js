@@ -19,7 +19,7 @@ $(document).ready(function () {
             let swatches = '';
             set.colors.forEach(color => {
                 console.log(color.name, color.value);
-                swatches += '<div class="palette-swatch text-black" style="background-color: ' + color.value + '">' +
+                swatches += '<div class="palette-swatch" style="color: ' + color.text + '; background-color: ' + color.value + '">' +
                 '\t<p class="swatch-name">' + color.name + '</p>' +
                 '\t<p class="swatch-value">' + color.value + '</p>' +
                 '</div>';
