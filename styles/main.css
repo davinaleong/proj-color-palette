@@ -60,6 +60,17 @@ ul.nav-links li a:hover {
     background: #e6e6e6;
 }
 
+a.link-top:visited, a.link-top:focus {
+    text-decoration: none;
+    color: #fff;
+    background-color: #2196f3;
+}
+
+ul.nav-links li a.link-top:hover {
+    color: #fff;
+    background-color: #1976d2;
+}
+
 main {
     padding: 0.5rem;
     margin-top: 52px;
@@ -120,7 +131,13 @@ em, i {
     color: #fff;
 }
 
-.btn-top {
+a.link-top {
+    font-weight: bold;
+    color: #fff;
+    background-color: #2196f3;
+}
+
+a.btn-top {
     position: fixed;
     right: 1rem;
     bottom: 1rem;
@@ -133,13 +150,13 @@ em, i {
     box-shadow: 3px 3px 5px rgba(1, 1, 1, 0.3);
 }
 
-.btn-top:visited, .btn-top:focus {
+a.btn-top:visited, a.btn-top:focus {
     text-decoration: none;
     color: #fff;
     background-color: #2196f3;
 }
 
-.btn-top:hover {
+a.btn-top:hover {
     color: #fff;
     background-color: #1976d2;
 }
