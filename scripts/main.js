@@ -48,7 +48,7 @@ $(document).ready(function () {
                     const nameLower = color.name.toLowerCase();
                     let swatches = '';
                     color.swatches.forEach(swatch => {
-                        swatches += '<div class="palette-swatch" style="color: #000000; background-color: ' + swatch.value + '">' +
+                        swatches += '<div class="palette-swatch" style="color: ' + swatch.text + '; background-color: ' + swatch.value + '">' +
                         '\t<p class="swatch-name">' + swatch.name + '</p>' +
                         '\t<p class="swatch-value">' + swatch.value + '</p>' +
                         '</div>';

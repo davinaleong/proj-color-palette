@@ -206,46 +206,60 @@ const colors = [
                 "swatches": [
                     {
                         "name": "Red 50",
-                        "value": "#ffebee"
+                        "value": "#ffebee",
+                        "text": "#000000"
                     }, {
                         "name": "Red 100",
-                        "value": "#ffcdd2"
+                        "value": "#ffcdd2",
+                        "text": "#000000"
                     }, {
                         "name": "Red 200",
-                        "value": "#ef9a9a"
+                        "value": "#ef9a9a",
+                        "text": "#000000"
                     }, {
                         "name": "Red 300",
-                        "value": "#e57373"
+                        "value": "#e57373",
+                        "text": "#000000"
                     }, {
                         "name": "Red 400",
-                        "value": "#ef5350"
+                        "value": "#ef5350",
+                        "text": "#000000"
                     }, {
                         "name": "Red 500",
-                        "value": "#f44336"
+                        "value": "#f44336",
+                        "text": "#FFFFFF"
                     }, {
                         "name": "Red 600",
-                        "value": "#e53935"
+                        "value": "#e53935",
+                        "text": "#FFFFFF"
                     }, {
                         "name": "Red 700",
-                        "value": "#d32f2f"
+                        "value": "#d32f2f",
+                        "text": "#FFFFFF"
                     }, {
                         "name": "Red 800",
-                        "value": "#c62828"
+                        "value": "#c62828",
+                        "text": "#FFFFFF"
                     }, {
                         "name": "Red 900",
-                        "value": "#b71c1c"
+                        "value": "#b71c1c",
+                        "text": "#FFFFFF"
                     }, {
                         "name": "Red a100",
-                        "value": "#ff8a80"
+                        "value": "#ff8a80",
+                        "text": "#000000"
                     }, {
                         "name": "Red a200",
-                        "value": "#ff5252"
+                        "value": "#ff5252",
+                        "text": "#000000"
                     }, {
                         "name": "Red a400",
-                        "value": "#ff1744"
+                        "value": "#ff1744",
+                        "text": "#FFFFFF"
                     }, {
                         "name": "Red a700",
-                        "value": "#d50000"
+                        "value": "#d50000",
+                        "text": "#FFFFFF"
                     }
                 ]
             }, {
@@ -253,46 +267,60 @@ const colors = [
                 "swatches": [
                     {
                         "name": "Pink 50",
-                        "value": "#fce4ec"
+                        "value": "#fce4ec",
+                        "text": "#000000"
                     }, {
                         "name": "Pink 100",
-                        "value": "#f8bbd0"
+                        "value": "#f8bbd0",
+                        "text": "#000000"
                     }, {
                         "name": "Pink 200",
-                        "value": "#f48fb1"
+                        "value": "#f48fb1",
+                        "text": "#000000"
                     }, {
                         "name": "Pink 300",
-                        "value": "#f06292"
+                        "value": "#f06292",
+                        "text": "#000000"
                     }, {
                         "name": "Pink 400",
-                        "value": "#ec407a"
+                        "value": "#ec407a",
+                        "text": "#000000"
                     }, {
                         "name": "Pink 500",
-                        "value": "#e91e63"
+                        "value": "#e91e63",
+                        "text": "#FFFFFF"
                     }, {
                         "name": "Pink 600",
-                        "value": "#d81b60"
+                        "value": "#d81b60",
+                        "text": "#FFFFFF"
                     }, {
                         "name": "Pink 700",
-                        "value": "#c2185b"
+                        "value": "#c2185b",
+                        "text": "#FFFFFF"
                     }, {
                         "name": "Pink 800",
-                        "value": "#ad1457"
+                        "value": "#ad1457",
+                        "text": "#FFFFFF"
                     }, {
                         "name": "Pink 900",
-                        "value": "#880e4f"
+                        "value": "#880e4f",
+                        "text": "#FFFFFF"
                     }, {
                         "name": "Pink a100",
-                        "value": "#ff80ab"
+                        "value": "#ff80ab",
+                        "text": "#000000"
                     }, {
                         "name": "Pink a200",
-                        "value": "#ff4081"
+                        "value": "#ff4081",
+                        "text": "#000000"
                     }, {
                         "name": "Pink a400",
-                        "value": "#f50057"
+                        "value": "#f50057",
+                        "text": "#FFFFFF"
                     }, {
                         "name": "Pink a700",
-                        "value": "#c51162"
+                        "value": "#c51162",
+                        "text": "#FFFFFF"
                     }
                 ]
             }
