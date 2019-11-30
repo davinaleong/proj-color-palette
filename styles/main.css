@@ -58,6 +58,13 @@ ul.nav-links li a {
 ul.nav-links li a:hover {
     color: #2196f3;
     background: #e6e6e6;
+    border: none;
+}
+
+a.link-top {
+    font-weight: bold;
+    color: #fff;
+    background-color: #2196f3;
 }
 
 a.link-top:visited, a.link-top:focus {
@@ -129,12 +136,6 @@ em, i {
 
 .text-white {
     color: #fff;
-}
-
-a.link-top {
-    font-weight: bold;
-    color: #fff;
-    background-color: #2196f3;
 }
 
 a.btn-top {
