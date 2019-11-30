@@ -8,7 +8,7 @@ Sample `JSON` file:
 ```JSON
 [
     {
-        "set": "Basic Colors",
+        "name": "Basic Colors",
         "colors": [
             {
                 "name": "White",
@@ -19,28 +19,10 @@ Sample `JSON` file:
             }, {
                 "name": "Gray",
                 "value": "#888888"
-            }, {
-                "name": "Red",
-                "value": "#ff0000"
-            }, {
-                "name": "Yellow",
-                "value": "#ffff00"
-            }, {
-                "name": "Green",
-                "value": "#00ff00"
-            }, {
-                "name": "Cyan",
-                "value": "#00ffff"
-            }, {
-                "name": "Blue",
-                "value": "#0000ff"
-            }, {
-                "name": "Magenta",
-                "value": "#ff00ff"
             }
         ]
     }, {
-        "set": "Material Palette",
+        "name": "Material Palette",
         "colors": [
             {
                 "name": "50",
@@ -51,7 +33,7 @@ Sample `JSON` file:
             }
         ]
     }, {
-        "set": "Pokemon Colors",
+        "name": "Pokemon Colors",
         "colors": [
             {
                 "name": "Bug",
@@ -62,51 +44,6 @@ Sample `JSON` file:
             }, {
                 "name": "Dragon",
                 "value": "#7038F9"
-            }, {
-                "name": "Electric",
-                "value": "#F8D030"
-            }, {
-                "name": "Fairy",
-                "value": "#FFAEC9"
-            }, {
-                "name": "Fighting",
-                "value": "#C03028"
-            }, {
-                "name": "Fire",
-                "value": "#F07F2F"
-            }, {
-                "name": "Flying",
-                "value": "#A890F0"
-            }, {
-                "name": "Ghost",
-                "value": "#715899"
-            }, {
-                "name": "Grass",
-                "value": "#78C750"
-            }, {
-                "name": "Ground",
-                "value": "#DEBF67"
-            }, {
-                "name": "Ice",
-                "value": "#98D8D8"
-            }, {
-                "name": "Normal",
-                "value": "#A9A878"
-            }, {
-                "name": "Poison",
-                "value": "#A040A1"
-            }, {
-                "name": "Psychic",
-                "value": "#F85788"
-            }, {
-                "name": "Rock",
-                "value": "#B89F38"
-            }, {
-                "name": "Steel",
-                "value": "#B8B8D0"
-            }, {
-                "name": "Water",
-                "value": "#6890F0"
             }
         ]
     }
