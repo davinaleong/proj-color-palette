@@ -12,7 +12,30 @@ html, body {
     font-size: 16px;
     font-family: 'Source Sans Pro', sans-serif;
     color: #000;
-    background: #fff; /* col background */
+    background: #fff;
+}
+
+.container-grid {
+    display: grid;
+    grid-template-areas:
+        'cell-nav'
+        'cell-main';
+}
+
+.cell-nav {
+    grid-area: cell-nav;
+}
+
+.cell-main {
+    grid-area: cell-main;
+}
+
+nav {
+    width: 100%;
+    padding: 2rem;
+}
+
+main {
     padding: 0.5rem;
 }
 
