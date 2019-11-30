@@ -4,7 +4,7 @@ const colors = [
         "colors": [
             {
                 "name": "White",
-                "value": "#FFFFF",
+                "value": "#FFFFFF",
                 "text": "#000000"
             }, {
                 "name": "Black",
