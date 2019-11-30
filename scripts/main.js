@@ -53,8 +53,6 @@ $(document).ready(function () {
                         '\t<p class="swatch-value">' + swatch.value + '</p>' +
                         '</div>';
                     });
-                    console.log('#set-' + name.kebab + '-' + nameLower + '-swatches');
-                    console.log(swatches);
                     $('#set-' + name.kebab + '-' + nameLower + '-swatches').append(swatches);
 
                 });
