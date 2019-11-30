@@ -9,7 +9,7 @@ Sample `JSON` file:
 [
     {
         "set": "Basic Colors",
-        [
+        "colors": [
             {
                 "name": "White",
                 "value": "#ffffff"
@@ -41,7 +41,7 @@ Sample `JSON` file:
         ]
     }, {
         "set": "Material Palette",
-        "grays": [
+        "colors": [
             {
                 "name": "50",
                 "value": "#fafafa"
@@ -52,7 +52,7 @@ Sample `JSON` file:
         ]
     }, {
         "set": "Pokemon Colors",
-        [
+        "colors": [
             {
                 "name": "Bug",
                 "value": "#A8B821"
