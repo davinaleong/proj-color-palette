@@ -5,7 +5,7 @@ const colors = [
             {
                 "name": "White",
                 "value": "#FFFFF",
-                "text": "#00000"
+                "text": "#000000"
             }, {
                 "name": "Black",
                 "value": "#000000",
@@ -13,7 +13,7 @@ const colors = [
             }, {
                 "name": "Gray",
                 "value": "#888888",
-                "text": "#00000"
+                "text": "#000000"
             }, {
                 "name": "Red",
                 "value": "#FF0000",
@@ -21,15 +21,15 @@ const colors = [
             }, {
                 "name": "Yellow",
                 "value": "#FFFF00",
-                "text": "#00000"
+                "text": "#000000"
             }, {
                 "name": "Green",
                 "value": "#00FF00",
-                "text": "#00000"
+                "text": "#000000"
             }, {
                 "name": "Cyan",
                 "value": "#00FFFF",
-                "text": "#00000"
+                "text": "#000000"
             }, {
                 "name": "Blue",
                 "value": "#0000FF",
@@ -46,7 +46,7 @@ const colors = [
             {
                 "name": "Bug",
                 "value": "#A8B821",
-                "text": "#00000"
+                "text": "#000000"
             }, {
                 "name": "Dark",
                 "value": "#6F5848",
@@ -58,11 +58,11 @@ const colors = [
             }, {
                 "name": "Electric",
                 "value": "#F8D030",
-                "text": "#00000"
+                "text": "#000000"
             }, {
                 "name": "Fairy",
                 "value": "#FFAEC9",
-                "text": "#00000"
+                "text": "#000000"
             }, {
                 "name": "Fighting",
                 "value": "#C03028",
@@ -70,11 +70,11 @@ const colors = [
             }, {
                 "name": "Fire",
                 "value": "#F07F2F",
-                "text": "#00000"
+                "text": "#000000"
             }, {
                 "name": "Flying",
                 "value": "#A890F0",
-                "text": "#00000"
+                "text": "#000000"
             }, {
                 "name": "Ghost",
                 "value": "#715899",
@@ -82,19 +82,19 @@ const colors = [
             }, {
                 "name": "Grass",
                 "value": "#78C750",
-                "text": "#00000"
+                "text": "#000000"
             }, {
                 "name": "Ground",
                 "value": "#DEBF67",
-                "text": "#00000"
+                "text": "#000000"
             }, {
                 "name": "Ice",
                 "value": "#98D8D8",
-                "text": "#00000"
+                "text": "#000000"
             }, {
                 "name": "Normal",
                 "value": "#A9A878",
-                "text": "#00000"
+                "text": "#000000"
             }, {
                 "name": "Poison",
                 "value": "#A040A1",
@@ -110,11 +110,11 @@ const colors = [
             }, {
                 "name": "Steel",
                 "value": "#B8B8D0",
-                "text": "#00000"
+                "text": "#000000"
             }, {
                 "name": "Water",
                 "value": "#6890F0",
-                "text": "#00000"
+                "text": "#000000"
             }
         ]
     }, {
@@ -198,5 +198,104 @@ const colors = [
                 "text": "#FFFFFF"
             }
         ]
+    }, {
+        "name": "Material Colors",
+        "colors": [
+            {
+                "name": "Red",
+                "swatches": [
+                    {
+                        "name": "Red 50",
+                        "value": "#ffebee"
+                    }, {
+                        "name": "Red 100",
+                        "value": "#ffcdd2"
+                    }, {
+                        "name": "Red 200",
+                        "value": "#ef9a9a"
+                    }, {
+                        "name": "Red 300",
+                        "value": "#e57373"
+                    }, {
+                        "name": "Red 400",
+                        "value": "#ef5350"
+                    }, {
+                        "name": "Red 500",
+                        "value": "#f44336"
+                    }, {
+                        "name": "Red 600",
+                        "value": "#e53935"
+                    }, {
+                        "name": "Red 700",
+                        "value": "#d32f2f"
+                    }, {
+                        "name": "Red 800",
+                        "value": "#c62828"
+                    }, {
+                        "name": "Red 900",
+                        "value": "#b71c1c"
+                    }, {
+                        "name": "Red a100",
+                        "value": "#ff8a80"
+                    }, {
+                        "name": "Red a200",
+                        "value": "#ff5252"
+                    }, {
+                        "name": "Red a400",
+                        "value": "#ff1744"
+                    }, {
+                        "name": "Red a700",
+                        "value": "#d50000"
+                    }
+                ]
+            }, {
+                "name": "Pink",
+                "swatches": [
+                    {
+                        "name": "Pink 50",
+                        "value": "#fce4ec"
+                    }, {
+                        "name": "Pink 100",
+                        "value": "#f8bbd0"
+                    }, {
+                        "name": "Pink 200",
+                        "value": "#f48fb1"
+                    }, {
+                        "name": "Pink 300",
+                        "value": "#f06292"
+                    }, {
+                        "name": "Pink 400",
+                        "value": "#ec407a"
+                    }, {
+                        "name": "Pink 500",
+                        "value": "#e91e63"
+                    }, {
+                        "name": "Pink 600",
+                        "value": "#d81b60"
+                    }, {
+                        "name": "Pink 700",
+                        "value": "#c2185b"
+                    }, {
+                        "name": "Pink 800",
+                        "value": "#ad1457"
+                    }, {
+                        "name": "Pink 900",
+                        "value": "#880e4f"
+                    }, {
+                        "name": "Pink a100",
+                        "value": "#ff80ab"
+                    }, {
+                        "name": "Pink a200",
+                        "value": "#ff4081"
+                    }, {
+                        "name": "Pink a400",
+                        "value": "#f50057"
+                    }, {
+                        "name": "Pink a700",
+                        "value": "#c51162"
+                    }
+                ]
+            }
+        ]
     }
-];
+]
