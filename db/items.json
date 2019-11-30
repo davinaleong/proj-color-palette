@@ -1,0 +1,177 @@
+[
+    {
+        "name": "Charizardite Y",
+        "image": "./assets/images/items/charizardite-y.png"
+    }, {
+        "name": "Focus Sash",
+        "image": "./assets/images/items/focus-sash.png"
+    }, {
+        "name": "Leftovers",
+        "image": "./assets/images/items/leftovers.png"
+    }, {
+        "name": "Life Orb",
+        "image": "./assets/images/items/life-orb.png"
+    }, {
+        "name": "Light Ball",
+        "image": "./assets/images/items/light-ball.png"
+    }, {
+        "name": "Sitrus Berry",
+        "image": "./assets/images/items/sitrus-berry.png"
+    }, {
+        "name": "Abomasite",
+        "image": "./assets/images/items/abomasite.png"
+    }, {
+        "name": "Absolite",
+        "image": "./assets/images/items/absolite.png"
+    }, {
+        "name": "Aerodactylite",
+        "image": "./assets/images/items/aerodactylite.png"
+    }, {
+        "name": "Aggronite",
+        "image": "./assets/images/items/aggronite.png"
+    }, {
+        "name": "Air Balloon",
+        "image": "./assets/images/items/air-balloon.png"
+    }, {
+        "name": "Alakazite",
+        "image": "./assets/images/items/alakazite.png"
+    }, {
+        "name": "Aloraichium Z",
+        "image": "./assets/images/items/aloraichium-z.png"
+    }, {
+        "name": "Altarianite",
+        "image": "./assets/images/items/altarianite.png"
+    }, {
+        "name": "Ampharosite",
+        "image": "./assets/images/items/ampharosite.png"
+    }, {
+        "name": "Amulet Coin",
+        "image": "./assets/images/items/amulet-coin.png"
+    }, {
+        "name": "Assault Vest",
+        "image": "./assets/images/items/assault-vest.png"
+    }, {
+        "name": "Audinite",
+        "image": "./assets/images/items/audinite.png"
+    }, {
+        "name": "Banettite",
+        "image": "./assets/images/items/banettite.png"
+    }, {
+        "name": "Beedrillite",
+        "image": "./assets/images/items/beedrillite.png"
+    }, {
+        "name": "Big Root",
+        "image": "./assets/images/items/big-root.png"
+    }, {
+        "name": "Black Sludge",
+        "image": "./assets/images/items/black-sludge.png"
+    }, {
+        "name": "Blastoisinite",
+        "image": "./assets/images/items/blastoisinite.png"
+    }, {
+        "name": "Blazikenite",
+        "image": "./assets/images/items/blazikenite.png"
+    }, {
+        "name": "Blue Orb",
+        "image": "./assets/images/items/blue-orb.png"
+    }, {
+        "name": "Buginium Z",
+        "image": "./assets/images/items/buginium-z.png"
+    }, {
+        "name": "Cameruptite",
+        "image": "./assets/images/items/cameruptite.png"
+    }, {
+        "name": "Charizardite X",
+        "image": "./assets/images/items/charizardite-x.png"
+    }, {
+        "name": "Chesto Berry",
+        "image": "./assets/images/items/chesto-berry.png"
+    }, {
+        "name": "Choice Band",
+        "image": "./assets/images/items/choice-band.png"
+    }, {
+        "name": "Choice Scarf",
+        "image": "./assets/images/items/choice-scarf.png"
+    }, {
+        "name": "Damp Rock",
+        "image": "./assets/images/items/damp-rock.png"
+    }, {
+        "name": "Darkinium Z",
+        "image": "./assets/images/items/darkinium-z.png"
+    }, {
+        "name": "Decidium Z",
+        "image": "./assets/images/items/decidium-z.png"
+    }, {
+        "name": "Diancite",
+        "image": "./assets/images/items/diancite.png"
+    }, {
+        "name": "Dragonium Z",
+        "image": "./assets/images/items/dragonium-z.png"
+    }, {
+        "name": "Eevium Z",
+        "image": "./assets/images/items/eevium-z.png"
+    }, {
+        "name": "Electrium Z",
+        "image": "./assets/images/items/electrium-z.png"
+    }, {
+        "name": "Evolite",
+        "image": "./assets/images/items/evolite.png"
+    }, {
+        "name": "Expert Belt",
+        "image": "./assets/images/items/expert-belt.png"
+    }, {
+        "name": "Fairium Z",
+        "image": "./assets/images/items/fairium-z.png"
+    }, {
+        "name": "Fightinium Z",
+        "image": "./assets/images/items/fightinium-z.png"
+    }, {
+        "name": "Firium Z",
+        "image": "././assets/images/items/firium-z.png"
+    }, {
+        "name": "Flame Orb",
+        "image": "./assets/images/items/flame-orb.png"
+    }, {
+        "name": "Flyinium Z",
+        "image": "./assets/images/items/flyinium-z.png"
+    }, {
+        "name": "Focus Band",
+        "image": "./assets/images/items/focus-band.png"
+    }, {
+        "name": "Galladite",
+        "image": "./assets/images/items/galladite.png"
+    }, {
+        "name": "Garchompite",
+        "image": "./assets/images/items/garchompite.png"
+    }, {
+        "name": "Gardevoirite",
+        "image": "./assets/images/items/gardevoirite.png"
+    }, {
+        "name": "Gengarite",
+        "image": "./assets/images/items/gengarite.png"
+    }, {
+        "name": "Ghostium Z",
+        "image": "./assets/images/items/ghostium-z.png"
+    }, {
+        "name": "Glalitite",
+        "image": "./assets/images/items/glalitite.png"
+    }, {
+        "name": "Grassium Z",
+        "image": "./assets/images/items/grassium-z.png"
+    }, {
+        "name": "Question",
+        "image": "./assets/images/items/question.png"
+    }, {
+        "name": "Lum Berry",
+        "image": "./assets/images/items/lum-berry.png"
+    }, {
+        "name": "Heat Rock",
+        "image": "./assets/images/items/heat-rock.png"
+    }, {
+        "name": "Quick Claw",
+        "image": "./assets/images/items/quick-claw.png"
+    }, {
+        "name": "Rocky Helmet",
+        "image": "./assets/images/items/rocky-helmet.png"
+    }
+]

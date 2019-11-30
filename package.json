@@ -1,0 +1,23 @@
+{
+  "name": "proj-color-palette",
+  "version": "0.1.0",
+  "description": "Tech Stack\r - jQuery\r - HTML/CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davinaleong/proj-color-palette.git"
+  },
+  "keywords": [],
+  "author": "Davina Leong <leong.shi.yun@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davinaleong/proj-color-palette/issues"
+  },
+  "homepage": "https://github.com/davinaleong/proj-color-palette#readme",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}

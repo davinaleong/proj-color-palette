@@ -1,0 +1,101 @@
+[
+    {
+        "name": "Kanto-Region Team",
+        "rating": "Unrated",
+        "generation": 7,
+        "pokemon": [
+            {
+                "name": "Aerodactyl",
+                "role": "Lead",
+                "mega": false,
+                "form": "Base",
+                "ability": "Unnerve",
+                "item": "Focus Sash",
+                "nature": "Jolly",
+                "effortValues": "4 HP / 252 A / 252 S",
+                "moves": [
+                    ["Stealth Rocks"],
+                    ["Toxic"],
+                    ["Pursuit"],
+                    ["Stone Edge", "Earthquake"]
+                ]
+            }, {
+                "name": "Pikachu",
+                "role": "Special Attacker",
+                "mega": false,
+                "form": "Base",
+                "ability": "Lightning Rod",
+                "item": "Light Ball",
+                "nature": "Mild",
+                "effortValues": "A 4 / 252 SA / 252 S",
+                "moves": [
+                    ["Volt Tacklet"],
+                    ["Grass Knot"],
+                    ["Surf"],
+                    ["Volt Switch"]
+                ]
+            }, {
+                "name": "Venusaur",
+                "role": "Bulky Physical Attacker",
+                "mega": false,
+                "form": "Base",
+                "ability": "Overgrow",
+                "item": "Life Orb",
+                "nature": "Adamant",
+                "effortValues": "252 HP / 252 A / 4 S",
+                "moves": [
+                    ["Swords Dance"],
+                    ["Petal Blizzard"],
+                    ["Earthquake"],
+                    ["Outrage"]
+                ]
+            }, {
+                "name": "Blastoise",
+                "role": "Wall-breaker",
+                "mega": false,
+                "form": "Base",
+                "ability": "Torrent",
+                "item": "Leftovers",
+                "nature": "Bold",
+                "effortValues": "252 HP / 60 D / 196 S",
+                "moves": [
+                    ["Scald"],
+                    ["Rapid Spin", "Toxic"],
+                    ["Ice Beam"],
+                    ["Refresh"]
+                ]
+            }, {
+                "name": "Charizard",
+                "role": "Special Sweeper",
+                "mega": true,
+                "form": "Base",
+                "ability": "Blaze",
+                "abilityMega": "Drought",
+                "item": "Charizardite Y",
+                "nature": "Timid",
+                "effortValues": "4 D / 252 SA / 252 S",
+                "moves": [
+                    ["Flamethrower"],
+                    ["Solar Beam"],
+                    ["Focus Blast"],
+                    ["Roost"]
+                ]
+            }, {
+                "name": "Clefable",
+                "role": "Special Bulky Attacker",
+                "mega": false,
+                "form": "Base",
+                "ability": "Magic Guard",
+                "item": "Sitrus Berry",
+                "nature": "Bold",
+                "effortValues": "252 HP / 252 D / 4 SD",
+                "moves": [
+                    ["Calm Mind"],
+                    ["Moonblast"],
+                    ["Focus Blast"],
+                    ["Toxic"]
+                ]
+            }
+        ]
+    }
+]

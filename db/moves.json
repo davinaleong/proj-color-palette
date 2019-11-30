@@ -1,0 +1,228 @@
+[
+    {
+        "name": "Air Slash",
+        "typeId": "8"
+    }, {
+        "name": "Bounce",
+        "typeId": "8"
+    }, {
+        "name": "Brave Bird",
+        "typeId": "8"
+    }, {
+        "name": "Bug Bite",
+        "typeId": "1"
+    }, {
+        "name": "Bug Buzz",
+        "typeId": "1"
+    }, {
+        "name": "Bulk Up",
+        "typeId": "6"
+    }, {
+        "name": "Bullet Punch",
+        "typeId": "17"
+    }, {
+        "name": "Calm Mind",
+        "typeId": "15"
+    }, {
+        "name": "Crunch",
+        "typeId": "2"
+    }, {
+        "name": "Dark Pulse",
+        "typeId": "2"
+    }, {
+        "name": "Draco Meteor",
+        "typeId": "3"
+    }, {
+        "name": "Dragon Dance",
+        "typeId": "3"
+    }, {
+        "name": "Dragon Pulse",
+        "typeId": "3"
+    }, {
+        "name": "Dragon Rush",
+        "typeId": "3"
+    }, {
+        "name": "Drill Run",
+        "typeId": "11"
+    }, {
+        "name": "Dual Chop",
+        "typeId": "3"
+    }, {
+        "name": "Earth Power",
+        "typeId": "11"
+    }, {
+        "name": "Earthquake",
+        "typeId": "11"
+    }, {
+        "name": "Energy Ball",
+        "typeId": "10"
+    }, {
+        "name": "Fire Blast",
+        "typeId": "7"
+    }, {
+        "name": "Flamethrower",
+        "typeId": "7"
+    }, {
+        "name": "Flash Cannon",
+        "typeId": "17"
+    }, {
+        "name": "Focus Blast",
+        "typeId": "6"
+    }, {
+        "name": "Giga Drain",
+        "typeId": "10"
+    }, {
+        "name": "Grass Knot",
+        "typeId": "10"
+    }, {
+        "name": "Gunk Shot",
+        "typeId": "14"
+    }, {
+        "name": "Gyro Ball",
+        "typeId": "17"
+    }, {
+        "name": "Haze",
+        "typeId": "12"
+    }, {
+        "name": "Hydro Pump",
+        "typeId": "18"
+    }, {
+        "name": "Ice Beam",
+        "typeId": "12"
+    }, {
+        "name": "Ice Shard",
+        "typeId": "12"
+    }, {
+        "name": "Icicle Crash",
+        "typeId": "12"
+    }, {
+        "name": "Infestation",
+        "typeId": "1"
+    }, {
+        "name": "Iron Head",
+        "typeId": "17"
+    }, {
+        "name": "Knock Off",
+        "typeId": "2"
+    }, {
+        "name": "Leech Life",
+        "typeId": "1"
+    }, {
+        "name": "Leech Seed",
+        "typeId": "10"
+    }, {
+        "name": "Liquidation",
+        "typeId": "18"
+    }, {
+        "name": "Magma Storm",
+        "typeId": "7"
+    }, {
+        "name": "Moonblast",
+        "typeId": "5"
+    }, {
+        "name": "Night Slash",
+        "typeId": "2"
+    }, {
+        "name": "Outrage",
+        "typeId": "3"
+    }, {
+        "name": "Petal Blizzard",
+        "typeId": "2"
+    }, {
+        "name": "Poison Jab",
+        "typeId": "14"
+    }, {
+        "name": "Power Whip",
+        "typeId": "10"
+    }, {
+        "name": "Pursuit",
+        "typeId": "2"
+    }, {
+        "name": "Quiver Dance",
+        "typeId": "1"
+    }, {
+        "name": "Rain Dance",
+        "typeId": "18"
+    }, {
+        "name": "Rapid Spin",
+        "typeId": "13"
+    }, {
+        "name": "Refresh",
+        "typeId": "13"
+    }, {
+        "name": "Rest",
+        "typeId": "15"
+    }, {
+        "name": "Roost",
+        "typeId": "8"
+    }, {
+        "name": "Scald",
+        "typeId": "18"
+    }, {
+        "name": "Shadow Ball",
+        "typeId": "9"
+    }, {
+        "name": "Sleep Talk",
+        "typeId": "13"
+    }, {
+        "name": "Sludge Bomb",
+        "typeId": "14"
+    }, {
+        "name": "Solar Beam",
+        "typeId": "10"
+    }, {
+        "name": "Spikes",
+        "typeId": "11"
+    }, {
+        "name": "Stealth Rocks",
+        "typeId": "16"
+    }, {
+        "name": "Steel Wing",
+        "typeId": "17"
+    }, {
+        "name": "Stone Edge",
+        "typeId": "16"
+    }, {
+        "name": "Stored Power",
+        "typeId": "15"
+    }, {
+        "name": "Sucker Punch",
+        "typeId": "2"
+    }, {
+        "name": "Superpower",
+        "typeId": "6"
+    }, {
+        "name": "Surf",
+        "typeId": "18"
+    }, {
+        "name": "Swords Dance",
+        "typeId": "13"
+    }, {
+        "name": "Thunder",
+        "typeId": "4"
+    }, {
+        "name": "Thunderbolt",
+        "typeId": "4"
+    }, {
+        "name": "Toxic",
+        "typeId": "14"
+    }, {
+        "name": "U-Turn",
+        "typeId": "1"
+    }, {
+        "name": "Volt Switch",
+        "typeId": "4"
+    }, {
+        "name": "Volt Tackle",
+        "typeId": "4"
+    }, {
+        "name": "Water Shuriken",
+        "typeId": "18"
+    }, {
+        "name": "Will-O-Wisp",
+        "typeId": "7"
+    }, {
+        "name": "X-Scissor",
+        "typeId": "1"
+    }
+]

@@ -1,0 +1,85 @@
+[
+    {
+        "name": "Aerodactyl",
+        "types": ["Rock", "Flying"],
+        "images": [
+            "./assets/images/pokemon/aerodactyl.gif",
+            "./assets/images/pokemon/aerodactyl.png"
+        ],
+        "icon": "./assets/images/pokemon/icons/aerodactyl-icon.png"
+    }, {
+        "name": "Pikachu",
+        "types": ["Electric"],
+        "image": [
+            "./assets/images/pokemon/pikachu.gif",
+            "./assets/images/pokemon/pikachu.png"
+        ],
+        "icon": "./assets/images/pokemon/icons/pikachu-icon.png"
+    }, {
+        "name": "Venusaur",
+        "types": ["Grass", "Poison"],
+        "image": [
+            "./assets/images/pokemon/venusaur.gif",
+            "./assets/images/pokemon/venusaur.png"
+        ],
+        "icon": "./assets/images/pokemon/icons/venusaur-icon.png"
+    }, {
+        "name": "Blastoise",
+        "types": ["Water"],
+        "image": [
+            "./assets/images/pokemon/blastoise.gif",
+            "./assets/images/pokemon/blastoise.png"
+        ],
+        "icon": "./assets/images/pokemon/icons/blastoise-icon.png"
+    }, {
+        "name": "Charizard",
+        "types": ["Fire", "Flying"],
+        "images": [
+            "./assets/images/pokemon/charizard.gif",
+            "./assets/images/pokemon/charizard.png"
+        ],
+        "icon": [
+            "./assets/images/pokemon/icons/charizard-icon.png"
+        ],
+        "megas": [
+            {
+                "name": "X",
+                "types": ["Fire", "Dragon"],
+                "images": [
+                    "./assets/images/pokemon/charizard_mega_x.gif",
+                    "./assets/images/pokemon/charizard_mega_x.png"
+                ]
+            }, {
+                "name": "Y",
+                "types": ["Fire", "Flying"],
+                "images": [
+                    "./assets/images/pokemon/charizard_mega_y.gif",
+                    "./assets/images/pokemon/charizard_mega_y_.png"
+                ]
+            }
+        ]
+    }, {
+        "name": "Clefable",
+        "types": ["Fairy"],
+        "images": [
+            "./assets/images/pokemon/clefable.gif",
+            "./assets/images/pokemon/clefable.png"
+        ]
+    }, {
+        "name": "Raichu",
+        "types": ["Electric"],
+        "images": [
+            "./assets/images/pokemon/raichu.gif",
+            "./assets/images/pokemon/raichu.png"
+        ],
+        "icon": "./assets/images/pokemon/icons/raichu-icon.png",
+    }, {
+        "name": "Raichu (Alola)",
+        "types": ["Electric", "Psychic"],
+        "images": [
+            "./assets/images/pokemon/raichu_alola.gif",
+            "./assets/images/pokemon/raichu_alola.png"
+        ],
+        "icon": "./assets/images/pokemon/icons/raichu_alola.png"
+    }
+]
