@@ -2,7 +2,6 @@ $(document).ready(function () {
     const main = $('main');
 
     colors.forEach((set, index) => {
-        console.log(set.name);
         main.append(
             '<section id="set-' + index + '" class="palette-set">' +
             '\t<h2 class="palette-title">' + set.name + '</h2>' +
@@ -15,7 +14,6 @@ $(document).ready(function () {
 
         let swatches = '';
         set.colors.forEach(color => {
-            console.log(color.name, color.value);
             swatches += '<div class="palette-swatch" style="color: ' + color.text + '; background-color: ' + color.value + '">' +
             '\t<p class="swatch-name">' + color.name + '</p>' +
             '\t<p class="swatch-value">' + color.value + '</p>' +
