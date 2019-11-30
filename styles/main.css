@@ -63,6 +63,30 @@ a:hover {
     color: #fff;
 }
 
+.btn-top {
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: #2196f3;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    box-shadow: 3px 3px 5px rgba(1, 1, 1, 0.3);
+}
+
+.btn-top:visited, .btn-top:focus {
+    text-decoration: none;
+    color: #fff;
+    background-color: #2196f3;
+}
+
+.btn-top:hover {
+    color: #fff;
+    background-color: #1976d2;
+}
+
 .palette-set {
     padding: 1rem;
     margin-bottom: 1rem;
