@@ -90,4 +90,5 @@ a:hover {
 
 .swatch-value {
     font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
 }
