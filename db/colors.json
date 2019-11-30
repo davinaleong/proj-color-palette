@@ -1,6 +1,6 @@
 [
     {
-        "set": "Basic Colors",
+        "name": "Basic Colors",
         "colors": [
             {
                 "name": "White",
@@ -32,7 +32,7 @@
             }
         ]
     }, {
-        "set": "Pokemon Colors",
+        "name": "Pokemon Colors",
         "colors": [
             {
                 "name": "Bug",
