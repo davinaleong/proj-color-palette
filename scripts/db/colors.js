@@ -227,7 +227,7 @@ const colors = [
                     }, {
                         "name": "Gray 500",
                         "value": "#9e9e9e",
-                        "text": "#FFFFFF"
+                        "text": "#000000"
                     }, {
                         "name": "Gray 600",
                         "value": "#757575",
@@ -422,7 +422,7 @@ const colors = [
                     }, {
                         "name": "Purple a400",
                         "value": "#d500f9",
-                        "text": "#FFFFFF"
+                        "text": "#000000"
                     }, {
                         "name": "Purple a700",
                         "value": "#aa00ff",
@@ -666,7 +666,7 @@ const colors = [
                     }, {
                         "name": "Light Blue a400",
                         "value": "#00b0ff",
-                        "text": "#FFFFFF"
+                        "text": "#000000"
                     }, {
                         "name": "Light Blue a700",
                         "value": "#0091ea",
@@ -727,7 +727,7 @@ const colors = [
                     }, {
                         "name": "Cyan a400",
                         "value": "#00e5ff",
-                        "text": "#FFFFFF"
+                        "text": "#000000"
                     }, {
                         "name": "Cyan a700",
                         "value": "#00b8d4",
@@ -788,7 +788,7 @@ const colors = [
                     }, {
                         "name": "Teal a400",
                         "value": "#1de9b6",
-                        "text": "#FFFFFF"
+                        "text": "#000000"
                     }, {
                         "name": "Teal a700",
                         "value": "#00bfa5",
@@ -849,7 +849,7 @@ const colors = [
                     }, {
                         "name": "Green a400",
                         "value": "#00e676",
-                        "text": "#FFFFFF"
+                        "text": "#000000"
                     }, {
                         "name": "Green a700",
                         "value": "#00c853",
@@ -910,7 +910,7 @@ const colors = [
                     }, {
                         "name": "Light Green a400",
                         "value": "#76ff03",
-                        "text": "#FFFFFF"
+                        "text": "#000000"
                     }, {
                         "name": "Light Green a700",
                         "value": "#64dd17",
@@ -943,7 +943,7 @@ const colors = [
                     }, {
                         "name": "Lime 500",
                         "value": "#cddc39",
-                        "text": "#FFFFFF"
+                        "text": "#000000"
                     }, {
                         "name": "Lime 600",
                         "value": "#c0ca33",
@@ -971,7 +971,7 @@ const colors = [
                     }, {
                         "name": "Lime a400",
                         "value": "#c6ff00",
-                        "text": "#FFFFFF"
+                        "text": "#000000"
                     }, {
                         "name": "Lime a700",
                         "value": "#aeea00",
@@ -1004,15 +1004,15 @@ const colors = [
                     }, {
                         "name": "Yellow 500",
                         "value": "#ffeb3b",
-                        "text": "#FFFFFF"
+                        "text": "#000000"
                     }, {
                         "name": "Yellow 600",
                         "value": "#fdd835",
-                        "text": "#FFFFFF"
+                        "text": "#000000"
                     }, {
                         "name": "Yellow 700",
                         "value": "#fbc02d",
-                        "text": "#FFFFFF"
+                        "text": "#000000"
                     }, {
                         "name": "Yellow 800",
                         "value": "#f9a825",
@@ -1032,7 +1032,7 @@ const colors = [
                     }, {
                         "name": "Yellow a400",
                         "value": "#ffea00",
-                        "text": "#FFFFFF"
+                        "text": "#000000"
                     }, {
                         "name": "Yellow a700",
                         "value": "#ffd600",
@@ -1065,7 +1065,7 @@ const colors = [
                     }, {
                         "name": "Amber 500",
                         "value": "#ffc107",
-                        "text": "#FFFFFF"
+                        "text": "#000000"
                     }, {
                         "name": "Amber 600",
                         "value": "#ffb300",
@@ -1093,7 +1093,7 @@ const colors = [
                     }, {
                         "name": "Amber a400",
                         "value": "#ffc400",
-                        "text": "#FFFFFF"
+                        "text": "#000000"
                     }, {
                         "name": "Amber a700",
                         "value": "#ffab00",
@@ -1154,7 +1154,7 @@ const colors = [
                     }, {
                         "name": "Orange a400",
                         "value": "#ff9100",
-                        "text": "#FFFFFF",
+                        "text": "#000000",
                     }, {
                         "name": "Orange a700",
                         "value": "#ff6d00",
