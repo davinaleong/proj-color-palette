@@ -1,117 +1,117 @@
 /* Import font: Montserrat */
 @font-face {
     font-family: Montserrat;
-    src: url(./../assets/fonts/montserrat/montserrat-100.ttf);
+    src: url(./../assets/fonts/montserrat/montserrat-100.ttf) format('truetype');
     font-weight: 100;
 }
 
 @font-face {
     font-family: Montserrat;
-    src: url(./../assets/fonts/montserrat/montserrat-100-italic.ttf);
+    src: url(./../assets/fonts/montserrat/montserrat-100-italic.ttf) format('truetype');
     font-weight: 100;
     font-style: italic;
 }
 
 @font-face {
     font-family: Montserrat;
-    src: url(./../assets/fonts/montserrat/montserrat-200.ttf);
+    src: url(./../assets/fonts/montserrat/montserrat-200.ttf) format('truetype');
     font-weight: 200;
 }
 
 @font-face {
     font-family: Montserrat;
-    src: url(./../assets/fonts/montserrat/montserrat-200-italic.ttf);
+    src: url(./../assets/fonts/montserrat/montserrat-200-italic.ttf) format('truetype');
     font-weight: 200;
     font-style: italic;
 }
 
 @font-face {
     font-family: Montserrat;
-    src: url(./../assets/fonts/montserrat/montserrat-300.ttf);
+    src: url(./../assets/fonts/montserrat/montserrat-300.ttf) format('truetype');
     font-weight: 300;
 }
 
 @font-face {
     font-family: Montserrat;
-    src: url(./../assets/fonts/montserrat/montserrat-300-italic.ttf);
+    src: url(./../assets/fonts/montserrat/montserrat-300-italic.ttf) format('truetype');
     font-weight: 300;
     font-style: italic;
 }
 
 @font-face {
     font-family: Montserrat;
-    src: url(./../assets/fonts/montserrat/montserrat-400.ttf);
+    src: url(./../assets/fonts/montserrat/montserrat-400.ttf) format('truetype');
     font-weight: 400;
 }
 
 @font-face {
     font-family: Montserrat;
-    src: url(./../assets/fonts/montserrat/montserrat-400-italic.ttf);
+    src: url(./../assets/fonts/montserrat/montserrat-400-italic.ttf) format('truetype');
     font-weight: 400;
     font-style: italic;
 }
 
 @font-face {
     font-family: Montserrat;
-    src: url(./../assets/fonts/montserrat/montserrat-500.ttf);
+    src: url(./../assets/fonts/montserrat/montserrat-500.ttf) format('truetype');
     font-weight: 500;
 }
 
 @font-face {
     font-family: Montserrat;
-    src: url(./../assets/fonts/montserrat/montserrat-500-italic.ttf);
+    src: url(./../assets/fonts/montserrat/montserrat-500-italic.ttf) format('truetype');
     font-weight: 500;
     font-style: italic;
 }
 
 @font-face {
     font-family: Montserrat;
-    src: url(./../assets/fonts/montserrat/montserrat-600.ttf);
+    src: url(./../assets/fonts/montserrat/montserrat-600.ttf) format('truetype');
     font-weight: 600;
 }
 
 @font-face {
     font-family: Montserrat;
-    src: url(./../assets/fonts/montserrat/montserrat-600-italic.ttf);
+    src: url(./../assets/fonts/montserrat/montserrat-600-italic.ttf) format('truetype');
     font-weight: 600;
     font-style: italic;
 }
 
 @font-face {
     font-family: Montserrat;
-    src: url(./../assets/fonts/montserrat/montserrat-700.ttf);
+    src: url(./../assets/fonts/montserrat/montserrat-700.ttf) format('truetype');
     font-weight: 700;
 }
 
 @font-face {
     font-family: Montserrat;
-    src: url(./../assets/fonts/montserrat/montserrat-700-italic.ttf);
+    src: url(./../assets/fonts/montserrat/montserrat-700-italic.ttf) format('truetype');
     font-weight: 700;
     font-style: italic;
 }
 
 @font-face {
     font-family: Montserrat;
-    src: url(./../assets/fonts/montserrat/montserrat-800.ttf);
+    src: url(./../assets/fonts/montserrat/montserrat-800.ttf) format('truetype');
     font-weight: 800;
 }
 
 @font-face {
     font-family: Montserrat;
-    src: url(./../assets/fonts/montserrat/montserrat-800-italic.ttf);
+    src: url(./../assets/fonts/montserrat/montserrat-800-italic.ttf) format('truetype');
     font-weight: 800;
     font-style: italic;
 }
 
 @font-face {
     font-family: Montserrat;
-    src: url(./../assets/fonts/montserrat/montserrat-900.ttf);
+    src: url(./../assets/fonts/montserrat/montserrat-900.ttf) format('truetype');
     font-weight: 900;
 }
 
 @font-face {
     font-family: Montserrat;
-    src: url(./../assets/fonts/montserrat/montserrat-900-italic.ttf);
+    src: url(./../assets/fonts/montserrat/montserrat-900-italic.ttf) format('truetype');
     font-weight: 900;
     font-style: italic;
 }
@@ -120,78 +120,78 @@
 /* Import font: Source Sans Pro */
 @font-face {
     font-family: "Source Sans Pro";
-    src: url(./../assets/fonts/source_sans_pro/source_sans_pro-200.ttf);
+    src: url(./../assets/fonts/source_sans_pro/source_sans_pro-200.ttf) format('truetype');
     font-weight: 200;
 }
 
 @font-face {
     font-family: "Source Sans Pro";
-    src: url(./../assets/fonts/source_sans_pro/source_sans_pro-200-italic.ttf);
+    src: url(./../assets/fonts/source_sans_pro/source_sans_pro-200-italic.ttf) format('truetype');
     font-weight: 200;
     font-style: italic;
 }
 
 @font-face {
     font-family: "Source Sans Pro";
-    src: url(./../assets/fonts/source_sans_pro/source_sans_pro-300.ttf);
+    src: url(./../assets/fonts/source_sans_pro/source_sans_pro-300.ttf) format('truetype');
     font-weight: 300;
 }
 
 @font-face {
     font-family: "Source Sans Pro";
-    src: url(./../assets/fonts/source_sans_pro/source_sans_pro-300-italic.ttf);
+    src: url(./../assets/fonts/source_sans_pro/source_sans_pro-300-italic.ttf) format('truetype');
     font-weight: 300;
     font-style: italic;
 }
 
 @font-face {
     font-family: "Source Sans Pro";
-    src: url(./../assets/fonts/source_sans_pro/source_sans_pro-400.ttf);
+    src: url(./../assets/fonts/source_sans_pro/source_sans_pro-400.ttf) format('truetype');
     font-weight: 400;
 }
 
 @font-face {
     font-family: "Source Sans Pro";
-    src: url(./../assets/fonts/source_sans_pro/source_sans_pro-400-italic.ttf);
+    src: url(./../assets/fonts/source_sans_pro/source_sans_pro-400-italic.ttf) format('truetype');
     font-weight: 400;
     font-style: italic;
 }
 
 @font-face {
     font-family: "Source Sans Pro";
-    src: url(./../assets/fonts/source_sans_pro/source_sans_pro-500.ttf);
+    src: url(./../assets/fonts/source_sans_pro/source_sans_pro-500.ttf) format('truetype');
     font-weight: 500;
 }
 
 @font-face {
     font-family: "Source Sans Pro";
-    src: url(./../assets/fonts/source_sans_pro/source_sans_pro-500-italic.ttf);
+    src: url(./../assets/fonts/source_sans_pro/source_sans_pro-500-italic.ttf) format('truetype');
     font-weight: 500;
     font-style: italic;
 }
 
 @font-face {
     font-family: "Source Sans Pro";
-    src: url(./../assets/fonts/source_sans_pro/source_sans_pro-700.ttf);
+    src: url(./../assets/fonts/source_sans_pro/source_sans_pro-700.ttf) format('truetype');
     font-weight: 700;
 }
 
 @font-face {
     font-family: "Source Sans Pro";
-    src: url(./../assets/fonts/source_sans_pro/source_sans_pro-700-italic.ttf);
+    src: url(./../assets/fonts/source_sans_pro/source_sans_pro-700-italic.ttf) format('truetype');
     font-weight: 700;
     font-style: italic;
 }
 
 @font-face {
     font-family: "Source Sans Pro";
-    src: url(./../assets/fonts/source_sans_pro/source_sans_pro-900.ttf);
+    src: url(./../assets/fonts/source_sans_pro/source_sans_pro-900.ttf) format('truetype');
     font-weight: 900;
 }
 
 @font-face {
     font-family: "Source Sans Pro";
-    src: url(./../assets/fonts/source_sans_pro/source_sans_pro-900-italic.ttf);
+    src: url(./../assets/fonts/source_sans_pro/source_sans_pro-900-italic.ttf) format('truetype');
     font-weight: 900;
     font-style: italic;
 }
@@ -200,92 +200,108 @@
 /* Import font: Source Code Pro */
 @font-face {
     font-family: "Source Code Pro";
-    src: url(./../assets/fonts/source_code_pro/source_code_pro-200.ttf);
+    src: url(./../assets/fonts/source_code_pro/source_code_pro-200.ttf) format('truetype');
     font-weight: 200;
 }
 
 @font-face {
     font-family: "Source Code Pro";
-    src: url(./../assets/fonts/source_code_pro/source_code_pro-200-italic.ttf);
+    src: url(./../assets/fonts/source_code_pro/source_code_pro-200-italic.ttf) format('truetype');
     font-weight: 200;
     font-style: italic;
 }
 
 @font-face {
     font-family: "Source Code Pro";
-    src: url(./../assets/fonts/source_code_pro/source_code_pro-300.ttf);
+    src: url(./../assets/fonts/source_code_pro/source_code_pro-300.ttf) format('truetype');
     font-weight: 300;
 }
 
 @font-face {
     font-family: "Source Code Pro";
-    src: url(./../assets/fonts/source_code_pro/source_code_pro-300-italic.ttf);
+    src: url(./../assets/fonts/source_code_pro/source_code_pro-300-italic.ttf) format('truetype');
     font-weight: 300;
     font-style: italic;
 }
 
 @font-face {
     font-family: "Source Code Pro";
-    src: url(./../assets/fonts/source_code_pro/source_code_pro-400.ttf);
+    src: url(./../assets/fonts/source_code_pro/source_code_pro-400.ttf) format('truetype');
     font-weight: 400;
 }
 
 @font-face {
     font-family: "Source Code Pro";
-    src: url(./../assets/fonts/source_code_pro/source_code_pro-400-italic.ttf);
+    src: url(./../assets/fonts/source_code_pro/source_code_pro-400-italic.ttf) format('truetype');
     font-weight: 400;
     font-style: italic;
 }
 
 @font-face {
     font-family: "Source Code Pro";
-    src: url(./../assets/fonts/source_code_pro/source_code_pro-500.ttf);
+    src: url(./../assets/fonts/source_code_pro/source_code_pro-500.ttf) format('truetype');
     font-weight: 500;
 }
 
 @font-face {
     font-family: "Source Code Pro";
-    src: url(./../assets/fonts/source_code_pro/source_code_pro-500-italic.ttf);
+    src: url(./../assets/fonts/source_code_pro/source_code_pro-500-italic.ttf) format('truetype');
     font-weight: 500;
     font-style: italic;
 }
 
 @font-face {
     font-family: "Source Code Pro";
-    src: url(./../assets/fonts/source_code_pro/source_code_pro-700.ttf);
+    src: url(./../assets/fonts/source_code_pro/source_code_pro-700.ttf) format('truetype');
     font-weight: 700;
 }
 
 @font-face {
     font-family: "Source Code Pro";
-    src: url(./../assets/fonts/source_code_pro/source_code_pro-700-italic.ttf);
+    src: url(./../assets/fonts/source_code_pro/source_code_pro-700-italic.ttf) format('truetype');
     font-weight: 700;
     font-style: italic;
 }
 
 @font-face {
     font-family: "Source Code Pro";
-    src: url(./../assets/fonts/source_code_pro/source_code_pro-900.ttf);
+    src: url(./../assets/fonts/source_code_pro/source_code_pro-900.ttf) format('truetype');
     font-weight: 900;
 }
 
 @font-face {
     font-family: "Source Code Pro";
-    src: url(./../assets/fonts/source_code_pro/source_code_pro-900-italic.ttf);
+    src: url(./../assets/fonts/source_code_pro/source_code_pro-900-italic.ttf) format('truetype');
     font-weight: 900;
+    font-style: italic;
+}
+
+/* Import Font: Nunito */
+@font-face {
+    font-family: Nunito;
+    src: url(./../assets/fonts/nunito/Nunito-VariableFont_wght.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url(./../assets/fonts/nunito/Nunito-Italic-VariableFont_wght.ttf) format('truetype');
     font-style: italic;
 }
 
 
 /* Font styles */
-.font-montserrat {
+.ff-montserrat {
     font-family: Montserrat, sans-serif;
 }
 
-.font-source-sans-pro {
+.ff-source-sans-pro {
     font-family: "Source Sans Pro", sans-serif;
 }
 
-.font-source-code-pro {
-    font-family: "Source Code Pro", sans-serif;
+.ff-source-code-pro {
+    font-family: "Source Code Pro", monospace;
+}
+
+.ff-nunito {
+    font-family: Nunito, sans-serif;
 }

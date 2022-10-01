@@ -1,34 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Collection of colors in HEX value." />
+    <meta name="author" content="Davina Leong" />
+    <meta
+      name="keywords"
+      content="davina, davina leong, leong, color, colour, palette, colors, colours, palettes"
+    />
+
     <title>Color Palettes</title>
 
-    <link rel="shortcut icon" href="./assets/icons/favicon.png" type="image/png">
-    <link rel="stylesheet" href="./styles/fonts.css">
-    <link rel="stylesheet" href="./styles/main.css">
-</head>
-<body id="top">
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon-32x32.png"
+      type="image/png"
+    />
 
-    <div class="container-grid">
-        <nav class="cell-nav">
-            <ul class="nav-links">
-                <li><a class="link-top" href="#top">Back to Top</a></li>
-            </ul>
-        </nav>
-    
-        <main class="cell-main">
-            <h1>Color Palettes</h1>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&family=Nunito:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
 
-        </main>
-    </div>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
 
-    <a class="btn-top" href="#top">Back to Top</a>
+    <script defer type="module" src="./scripts/colors.js"></script>
+    <script defer type="module" src="./scripts/main.js"></script>
+  </head>
+  <body id="top">
+    <header class="main-header | p-200">
+      <nav class="main-nav-left">
+        <ul class="nav-list" role="list">
+          <li class="nav-list-item">
+            <a href="#top" class="btn btn-primary">Back to Top</a>
+          </li>
+        </ul>
+      </nav>
 
-    <script src="./scripts/jquery.min.js"></script>
-    <script src="./scripts/db/colors.js"></script>
-    <script src="./scripts/main.js"></script>
-</body>
+      <nav class="main-nav-center">
+        <ul class="nav-list" role="list" data-element="header-nav-center"></ul>
+      </nav>
+
+      <nav class="main-nav-right">
+        <ul class="nav-list" role="list">
+          <li class="nav-list-item">
+            <button class="btn btn-grey" type="button" data-element="open-menu">
+              Menu
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main-grid">
+      <div class="content | p-200">
+        <h1 class="page-heading">Color Palettes</h1>
+
+        <div class="color-groups" data-element="color-groups">
+          <div class="color-group">
+            <h2 class="color-heading">Basic Colors</h2>
+
+            <div class="swatch-group">
+              <h3 class="swatch-heading">Basic Colors</h3>
+
+              <div class="swatches" style="--swatch-count: 9">
+                <div
+                  class="swatch"
+                  style="--clr-swatch: #000; --clr-swatch-bg: #fff"
+                >
+                  <div class="swatch-title">White</div>
+                  <div class="swatch-value">#ffffff</div>
+                </div>
+                <div
+                  class="swatch"
+                  style="--clr-swatch: #fff; --clr-swatch-bg: #000"
+                >
+                  <div class="swatch-title">Black</div>
+                  <div class="swatch-value">#000000</div>
+                </div>
+                <div
+                  class="swatch"
+                  style="--clr-swatch: #fff; --clr-swatch-bg: #888"
+                >
+                  <div class="swatch-title">Grey</div>
+                  <div class="swatch-value">#888888</div>
+                </div>
+                <div
+                  class="swatch"
+                  style="--clr-swatch: #fff; --clr-swatch-bg: #f00"
+                >
+                  <div class="swatch-title">Red</div>
+                  <div class="swatch-value">#ff0000</div>
+                </div>
+                <div
+                  class="swatch"
+                  style="--clr-swatch: #000; --clr-swatch-bg: #ff0"
+                >
+                  <div class="swatch-title">Yellow</div>
+                  <div class="swatch-value">#fff000</div>
+                </div>
+                <div
+                  class="swatch"
+                  style="--clr-swatch: #000; --clr-swatch-bg: #0f0"
+                >
+                  <div class="swatch-title">Green</div>
+                  <div class="swatch-value">#00ff00</div>
+                </div>
+                <div
+                  class="swatch"
+                  style="--clr-swatch: #000; --clr-swatch-bg: #0ff"
+                >
+                  <div class="swatch-title">Cyan</div>
+                  <div class="swatch-value">#00ffff</div>
+                </div>
+                <div
+                  class="swatch"
+                  style="--clr-swatch: #fff; --clr-swatch-bg: #00f"
+                >
+                  <div class="swatch-title">Blue</div>
+                  <div class="swatch-value">#0000ff</div>
+                </div>
+                <div
+                  class="swatch"
+                  style="--clr-swatch: #fff; --clr-swatch-bg: #f0f"
+                >
+                  <div class="swatch-title">Magenta</div>
+                  <div class="swatch-value">#ff00ff</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="color-group">
+            <h2 class="color-heading">Basic Colors</h2>
+
+            <div class="swatch-group">
+              <h3 class="swatch-heading">Basic Colors</h3>
+
+              <div class="swatches" style="--swatch-count: 9">
+                <div
+                  class="swatch"
+                  style="--clr-swatch: #000; --clr-swatch-bg: #fff"
+                >
+                  <div class="swatch-title">White</div>
+                  <div class="swatch-value">#ffffff</div>
+                </div>
+                <div
+                  class="swatch"
+                  style="--clr-swatch: #fff; --clr-swatch-bg: #000"
+                >
+                  <div class="swatch-title">Black</div>
+                  <div class="swatch-value">#000000</div>
+                </div>
+                <div
+                  class="swatch"
+                  style="--clr-swatch: #fff; --clr-swatch-bg: #888"
+                >
+                  <div class="swatch-title">Grey</div>
+                  <div class="swatch-value">#888888</div>
+                </div>
+                <div
+                  class="swatch"
+                  style="--clr-swatch: #fff; --clr-swatch-bg: #f00"
+                >
+                  <div class="swatch-title">Red</div>
+                  <div class="swatch-value">#ff0000</div>
+                </div>
+                <div
+                  class="swatch"
+                  style="--clr-swatch: #000; --clr-swatch-bg: #ff0"
+                >
+                  <div class="swatch-title">Yellow</div>
+                  <div class="swatch-value">#fff000</div>
+                </div>
+                <div
+                  class="swatch"
+                  style="--clr-swatch: #000; --clr-swatch-bg: #0f0"
+                >
+                  <div class="swatch-title">Green</div>
+                  <div class="swatch-value">#00ff00</div>
+                </div>
+                <div
+                  class="swatch"
+                  style="--clr-swatch: #000; --clr-swatch-bg: #0ff"
+                >
+                  <div class="swatch-title">Cyan</div>
+                  <div class="swatch-value">#00ffff</div>
+                </div>
+                <div
+                  class="swatch"
+                  style="--clr-swatch: #fff; --clr-swatch-bg: #00f"
+                >
+                  <div class="swatch-title">Blue</div>
+                  <div class="swatch-value">#0000ff</div>
+                </div>
+                <div
+                  class="swatch"
+                  style="--clr-swatch: #fff; --clr-swatch-bg: #f0f"
+                >
+                  <div class="swatch-title">Magenta</div>
+                  <div class="swatch-value">#ff00ff</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="color-group">
+            <h2 class="color-heading">Basic Colors</h2>
+
+            <div class="swatch-group">
+              <h3 class="swatch-heading">Basic Colors</h3>
+
+              <div class="swatches" style="--swatch-count: 9">
+                <div
+                  class="swatch"
+                  style="--clr-swatch: #000; --clr-swatch-bg: #fff"
+                >
+                  <div class="swatch-title">White</div>
+                  <div class="swatch-value">#ffffff</div>
+                </div>
+                <div
+                  class="swatch"
+                  style="--clr-swatch: #fff; --clr-swatch-bg: #000"
+                >
+                  <div class="swatch-title">Black</div>
+                  <div class="swatch-value">#000000</div>
+                </div>
+                <div
+                  class="swatch"
+                  style="--clr-swatch: #fff; --clr-swatch-bg: #888"
+                >
+                  <div class="swatch-title">Grey</div>
+                  <div class="swatch-value">#888888</div>
+                </div>
+                <div
+                  class="swatch"
+                  style="--clr-swatch: #fff; --clr-swatch-bg: #f00"
+                >
+                  <div class="swatch-title">Red</div>
+                  <div class="swatch-value">#ff0000</div>
+                </div>
+                <div
+                  class="swatch"
+                  style="--clr-swatch: #000; --clr-swatch-bg: #ff0"
+                >
+                  <div class="swatch-title">Yellow</div>
+                  <div class="swatch-value">#fff000</div>
+                </div>
+                <div
+                  class="swatch"
+                  style="--clr-swatch: #000; --clr-swatch-bg: #0f0"
+                >
+                  <div class="swatch-title">Green</div>
+                  <div class="swatch-value">#00ff00</div>
+                </div>
+                <div
+                  class="swatch"
+                  style="--clr-swatch: #000; --clr-swatch-bg: #0ff"
+                >
+                  <div class="swatch-title">Cyan</div>
+                  <div class="swatch-value">#00ffff</div>
+                </div>
+                <div
+                  class="swatch"
+                  style="--clr-swatch: #fff; --clr-swatch-bg: #00f"
+                >
+                  <div class="swatch-title">Blue</div>
+                  <div class="swatch-value">#0000ff</div>
+                </div>
+                <div
+                  class="swatch"
+                  style="--clr-swatch: #fff; --clr-swatch-bg: #f0f"
+                >
+                  <div class="swatch-title">Magenta</div>
+                  <div class="swatch-value">#ff00ff</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <aside class="details | p-200">
+        <h2 class="details-heading">Group, Swatch</h2>
+
+        <h3 class="hex-heading">Hex</h3>
+        <div class="value-container">
+          <p class="value-text" data-element="value-hex">#000000</p>
+          <button class="btn btn-grey-outline" type="button">Copy</button>
+        </div>
+
+        <h3 class="rgb-heading">RGB</h3>
+        <div class="value-container">
+          <p class="value-text" data-element="value-rgb">rgb(0, 0, 0)</p>
+          <button class="btn btn-grey-outline" type="button">Copy</button>
+        </div>
+
+        <h3 class="hsl-heading">HSL</h3>
+        <div class="value-container">
+          <p class="value-text" data-element="value-hsl">hsl(0, 0%, 0%)</p>
+          <button class="btn btn-grey-outline" type="button">Copy</button>
+        </div>
+      </aside>
+    </main>
+  </body>
 </html>
