@@ -3,10 +3,12 @@
 Demo: [https://davinaleong.github.io/proj-color-palette/](https://davinaleong.github.io/proj-color-palette/)
 
 Tech Stack
+
 - jQuery
 - HTML/CSS
 
 Sample `JSON` file:
+
 ```JSON
 [
     {
@@ -54,5 +56,6 @@ Sample `JSON` file:
 
 ## TODO:
 
-1. Add RGB & HSL values
-1. Add swatch count
+1. Populate Swatches
+1. Swatch selection functionality
+1. Populate details with swatch info
