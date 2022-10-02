@@ -51,3 +51,8 @@ Sample `JSON` file:
     }
 ]
 ```
+
+## TODO:
+
+1. Add RGB & HSL values
+1. Add swatch count
