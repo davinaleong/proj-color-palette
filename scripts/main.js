@@ -5,7 +5,8 @@ const colorGroupsEl = document.querySelector(`[data-element=color-groups]`);
 
 let colorGroupsHtml = ``;
 
-data.forEach(({ name, colors }) => {
+data.forEach(({ name, colors }, index) => {
+  const colorGroupName = name;
   let swatchGroupsHtml = ``;
 
   colors.forEach(({ name, count, swatches }) => {
@@ -15,17 +16,24 @@ data.forEach(({ name, colors }) => {
       name != `` ? `<h3 class="swatch-heading">${name}</h3>` : ``;
 
     swatches.forEach(({ name, hex, rgb, hsl, text }) => {
-      //
+      swatchesHtml += `
+            <div class="swatch" style="--clr-swatch: ${text}; --clr-swatch-bg: ${hex};"
+                data-group="${colorGroupName}" data-name="${name}" data-hex="${hex}" data-rgb="${rgb}" data-hsl="${hsl}"
+                >
+                <div class="swatch-title">${name}</div>
+                <div class="swatch-value">${hex}</div>
+            </div>
+        `;
     });
 
     swatchGroupsHtml += `<div class="swatch-group">
         ${swatchHeadingHtml}
-        <div class="swatches" style="--swatch-count: ${count}"></div>
+        <div class="swatches" style="--swatch-count: ${count}">${swatchesHtml}</div>
     </div>`;
   });
 
   colorGroupsHtml += `
-        <div class="color-group">
+        <div id="cg-${index + 1}" class="color-group">
             <h2 class="color-heading">${name}</h2>
             ${swatchGroupsHtml}
         </div>

@@ -309,7 +309,8 @@ hr {
   --swatch-count: 1;
   display: flex;
   overflow-x: auto;
-  max-width: calc(var(--swatch-size) * var(--swatch-count));
+  max-width: 100%;
+  width: calc(var(--swatch-size) * var(--swatch-count));
 }
 
 .swatch {
@@ -326,6 +327,7 @@ hr {
   width: var(--swatch-size);
   height: var(--swatch-size);
   border: thin solid var(--clr-grey-500);
+  text-align: center;
 }
 
 .swatch-value {
