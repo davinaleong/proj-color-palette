@@ -1,8 +1,12 @@
 console.log(`main.js loaded`);
 
 // Elements
+const headerCenterNavEl = document.querySelector(
+  `[data-element=header-center-nav]`
+);
 const colorGroupsEl = document.querySelector(`[data-element=color-groups]`);
 
+let headerNavListHtml = ``;
 let colorGroupsHtml = ``;
 
 data.forEach(({ name, colors }, index) => {
@@ -32,6 +36,12 @@ data.forEach(({ name, colors }, index) => {
     </div>`;
   });
 
+  headerNavListHtml += `
+    <li class="nav-list-item">
+        <a href="#cg-${index + 1}" class="btn btn-grey-outline">${name}</a>
+    </li>
+  `;
+
   colorGroupsHtml += `
         <div id="cg-${index + 1}" class="color-group">
             <h2 class="color-heading">${name}</h2>
@@ -40,4 +50,5 @@ data.forEach(({ name, colors }, index) => {
     `;
 });
 
+headerCenterNavEl.innerHTML = headerNavListHtml;
 colorGroupsEl.innerHTML = colorGroupsHtml;
