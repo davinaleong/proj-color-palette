@@ -1,6 +1,6 @@
 console.log(`colors.js loaded`);
 
-const colors = [
+const data = [
   {
     name: "Basic Colors",
     colors: [

@@ -1,101 +1,35 @@
-$(document).ready(function () {
+console.log(`main.js loaded`);
 
-    colors.forEach((set, index) => {
-        // Convert name to kebab-case
-        const name = {
-            original: set.name,
-            kebab: convertKebab(set.name)
-        };
-        
-        // Append links to <nav>
-        $('ul.nav-links').append(
-            '\t<li><a href="#set-' + name.kebab + '">' + set.name + '</a></li>'
-        );
+// Elements
+const colorGroupsEl = document.querySelector(`[data-element=color-groups]`);
 
-        // Append swatches to palette set via id
-        const main = $('main');
-        switch(set.name) {
-            case 'Material Colors':
-                main.append(
-                    '<section id="set-' + name.kebab + '" class="palette-set">' +
-                    '\t<h2 class="palette-title">' + set.name + '</h2>' +
-                    '</section>'
-                );
+let colorGroupsHtml = ``;
 
-                let sets = '';
-                set.colors.forEach(color => {
+data.forEach(({ name, colors }) => {
+  let swatchGroupsHtml = ``;
 
-                    const colorName = {
-                        original: color.name,
-                        kebab: convertKebab(color.name)
-                    };
+  colors.forEach(({ name, count, swatches }) => {
+    let swatchesHtml = ``;
 
-                    sets += '<div>' +
-                    '\t<h3 class="swatches-title">' + color.name + '</h3>' +
-                    '\t<div id="set-' + name.kebab + '-' +  colorName.kebab + '-swatches" class="palette-swatches">' +
-                    '\t</div>' +
-                    '</div>';
+    const swatchHeadingHtml =
+      name != `` ? `<h3 class="swatch-heading">${name}</h3>` : ``;
 
-                });
-                $('#set-' + name.kebab).append(sets);
-
-                set.colors.forEach(color => {
-
-                    const colorName = {
-                        original: color.name,
-                        kebab: convertKebab(color.name)
-                    };
-
-                    let swatches = '';
-                    color.swatches.forEach(swatch => {
-                        swatches += '<div class="palette-swatch" style="color: ' + swatch.text + '; background-color: ' + swatch.value + '">' +
-                        '\t<p class="swatch-name">' + swatch.name + '</p>' +
-                        '\t<p class="swatch-value">' + swatch.value + '</p>' +
-                        '</div>';
-                    });
-                    $('#set-' + name.kebab + '-' + colorName.kebab + '-swatches').append(swatches);
-
-                });
-                break;
-
-            default:
-                // Append palette set to <main>
-                main.append(
-                    '<section id="set-' + name.kebab + '" class="palette-set">' +
-                    '\t<h2 class="palette-title">' + set.name + '</h2>' +
-                    '\t' +
-                    '\t\t<div id="set-' + name.kebab + '-swatches" class="palette-swatches">' +
-                    '\t\t\t' +
-                    '\t\t</div>' +
-                    '</section>'
-                );
-
-                let swatches = '';
-                set.colors.forEach(color => {
-                    swatches += '<div class="palette-swatch" style="color: ' + color.text + '; background-color: ' + color.value + '">' +
-                    '\t<p class="swatch-name">' + color.name + '</p>' +
-                    '\t<p class="swatch-value">' + color.value + '</p>' +
-                    '</div>';
-                })
-                $('#set-' + name.kebab + '-swatches').append(swatches);
-                break;
-        }
-        
+    swatches.forEach(({ name, hex, rgb, hsl, text }) => {
+      //
     });
 
+    swatchGroupsHtml += `<div class="swatch-group">
+        ${swatchHeadingHtml}
+        <div class="swatches" style="--swatch-count: ${count}"></div>
+    </div>`;
+  });
+
+  colorGroupsHtml += `
+        <div class="color-group">
+            <h2 class="color-heading">${name}</h2>
+            ${swatchGroupsHtml}
+        </div>
+    `;
 });
 
-function convertKebab(string) {
-    
-    const split = string.toLowerCase().split(' ');
-    let kebab = '';
-    split.forEach((word, index) => {
-        if (index >= name.split.length - 1) {
-            kebab += word;
-        } else {
-            kebab += word + '-';
-        }
-    });
-    return kebab;
-
-}
+colorGroupsEl.innerHTML = colorGroupsHtml;
