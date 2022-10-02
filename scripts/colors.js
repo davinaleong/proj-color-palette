@@ -6,6 +6,7 @@ const colors = [
     colors: [
       {
         name: "",
+        count: 9,
         swatches: [
           {
             name: "White",
@@ -79,6 +80,7 @@ const colors = [
     colors: [
       {
         name: "",
+        count: 18,
         swatches: [
           {
             name: "Bug",
@@ -214,133 +216,147 @@ const colors = [
     name: "Bootstrap Colors",
     colors: [
       {
-        name: "",
+        name: "Colors",
+        count: 10,
         swatches: [
           {
-            name: "Bug",
-            hex: "#A8B821",
-            rgb: "rgb(168, 184, 33)",
-            hsl: "hsl(66, 70%, 43%)",
-            text: "#000000",
-          },
-          {
-            name: "Dark",
-            hex: "#6F5848",
-            rgb: "rgb(111, 88, 72)",
-            hsl: "hsl(25, 21%, 36%)",
+            name: "Blue (Primary)",
+            hex: "#007BFF",
+            rgb: "rgb(0, 123, 255)",
+            hsl: "hsl(211, 100%, 50%)",
             text: "#FFFFFF",
           },
           {
-            name: "Dragon",
-            hex: "#7038F9",
-            rgb: "rgb(112, 56, 249)",
-            hsl: "hsl(257, 94%, 60%)",
+            name: "Indigo",
+            hex: "#6610F2",
+            rgb: "rgb(102, 16, 242)",
+            hsl: "hsl(263, 90%, 51%)",
             text: "#FFFFFF",
           },
           {
-            name: "Electric",
-            hex: "#F8D030",
-            rbg: "rgb(248, 208, 48)",
-            hsl: "hsl(48, 93%, 58%)",
-            text: "#000000",
-          },
-          {
-            name: "Fairy",
-            hex: "#FFAEC9",
-            rgb: "rgb(255, 174, 201)",
-            hsl: "hsl(340, 100%, 84%)",
-            text: "#000000",
-          },
-          {
-            name: "Fighting",
-            hex: "#C03028",
-            rgb: "rgb(192, 48, 40)",
-            hsl: "hsl(3, 66%, 45%)",
+            name: "Purple",
+            hex: "#6F42C1",
+            rgb: "rgb(111, 66, 193)",
+            hsl: "hsl(261, 51%, 51%)",
             text: "#FFFFFF",
           },
           {
-            name: "Fire",
-            hex: "#F07F2F",
-            rgb: "rgb(240, 127, 47)",
-            hsl: "hsl(25, 87%, 56%)",
-            text: "#000000",
-          },
-          {
-            name: "Flying",
-            hex: "#A890F0",
-            rgb: "rgb(168, 144, 240)",
-            hsl: "hsl(255, 76%, 75%)",
-            text: "#000000",
-          },
-          {
-            name: "Ghost",
-            hex: "#715899",
-            rgb: "rgb(113, 88, 153)",
-            hsl: "hsl(263, 27%, 47%)",
+            name: "Pink",
+            hex: "#E83E8C",
+            rgb: "rgb(232, 62, 140)",
+            hsl: "hsl(332, 79%, 58%)",
             text: "#FFFFFF",
           },
           {
-            name: "Grass",
-            hex: "#78C750",
-            rgb: "rgb(120, 199, 80)",
-            hsl: "hsl(100, 52%, 55%)",
-            text: "#000000",
-          },
-          {
-            name: "Ground",
-            hex: "#DEBF67",
-            rgb: "rgb(222, 191, 103)",
-            hsl: "hsl(44, 64%, 64%)",
-            text: "#000000",
-          },
-          {
-            name: "Ice",
-            hex: "#98D8D8",
-            rgb: "rgb(152, 216, 216)",
-            hsl: "hsl(180, 45%, 72%)",
-            text: "#000000",
-          },
-          {
-            name: "Normal",
-            hex: "#A9A878",
-            rbg: "rgb(169, 168, 120)",
-            hsl: "hsl(59, 22%, 57%)",
-            text: "#000000",
-          },
-          {
-            name: "Poison",
-            hex: "#A040A1",
-            rgb: "rgb(160, 64, 161)",
-            hsl: "hsl(299, 43%, 44%)",
+            name: "Red (Danger)",
+            hex: "#DC3545",
+            rgb: "rgb(220, 53, 69)",
+            hsl: "hsl(354, 70%, 54%)",
             text: "#FFFFFF",
           },
           {
-            name: "Psychic",
-            hex: "#F85788",
-            rgb: "rgb(248, 87, 136)",
-            hsl: "hsl(342, 92%, 66%)",
-            text: "#FFFFFF",
-          },
-          {
-            name: "Rock",
-            hex: "#B89F38",
-            rgb: "rgb(184, 159, 56)",
-            hsl: "hsl(48, 53%, 47%)",
-            text: "#FFFFFF",
-          },
-          {
-            name: "Steel",
-            hex: "#B8B8D0",
-            rgb: "rgb(184, 184, 208)",
-            hsl: "hsl(240, 20%, 77%)",
+            name: "Orange",
+            hex: "#FD7E14",
+            rgb: "rgb(253, 126, 20)",
+            hsl: "hsl(27, 98%, 54%)",
             text: "#000000",
           },
           {
-            name: "Water",
-            hex: "#6890F0",
-            rgb: "rgb(104, 144, 240)",
-            hsl: "hsl(222, 82%, 67%)",
+            name: "Yellow (Warning)",
+            hex: "#FFC107",
+            rgb: "rgb(255, 193, 7)",
+            hsl: "hsl(45, 100%, 51%)",
             text: "#000000",
+          },
+          {
+            name: "Green (Success)",
+            hex: "#28A745",
+            rgb: "rgb(40, 167, 69)",
+            hsl: "hsl(134, 61%, 41%)",
+            text: "#000000",
+          },
+          {
+            name: "Teal",
+            hex: "#20C997",
+            rgb: "rgb(32, 201, 151)",
+            hsl: "hsl(162, 73%, 46%)",
+            text: "#000000",
+          },
+          {
+            name: "Cyan (Info)",
+            hex: "#17A2B8",
+            rgb: "rgb(23, 162, 184)",
+            hsl: "hsl(188, 78%, 41%)",
+            text: "#FFFFFF",
+          },
+        ],
+      },
+      {
+        name: "Neutral",
+        count: 9,
+        swatches: [
+          {
+            name: "Gray-100 (Light)",
+            hex: "#F8F9FA",
+            rgb: "rgb(248, 249, 250)",
+            hsl: "hsl(210, 17%, 98%)",
+            text: "#000000",
+          },
+          {
+            name: "Gray-200",
+            hex: "#E9ECEF",
+            rgb: "rgb(233, 236, 239)",
+            hsl: "hsl(210, 16%, 93%)",
+            text: "#000000",
+          },
+          {
+            name: "Gray-300",
+            hex: "#DEE2E6",
+            rgb: "rgb(222, 226, 230)",
+            hsl: "hsl(210, 14%, 89%)",
+            text: "#000000",
+          },
+          {
+            name: "Gray-400",
+            hex: "#CED4DA",
+            rgb: "rgb(206, 212, 218)",
+            hsl: "hsl(210, 14%, 83%)",
+            text: "#000000",
+          },
+          {
+            name: "Gray-500",
+            hex: "#ADB5BD",
+            rgb: "rgb(173, 181, 189)",
+            hsl: "hsl(210, 11%, 71%)",
+            text: "#000000",
+          },
+          {
+            name: "Gray-600 (Secondary)",
+            hex: "#6C757D",
+            rgb: "rgb(108, 117, 125)",
+            hsl: "hsl(208, 7%, 46%)",
+            text: "#FFFFFF",
+          },
+          {
+            name: "Gray-700",
+            hex: "#495057",
+            rgb: "rgb(73, 80, 87)",
+            hsl: "hsl(210, 9%, 31%)",
+            text: "#FFFFFF",
+          },
+          {
+            name: "Gray-800",
+            hex: "#343A40",
+            rgb: "rgb(52, 58, 64)",
+            hsl: "hsl(210, 10%, 23%)",
+            text: "#FFFFFF",
+          },
+          {
+            name: "Gray-900 (Dark)",
+            hex: "#212529",
+            rgb: "rgb(33, 37, 41)",
+            hsl: "hsl(210, 11%, 15%)",
+            text: "#FFFFFF",
           },
         ],
       },
@@ -351,6 +367,7 @@ const colors = [
     colors: [
       {
         name: "Grays",
+        count: 9,
         swatches: [
           {
             name: "Gray 50",
@@ -426,6 +443,7 @@ const colors = [
       },
       {
         name: "Reds",
+        count: 13,
         swatches: [
           {
             name: "Red 50",
@@ -529,6 +547,7 @@ const colors = [
       },
       {
         name: "Pinks",
+        count: 13,
         swatches: [
           {
             name: "Pink 50",
@@ -632,6 +651,7 @@ const colors = [
       },
       {
         name: "Purples",
+        count: 13,
         swatches: [
           {
             name: "Purple 50",
@@ -735,6 +755,7 @@ const colors = [
       },
       {
         name: "Deep Purples",
+        count: 13,
         swatches: [
           {
             name: "Deep Purple 50",
@@ -838,6 +859,7 @@ const colors = [
       },
       {
         name: "Indigoes",
+        count: 13,
         swatches: [
           {
             name: "Indigo 50",
@@ -941,6 +963,7 @@ const colors = [
       },
       {
         name: "Blues",
+        count: 13,
         swatches: [
           {
             name: "Blue 50",
@@ -1044,6 +1067,7 @@ const colors = [
       },
       {
         name: "Light Blues",
+        count: 13,
         swatches: [
           {
             name: "Light Blue 50",
@@ -1147,6 +1171,7 @@ const colors = [
       },
       {
         name: "Cyans",
+        count: 13,
         swatches: [
           {
             name: "Cyan 50",
@@ -1250,6 +1275,7 @@ const colors = [
       },
       {
         name: "Teals",
+        count: 13,
         swatches: [
           {
             name: "Teal 50",
@@ -1353,6 +1379,7 @@ const colors = [
       },
       {
         name: "Greens",
+        count: 13,
         swatches: [
           {
             name: "Green 50",
@@ -1456,6 +1483,7 @@ const colors = [
       },
       {
         name: "Light Greens",
+        count: 13,
         swatches: [
           {
             name: "Light Green 50",
@@ -1559,6 +1587,7 @@ const colors = [
       },
       {
         name: "Limes",
+        count: 13,
         swatches: [
           {
             name: "Lime 50",
@@ -1662,6 +1691,7 @@ const colors = [
       },
       {
         name: "Yellows",
+        count: 13,
         swatches: [
           {
             name: "Yellow 50",
@@ -1765,6 +1795,7 @@ const colors = [
       },
       {
         name: "Ambers",
+        count: 13,
         swatches: [
           {
             name: "Amber 50",
@@ -1868,6 +1899,7 @@ const colors = [
       },
       {
         name: "Oranges",
+        count: 13,
         swatches: [
           {
             name: "Orange 50",
@@ -1971,6 +2003,7 @@ const colors = [
       },
       {
         name: "Deep Oranges",
+        count: 13,
         swatches: [
           {
             name: "Deep Orange 50",
@@ -2074,6 +2107,7 @@ const colors = [
       },
       {
         name: "Browns",
+        count: 9,
         swatches: [
           {
             name: "Brown 50",
@@ -2149,6 +2183,7 @@ const colors = [
       },
       {
         name: "Blue-Grays",
+        count: 9,
         swatches: [
           {
             name: "Blue-Gray 50",
