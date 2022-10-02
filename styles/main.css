@@ -367,7 +367,7 @@ hr {
 @media (min-width: 62em) {
   .main-grid {
     display: grid;
-    grid-template-columns: max-content var(--details-width);
+    grid-template-columns: auto var(--details-width);
     grid-template-rows: auto;
     min-height: calc(100vh - var(--header-height));
   }
