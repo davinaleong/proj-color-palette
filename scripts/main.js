@@ -50,7 +50,7 @@ data.forEach(({ name, colors }, index) => {
 
   headerNavListHtml += `
     <li class="nav-list-item">
-        <a href="#cg-${index + 1}" class="btn btn-grey-outline">${name}</a>
+        <a href="#cg-${index + 1}" class="btn btn-gray-outline">${name}</a>
     </li>
   `
 
