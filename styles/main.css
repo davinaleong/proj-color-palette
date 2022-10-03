@@ -44,6 +44,9 @@
   --clr-grey-900: hsl(0, 0%, 10%);
   --clr-grey-1000: hsl(0, 0%, 0%);
 
+  --clr-black: #000;
+  --clr-white: #fff;
+
   --ff-primary: "Nunito", Arial, sans-serif;
   --ff-secondary: "Montserrat", Verdana, serif;
   --ff-body: var(--ff-primary);
@@ -299,6 +302,10 @@ hr {
   margin-bottom: var(--size-200);
 }
 
+.swatch-group {
+  margin-bottom: var(--size-200);
+}
+
 .swatch-heading {
   font-size: var(--fs-600);
   font-family: var(--ff-heading);
@@ -328,6 +335,7 @@ hr {
   height: var(--swatch-size);
   border: thin solid var(--clr-grey-500);
   text-align: center;
+  cursor: pointer;
 }
 
 .swatch-value {
@@ -335,14 +343,31 @@ hr {
 }
 
 .details {
-  border: thin solid var(--clr-grey-200);
-  background-color: var(--clr-grey-100);
+  border: thin solid var(--clr-grey-100);
+  background-color: var(--clr-grey-50);
 }
 
 .details-heading {
   font-size: var(--fs-700);
   font-family: var(--ff-heading);
   margin-bottom: var(--size-200);
+}
+
+.details-swatches {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  text-align: center;
+}
+
+.details-swatch {
+  --clr-details-swatch: var(--clr-primary-900);
+  --clr-details-swatch-bg: var(--clr-primary-50);
+
+  color: var(--clr-details-swatch);
+  background-color: var(--clr-details-swatch-bg);
+  padding: var(--size-700) var(--size-200);
+  text-transform: uppercase;
 }
 
 .hex-heading {

@@ -33,16 +33,16 @@
   </head>
   <body id="top">
     <header class="main-header | p-200">
-      <nav class="main-nav-left">
+      <nav class="main-nav-center">
+        <ul class="nav-list" role="list" data-element="header-center-nav"></ul>
+      </nav>
+
+      <nav class="main-nav-right">
         <ul class="nav-list" role="list">
           <li class="nav-list-item">
             <a href="#top" class="btn btn-primary">Back to Top</a>
           </li>
         </ul>
-      </nav>
-
-      <nav class="main-nav-center">
-        <ul class="nav-list" role="list" data-element="header-center-nav"></ul>
       </nav>
     </header>
 
@@ -274,7 +274,22 @@
         </div>
       </div>
       <aside class="details | p-200">
-        <h2 class="details-heading">Group, Swatch</h2>
+        <h2 class="details-heading" data-element="details-heading">Group, Swatch</h2>
+
+        <div class="details-swatches">
+          <div class="details-swatch" style="--clr-details-swatch: #000; --clr-details-swatch-bg: #888;" data-element="details-swatch-dark-text">
+            Dark Text
+          </div>
+          <div class="details-swatch" style="--clr-details-swatch: #fff; --clr-details-swatch-bg: #888;" data-element="details-swatch-light-text">
+            Light Text
+          </div>
+          <div class="details-swatch" style="--clr-details-swatch: #888; --clr-details-swatch-bg: #000;" data-element="details-swatch-dark-bg">
+            Dark BG
+          </div>
+          <div class="details-swatch" style="--clr-details-swatch: #888; --clr-details-swatch-bg: #fff;" data-element="details-swatch-light-bg">
+            Light BG
+          </div>
+        </div>
 
         <h3 class="hex-heading">Hex</h3>
         <div class="value-container">
