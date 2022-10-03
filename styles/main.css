@@ -312,7 +312,7 @@ hr {
 }
 
 .swatches {
-  --swatch-size: 10ch;
+  --swatch-size: 12ch;
   --swatch-count: 1;
   display: flex;
   overflow-x: auto;
