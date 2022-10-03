@@ -270,12 +270,6 @@ hr {
   gap: var(--size-200);
 }
 
-.main-grid {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto max-content;
-}
-
 .content {
   max-height: calc(100vh - var(--header-height) - var(--details-height));
   overflow-y: auto;
@@ -348,6 +342,10 @@ hr {
 }
 
 .details {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
   border: thin solid var(--clr-gray-100);
   background-color: var(--clr-gray-50);
 }
@@ -399,19 +397,21 @@ hr {
 }
 
 @media (min-width: 62em) {
-  .main-grid {
-    display: grid;
-    grid-template-columns: auto var(--details-width);
-    grid-template-rows: auto;
-    min-height: calc(100vh - var(--header-height));
-  }
-
   .content {
-    max-height: none;
+    width: calc(100vw - var(--details-width));
+    max-height: calc(100vh - var(--header-height));
   }
 
   .color-group {
     max-width: calc(100vw - var(--size-400) - var(--details-width));
+  }
+
+  .details {
+    top: var(--header-height);
+    left: auto;
+    right: 0;
+    width: var(--details-width);
+    height: calc(100vh - var(--header-height));
   }
 }
 
