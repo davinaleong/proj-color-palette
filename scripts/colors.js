@@ -367,7 +367,7 @@ const data = [
     colors: [
       {
         name: "Grays",
-        count: 9,
+        count: 10,
         swatches: [
           {
             name: "Gray 50",
@@ -443,7 +443,7 @@ const data = [
       },
       {
         name: "Reds",
-        count: 13,
+        count: 14,
         swatches: [
           {
             name: "Red 50",
@@ -547,7 +547,7 @@ const data = [
       },
       {
         name: "Pinks",
-        count: 13,
+        count: 14,
         swatches: [
           {
             name: "Pink 50",
@@ -651,7 +651,7 @@ const data = [
       },
       {
         name: "Purples",
-        count: 13,
+        count: 14,
         swatches: [
           {
             name: "Purple 50",
@@ -755,7 +755,7 @@ const data = [
       },
       {
         name: "Deep Purples",
-        count: 13,
+        count: 14,
         swatches: [
           {
             name: "Deep Purple 50",
@@ -859,7 +859,7 @@ const data = [
       },
       {
         name: "Indigoes",
-        count: 13,
+        count: 14,
         swatches: [
           {
             name: "Indigo 50",
@@ -963,7 +963,7 @@ const data = [
       },
       {
         name: "Blues",
-        count: 13,
+        count: 14,
         swatches: [
           {
             name: "Blue 50",
@@ -1067,7 +1067,7 @@ const data = [
       },
       {
         name: "Light Blues",
-        count: 13,
+        count: 14,
         swatches: [
           {
             name: "Light Blue 50",
@@ -1171,7 +1171,7 @@ const data = [
       },
       {
         name: "Cyans",
-        count: 13,
+        count: 14,
         swatches: [
           {
             name: "Cyan 50",
@@ -1275,7 +1275,7 @@ const data = [
       },
       {
         name: "Teals",
-        count: 13,
+        count: 14,
         swatches: [
           {
             name: "Teal 50",
@@ -1379,7 +1379,7 @@ const data = [
       },
       {
         name: "Greens",
-        count: 13,
+        count: 14,
         swatches: [
           {
             name: "Green 50",
@@ -1483,7 +1483,7 @@ const data = [
       },
       {
         name: "Light Greens",
-        count: 13,
+        count: 14,
         swatches: [
           {
             name: "Light Green 50",
@@ -1587,7 +1587,7 @@ const data = [
       },
       {
         name: "Limes",
-        count: 13,
+        count: 14,
         swatches: [
           {
             name: "Lime 50",
@@ -1691,7 +1691,7 @@ const data = [
       },
       {
         name: "Yellows",
-        count: 13,
+        count: 14,
         swatches: [
           {
             name: "Yellow 50",
@@ -1795,7 +1795,7 @@ const data = [
       },
       {
         name: "Ambers",
-        count: 13,
+        count: 14,
         swatches: [
           {
             name: "Amber 50",
@@ -1899,7 +1899,7 @@ const data = [
       },
       {
         name: "Oranges",
-        count: 13,
+        count: 14,
         swatches: [
           {
             name: "Orange 50",
@@ -2003,7 +2003,7 @@ const data = [
       },
       {
         name: "Deep Oranges",
-        count: 13,
+        count: 14,
         swatches: [
           {
             name: "Deep Orange 50",
@@ -2107,7 +2107,7 @@ const data = [
       },
       {
         name: "Browns",
-        count: 9,
+        count: 10,
         swatches: [
           {
             name: "Brown 50",
@@ -2183,7 +2183,7 @@ const data = [
       },
       {
         name: "Blue-Grays",
-        count: 9,
+        count: 10,
         swatches: [
           {
             name: "Blue-Gray 50",
