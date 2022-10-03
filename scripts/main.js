@@ -122,3 +122,32 @@ function updateDetails(dataset) {
 
 
 // C. Copy Color Value to Clipboard
+const copyHexBtnEl = document.querySelector(`[data-element=copy-hex]`)
+const copyRgbBtnEl = document.querySelector(`[data-element=copy-rgb]`)
+const copyHslBtnEl = document.querySelector(`[data-element=copy-hsl]`)
+
+// navigator.clipboard.writeText(copyText.value);
+
+copyHexBtnEl.addEventListener(`click`, (e) => {
+  console.log(`Copy-hex button clicked`)
+
+  const value = valueHexEl.innerHTML
+  navigator.clipboard.writeText(value);
+  alert(`Copied ${value}`)
+})
+
+copyRgbBtnEl.addEventListener(`click`, (e) => {
+  console.log(`Copy-rgb button clicked`)
+
+  const value = valueRgbEl.innerHTML
+  navigator.clipboard.writeText(value);
+  alert(`Copied ${value}`)
+})
+
+copyHslBtnEl.addEventListener(`click`, (e) => {
+  console.log(`Copy-hsl button clicked`)
+
+  const value = valueHslEl.innerHTML
+  navigator.clipboard.writeText(value);
+  alert(`Copied ${value}`)
+})
