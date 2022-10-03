@@ -1,20 +1,20 @@
+/* Sections:
+ * - A. Render Nav Links & Swatches
+ * - B. Show Color Details
+ * - C. Copy Color Value to Clipboard
+ */
 console.log(`main.js loaded`)
 
-// Elements
+
+// A. Render Nav Links & Swatches
 const headerCenterNavEl = document.querySelector(
   `[data-element=header-center-nav]`
 )
 const colorGroupsEl = document.querySelector(`[data-element=color-groups]`)
 
-const detailsHeadingEl = document.querySelector(
-  `[data-element=details-heading]`
-)
-const valueHexEl = document.querySelector(`[data-element=value-hex]`)
-const valueRgbEl = document.querySelector(`[data-element=value-rgb]`)
-const valueHslEl = document.querySelector(`[data-element=value-hsl]`)
-
 let headerNavListHtml = ``
 let colorGroupsHtml = ``
+
 
 data.forEach(({ name, colors }, index) => {
   const colorGroupName = name
@@ -65,10 +65,60 @@ data.forEach(({ name, colors }, index) => {
 headerCenterNavEl.innerHTML = headerNavListHtml
 colorGroupsEl.innerHTML = colorGroupsHtml
 
+const detailsSwatchDarkTextEl = document.querySelector(
+  `[data-element=details-swatch-dark-text]`
+)
+const detailsSwatchLightTextEl = document.querySelector(
+  `[data-element=details-swatch-light-text]`
+)
+const detailsSwatchDarkBgEl = document.querySelector(
+  `[data-element=details-swatch-dark-bg]`
+)
+const detailsSwatchLightBgEl = document.querySelector(
+  `[data-element=details-swatch-light-bg]`
+)
+
+
+// B. Show Color Details
+const valueHexEl = document.querySelector(`[data-element=value-hex]`)
+const valueRgbEl = document.querySelector(`[data-element=value-rgb]`)
+const valueHslEl = document.querySelector(`[data-element=value-hsl]`)
+
 const swatchEls = document.querySelectorAll(`[data-element=swatch]`)
+const swatchChildEls = document.querySelectorAll(
+  `[data-element=swatch] > :where(.swatch-title, .swatch-value)`
+)
+
 swatchEls.forEach((swatchEl) => {
   swatchEl.addEventListener(`click`, (e) => {
-    const dataset = e.target.dataset
-    console.log(dataset)
+    updateDetails(e.target.dataset)
   })
 })
+
+function updateDetails(dataset) {
+  const { hex, rgb, hsl } = dataset
+
+  valueHexEl.innerHTML = hex
+  valueRgbEl.innerHTML = rgb
+  valueHslEl.innerHTML = hsl
+
+  detailsSwatchDarkTextEl.setAttribute(
+    `style`,
+    `--clr-details-swatch: #000; --clr-details-swatch-bg: ${hex};`
+  )
+  detailsSwatchLightTextEl.setAttribute(
+    `style`,
+    `--clr-details-swatch: #fff; --clr-details-swatch-bg: ${hex};`
+  )
+  detailsSwatchDarkBgEl.setAttribute(
+    `style`,
+    `--clr-details-swatch: ${hex}; --clr-details-swatch-bg: #000;`
+  )
+  detailsSwatchLightBgEl.setAttribute(
+    `style`,
+    `--clr-details-swatch: ${hex}; --clr-details-swatch-bg: #fff;`
+  )
+}
+
+
+// C. Copy Color Value to Clipboard

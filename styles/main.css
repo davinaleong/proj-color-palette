@@ -82,7 +82,7 @@
   --size-1100: 7rem;
 
   --header-height: 50px;
-  --details-height: 460px;
+  --details-height: 480px;
   --details-width: 300px;
 }
 /** Root - End **/
@@ -338,8 +338,13 @@ hr {
   cursor: pointer;
 }
 
+.swatch-title {
+  cursor: pointer;
+}
+
 .swatch-value {
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .details {
@@ -358,6 +363,7 @@ hr {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   text-align: center;
+  margin-bottom: var(--size-400);
 }
 
 .details-swatch {
