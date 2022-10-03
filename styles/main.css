@@ -32,17 +32,17 @@
   --clr-primary-800: hsl(212, 80%, 42%);
   --clr-primary-900: hsl(216, 85%, 34%);
 
-  --clr-grey-50: hsl(0, 0%, 100%);
-  --clr-grey-100: hsl(0, 0%, 90%);
-  --clr-grey-200: hsl(0, 0%, 80%);
-  --clr-grey-300: hsl(0, 0%, 70%);
-  --clr-grey-400: hsl(0, 0%, 60%);
-  --clr-grey-500: hsl(0, 0%, 50%);
-  --clr-grey-600: hsl(0, 0%, 40%);
-  --clr-grey-700: hsl(0, 0%, 30%);
-  --clr-grey-800: hsl(0, 0%, 20%);
-  --clr-grey-900: hsl(0, 0%, 10%);
-  --clr-grey-1000: hsl(0, 0%, 0%);
+  --clr-gray-50: hsl(0, 0%, 100%);
+  --clr-gray-100: hsl(0, 0%, 90%);
+  --clr-gray-200: hsl(0, 0%, 80%);
+  --clr-gray-300: hsl(0, 0%, 70%);
+  --clr-gray-400: hsl(0, 0%, 60%);
+  --clr-gray-500: hsl(0, 0%, 50%);
+  --clr-gray-600: hsl(0, 0%, 40%);
+  --clr-gray-700: hsl(0, 0%, 30%);
+  --clr-gray-800: hsl(0, 0%, 20%);
+  --clr-gray-900: hsl(0, 0%, 10%);
+  --clr-gray-1000: hsl(0, 0%, 0%);
 
   --clr-black: #000;
   --clr-white: #fff;
@@ -170,13 +170,13 @@ a:where(:hover, :focus, :focus-visible) {
 }
 
 .btn {
-  --btn-clr: var(--clr-grey-100);
-  --btn-bg-clr: var(--clr-grey-900);
-  --btn-border-clr: var(--clr-grey-900);
+  --btn-clr: var(--clr-gray-100);
+  --btn-bg-clr: var(--clr-gray-900);
+  --btn-border-clr: var(--clr-gray-900);
 
-  --btn-hover-clr: var(--clr-grey-100);
-  --btn-hover-bg-clr: var(--clr-grey-800);
-  --btn-hover-border-clr: var(--clr-grey-800);
+  --btn-hover-clr: var(--clr-gray-100);
+  --btn-hover-bg-clr: var(--clr-gray-800);
+  --btn-hover-border-clr: var(--clr-gray-800);
 
   --btn-padding: var(--size-100) var(--size-400);
 
@@ -203,33 +203,33 @@ a:where(:hover, :focus, :focus-visible) {
 }
 
 .btn-primary {
-  --btn-clr: var(--clr-grey-50);
+  --btn-clr: var(--clr-gray-50);
   --btn-bg-clr: var(--clr-primary-500);
   --btn-border-clr: var(--clr-primary-500);
 
-  --btn-hover-clr: var(--clr-grey-50);
+  --btn-hover-clr: var(--clr-gray-50);
   --btn-hover-bg-clr: var(--clr-primary-600);
   --btn-hover-border-clr: var(--clr-primary-600);
 }
 
-.btn-grey {
-  --btn-clr: var(--clr-grey-50);
-  --btn-bg-clr: var(--clr-grey-500);
-  --btn-border-clr: var(--clr-grey-500);
+.btn-gray {
+  --btn-clr: var(--clr-gray-50);
+  --btn-bg-clr: var(--clr-gray-500);
+  --btn-border-clr: var(--clr-gray-500);
 
-  --btn-hover-clr: var(--clr-grey-50);
-  --btn-hover-bg-clr: var(--clr-grey-600);
-  --btn-hover-border-clr: var(--clr-grey-600);
+  --btn-hover-clr: var(--clr-gray-50);
+  --btn-hover-bg-clr: var(--clr-gray-600);
+  --btn-hover-border-clr: var(--clr-gray-600);
 }
 
-.btn-grey-outline {
-  --btn-clr: var(--clr-grey-500);
-  --btn-bg-clr: var(--clr-grey-50);
-  --btn-border-clr: var(--clr-grey-500);
+.btn-gray-outline {
+  --btn-clr: var(--clr-gray-500);
+  --btn-bg-clr: var(--clr-gray-50);
+  --btn-border-clr: var(--clr-gray-500);
 
-  --btn-hover-clr: var(--clr-grey-50);
-  --btn-hover-bg-clr: var(--clr-grey-600);
-  --btn-hover-border-clr: var(--clr-grey-600);
+  --btn-hover-clr: var(--clr-gray-50);
+  --btn-hover-bg-clr: var(--clr-gray-600);
+  --btn-hover-border-clr: var(--clr-gray-600);
 }
 
 hr {
@@ -240,7 +240,7 @@ hr {
 
 /** Content - Layout **/
 .main-header {
-  background-color: var(--clr-grey-50);
+  background-color: var(--clr-gray-50);
   box-shadow: 0 0.1em 0.2em hsla(0, 0%, 0%, 0.2);
   position: fixed;
   top: 0;
@@ -288,7 +288,7 @@ hr {
 }
 
 .color-group {
-  background-color: var(--clr-grey-50);
+  background-color: var(--clr-gray-50);
   box-shadow: 0.1em 0.1em 0.3em hsla(0, 0%, 0%, 0.2);
   padding: var(--size-400);
   margin-bottom: var(--size-400);
@@ -321,8 +321,8 @@ hr {
 }
 
 .swatch {
-  --clr-swatch: var(--clr-grey-900);
-  --clr-swatch-bg: var(--clr-grey-50);
+  --clr-swatch: var(--clr-gray-900);
+  --clr-swatch-bg: var(--clr-gray-50);
 
   flex: none;
   display: flex;
@@ -333,7 +333,7 @@ hr {
   background-color: var(--clr-swatch-bg);
   width: var(--swatch-size);
   height: var(--swatch-size);
-  border: thin solid var(--clr-grey-500);
+  border: thin solid var(--clr-gray-500);
   text-align: center;
   cursor: pointer;
 }
@@ -343,8 +343,8 @@ hr {
 }
 
 .details {
-  border: thin solid var(--clr-grey-100);
-  background-color: var(--clr-grey-50);
+  border: thin solid var(--clr-gray-100);
+  background-color: var(--clr-gray-50);
 }
 
 .details-heading {
@@ -367,6 +367,7 @@ hr {
   color: var(--clr-details-swatch);
   background-color: var(--clr-details-swatch-bg);
   padding: var(--size-600) var(--size-200);
+  border: thin solid var(--clr-gray-500);
   text-transform: uppercase;
 }
 
@@ -459,35 +460,35 @@ hr {
   color: var(--clr-primary-900);
 }
 
-.clr-grey-100 {
-  color: var(--clr-grey-100);
+.clr-gray-100 {
+  color: var(--clr-gray-100);
 }
-.clr-grey-200 {
-  color: var(--clr-grey-200);
+.clr-gray-200 {
+  color: var(--clr-gray-200);
 }
-.clr-grey-300 {
-  color: var(--clr-grey-300);
+.clr-gray-300 {
+  color: var(--clr-gray-300);
 }
-.clr-grey-400 {
-  color: var(--clr-grey-400);
+.clr-gray-400 {
+  color: var(--clr-gray-400);
 }
-.clr-grey-500 {
-  color: var(--clr-grey-500);
+.clr-gray-500 {
+  color: var(--clr-gray-500);
 }
-.clr-grey-600 {
-  color: var(--clr-grey-600);
+.clr-gray-600 {
+  color: var(--clr-gray-600);
 }
-.clr-grey-700 {
-  color: var(--clr-grey-700);
+.clr-gray-700 {
+  color: var(--clr-gray-700);
 }
-.clr-grey-800 {
-  color: var(--clr-grey-800);
+.clr-gray-800 {
+  color: var(--clr-gray-800);
 }
-.clr-grey-900 {
-  color: var(--clr-grey-900);
+.clr-gray-900 {
+  color: var(--clr-gray-900);
 }
-.clr-grey-1000 {
-  color: var(--clr-grey-1000);
+.clr-gray-1000 {
+  color: var(--clr-gray-1000);
 }
 
 /** Utility - Background Colours **/
@@ -522,35 +523,35 @@ hr {
   background-color: var(--clr-primary-900);
 }
 
-.bg-grey-100 {
-  background-color: var(--clr-grey-100);
+.bg-gray-100 {
+  background-color: var(--clr-gray-100);
 }
-.bg-grey-200 {
-  background-color: var(--clr-grey-200);
+.bg-gray-200 {
+  background-color: var(--clr-gray-200);
 }
-.bg-grey-300 {
-  background-color: var(--clr-grey-300);
+.bg-gray-300 {
+  background-color: var(--clr-gray-300);
 }
-.bg-grey-400 {
-  background-color: var(--clr-grey-400);
+.bg-gray-400 {
+  background-color: var(--clr-gray-400);
 }
-.bg-grey-500 {
-  background-color: var(--clr-grey-500);
+.bg-gray-500 {
+  background-color: var(--clr-gray-500);
 }
-.bg-grey-600 {
-  background-color: var(--clr-grey-600);
+.bg-gray-600 {
+  background-color: var(--clr-gray-600);
 }
-.bg-grey-700 {
-  background-color: var(--clr-grey-700);
+.bg-gray-700 {
+  background-color: var(--clr-gray-700);
 }
-.bg-grey-800 {
-  background-color: var(--clr-grey-800);
+.bg-gray-800 {
+  background-color: var(--clr-gray-800);
 }
-.bg-grey-900 {
-  background-color: var(--clr-grey-900);
+.bg-gray-900 {
+  background-color: var(--clr-gray-900);
 }
-.bg-grey-1000 {
-  background-color: var(--clr-grey-1000);
+.bg-gray-1000 {
+  background-color: var(--clr-gray-1000);
 }
 
 /** Utility - Font Families **/
