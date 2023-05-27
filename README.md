@@ -12,50 +12,36 @@ Sample `JSON` file:
 ```JSON
 [
     {
-        "name": "Basic Colors",
+        "name": "Group Name",
         "colors": [
             {
-                "name": "White",
-                "value": "#ffffff"
-            }, {
-                "name": "Black",
-                "value": "#000000"
-            }, {
-                "name": "Gray",
-                "value": "#888888"
-            }
-        ]
-    }, {
-        "name": "Material Palette",
-        "colors": [
-            {
-                "name": "50",
-                "value": "#fafafa"
-            }, {
-                "name": "100",
-                "value": "#f5f5f5"
-            }
-        ]
-    }, {
-        "name": "Pokemon Colors",
-        "colors": [
-            {
-                "name": "Bug",
-                "value": "#A8B821"
-            }, {
-                "name": "Dark",
-                "value": "#6F5848"
-            }, {
-                "name": "Dragon",
-                "value": "#7038F9"
+                "name": "Swatch Group Name",
+                "count": 3,
+                "swatches: [
+                    {
+                        "name": "White",
+                        "hex": "#FFFFFF",
+                        "rgb": "rgb(255, 255, 255)",
+                        "hsl": "hsl(0, 0%, 100%)",
+                        "text": "#000000"
+                    },
+                    {
+                        "name": "Black",
+                        "hex": "#000000",
+                        "rgb": "rgb(0, 0, 0)",
+                        "hsl": "hsl(0, 0%, 0%)",
+                        "text": "#FFFFFF"
+                    },
+                    {
+                        "name": "Gray",
+                        "hex": "#888888",
+                        "rgb": "rgb(136, 136, 136)",
+                        "hsl": "hsl(0, 0%, 53%)",
+                        "text": "#000000"
+                    },
+                ]
             }
         ]
     }
 ]
 ```
-
-## TODO:
-
-1. Populate Swatches
-1. Swatch selection functionality
-1. Populate details with swatch info
