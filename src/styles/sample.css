@@ -1,0 +1,4096 @@
+:root {
+  /* 1. Basic Colors */
+  --clr-basic-white: hsl(0, 0%, 100%);
+  --clr-basic-black: hsl(0, 0%, 0%);
+  --clr-basic-gray: hsl(0, 0%, 53%);
+  --clr-basic-red: rgb(255, 0, 0);
+  --clr-basic-yellow: hsl(60, 100%, 50%);
+  --clr-basic-green: hsl(120, 100%, 50%);
+  --clr-basic-cyan: hsl(180, 100%, 50%);
+  --clr-basic-blue: hsl(240, 100%, 50%);
+  --clr-basic-magenta: hsl(300, 100%, 50%);
+
+  /* 2. Pokémon Colors */
+  --clr-pokemon-bug: hsl(66, 70%, 43%);
+  --clr-pokemon-dark: hsl(25, 21%, 36%);
+  --clr-pokemon-dragon: hsl(257, 94%, 60%);
+  --clr-pokemon-electric: hsl(48, 93%, 58%);
+  --clr-pokemon-fairy: hsl(340, 100%, 84%);
+  --clr-pokemon-fighting: hsl(3, 66%, 45%);
+  --clr-pokemon-fire: hsl(25, 87%, 56%);
+  --clr-pokemon-flying: hsl(255, 76%, 75%);
+  --clr-pokemon-ghost: hsl(263, 27%, 47%);
+  --clr-pokemon-grass: hsl(100, 52%, 55%);
+  --clr-pokemon-ground: hsl(44, 64%, 64%);
+  --clr-pokemon-ice: hsl(180, 45%, 72%);
+  --clr-pokemon-normal: hsl(59, 22%, 57%);
+  --clr-pokemon-poison: hsl(299, 43%, 44%);
+  --clr-pokemon-psychic: hsl(342, 92%, 66%);
+  --clr-pokemon-rock: hsl(48, 53%, 47%);
+  --clr-pokemon-steel: hsl(240, 20%, 77%);
+  --clr-pokemon-water: hsl(222, 82%, 67%);
+
+  /* 3. Bootstrap Colors */
+
+  /* 3.1. Colors */
+  --clr-bootstrap-blue: hsl(211, 100%, 50%);
+  --clr-bootstrap-indigo: hsl(263, 90%, 51%);
+  --clr-bootstrap-purple: hsl(261, 51%, 51%);
+  --clr-bootstrap-pink: hsl(332, 79%, 58%);
+  --clr-bootstrap-danger: hsl(354, 70%, 54%);
+  --clr-bootstrap-orange: hsl(27, 98%, 54%);
+  --clr-bootstrap-yellow: hsl(45, 100%, 51%);
+  --clr-bootstrap-green: hsl(134, 61%, 41%);
+  --clr-bootstrap-teal: hsl(162, 73%, 46%);
+  --clr-bootstrap-cyan: hsl(188, 78%, 41%);
+
+  /* 3.2. Neutral */
+  --clr-bootstrap-gray-100: hsl(210, 17%, 98%);
+  --clr-bootstrap-gray-200: hsl(210, 16%, 93%);
+  --clr-bootstrap-gray-300: hsl(210, 14%, 89%);
+  --clr-bootstrap-gray-400: hsl(210, 14%, 83%);
+  --clr-bootstrap-gray-500: hsl(210, 11%, 71%);
+  --clr-bootstrap-gray-600: hsl(208, 7%, 46%);
+  --clr-bootstrap-gray-700: hsl(210, 9%, 31%);
+  --clr-bootstrap-gray-800: hsl(210, 10%, 23%);
+  --clr-bootstrap-gray-900: hsl(210, 11%, 15%);
+
+  /* 4. Material Colors */
+
+  /* 4.1. Grays */
+  --clr-material-gray-50: hsl(0, 0%, 98%);
+  --clr-material-gray-100: hsl(0, 0%, 96%);
+  --clr-material-gray-200: hsl(0, 0%, 93%);
+  --clr-material-gray-300: hsl(0, 0%, 88%);
+  --clr-material-gray-400: hsl(0, 0%, 74%);
+  --clr-material-gray-500: hsl(0, 0%, 62%);
+  --clr-material-gray-600: hsl(0, 0%, 46%);
+  --clr-material-gray-700: hsl(0, 0%, 38%);
+  --clr-material-gray-800: hsl(0, 0%, 26%);
+  --clr-material-gray-900: hsl(0, 0%, 13%);
+
+  /* 4.2. Reds */
+  --clr-material-red-50: hsl(351, 100%, 96%);
+  --clr-material-red-100: hsl(354, 100%, 90%);
+  --clr-material-red-200: hsl(0, 73%, 77%);
+  --clr-material-red-300: hsl(0, 69%, 67%);
+  --clr-material-red-400: hsl(1, 83%, 63%);
+  --clr-material-red-500: hsl(4, 90%, 58%);
+  --clr-material-red-600: hsl(1, 77%, 55%);
+  --clr-material-red-700: hsl(0, 65%, 51%);
+  --clr-material-red-800: hsl(0, 66%, 47%);
+  --clr-material-red-900: hsl(0, 73%, 41%);
+  --clr-material-red-a100: hsl(5, 100%, 75%);
+  --clr-material-red-a200: hsl(0, 100%, 66%);
+  --clr-material-red-a400: hsl(348, 100%, 55%);
+  --clr-material-red-a700: hsl(0, 100%, 42%);
+
+  /* 4.3. Pinks */
+  --clr-material-pink-50: hsl(340, 80%, 94%);
+  --clr-material-pink-100: hsl(339, 81%, 85%);
+  --clr-material-pink-200: hsl(340, 82%, 76%);
+  --clr-material-pink-300: hsl(340, 83%, 66%);
+  --clr-material-pink-400: hsl(340, 82%, 59%);
+  --clr-material-pink-500: hsl(340, 82%, 52%);
+  --clr-material-pink-600: hsl(338, 78%, 48%);
+  --clr-material-pink-700: hsl(336, 78%, 43%);
+  --clr-material-pink-800: hsl(334, 79%, 38%);
+  --clr-material-pink-900: hsl(328, 81%, 29%);
+  --clr-material-pink-a100: hsl(340, 100%, 75%);
+  --clr-material-pink-a200: hsl(340, 100%, 63%);
+  --clr-material-pink-a400: hsl(339, 100%, 48%);
+  --clr-material-pink-a700: hsl(333, 84%, 42%);
+
+  /* 4.4. Purples */
+  --clr-material-purple-50: hsl(292, 44%, 93%);
+  --clr-material-purple-100: hsl(291, 46%, 83%);
+  --clr-material-purple-200: hsl(291, 47%, 71%);
+  --clr-material-purple-300: hsl(291, 47%, 60%);
+  --clr-material-purple-400: hsl(291, 47%, 51%);
+  --clr-material-purple-500: hsl(291, 64%, 42%);
+  --clr-material-purple-600: hsl(287, 65%, 40%);
+  --clr-material-purple-700: hsl(282, 68%, 38%);
+  --clr-material-purple-800: hsl(277, 70%, 35%);
+  --clr-material-purple-900: hsl(267, 75%, 31%);
+  --clr-material-purple-a100: hsl(291, 95%, 75%);
+  --clr-material-purple-a200: hsl(291, 96%, 62%);
+  --clr-material-purple-a400: hsl(291, 100%, 49%);
+  --clr-material-purple-a700: hsl(280, 100%, 50%);
+
+  /* 4.5. Deep Purples */
+  --clr-material-deep-purple-50: hsl(264, 45%, 94%);
+  --clr-material-deep-purple-100: hsl(261, 46%, 84%);
+  --clr-material-deep-purple-200: hsl(261, 46%, 74%);
+  --clr-material-deep-purple-300: hsl(262, 47%, 63%);
+  --clr-material-deep-purple-400: hsl(262, 47%, 55%);
+  --clr-material-deep-purple-500: hsl(262, 52%, 47%);
+  --clr-material-deep-purple-600: hsl(260, 54%, 45%);
+  --clr-material-deep-purple-700: hsl(258, 58%, 42%);
+  --clr-material-deep-purple-800: hsl(255, 61%, 39%);
+  --clr-material-deep-purple-900: hsl(251, 69%, 34%);
+  --clr-material-deep-purple-a100: hsl(262, 100%, 77%);
+  --clr-material-deep-purple-a200: hsl(256, 100%, 65%);
+  --clr-material-deep-purple-a400: hsl(259, 100%, 56%);
+  --clr-material-deep-purple-a700: hsl(265, 100%, 46%);
+
+  /* 4.6. Indigoes */
+  --clr-material-indigo-50: hsl(231, 44%, 94%);
+  --clr-material-indigo-100: hsl(232, 45%, 84%);
+  --clr-material-indigo-200: hsl(231, 44%, 74%);
+  --clr-material-indigo-300: hsl(230, 44%, 64%);
+  --clr-material-indigo-400: hsl(231, 44%, 56%);
+  --clr-material-indigo-500: hsl(231, 48%, 48%);
+  --clr-material-indigo-600: hsl(232, 50%, 45%);
+  --clr-material-indigo-700: hsl(232, 54%, 41%);
+  --clr-material-indigo-800: hsl(233, 57%, 37%);
+  --clr-material-indigo-900: hsl(235, 66%, 30%);
+  --clr-material-indigo-a100: hsl(231, 100%, 77%);
+  --clr-material-indigo-a200: hsl(231, 99%, 66%);
+  --clr-material-indigo-a400: hsl(231, 99%, 62%);
+  --clr-material-indigo-a700: hsl(231, 99%, 59%);
+
+  /* 4.7. Blues */
+  --clr-material-blue-50: hsl(205, 87%, 94%);
+  --clr-material-blue-100: hsl(207, 89%, 86%);
+  --clr-material-blue-200: hsl(207, 90%, 77%);
+  --clr-material-blue-300: hsl(207, 89%, 68%);
+  --clr-material-blue-400: hsl(207, 90%, 61%);
+  --clr-material-blue-500: hsl(207, 90%, 54%);
+  --clr-material-blue-600: hsl(208, 79%, 51%);
+  --clr-material-blue-700: hsl(210, 79%, 46%);
+  --clr-material-blue-800: hsl(212, 80%, 42%);
+  --clr-material-blue-900: hsl(216, 85%, 34%);
+  --clr-material-blue-a100: hsl(217, 100%, 75%);
+  --clr-material-blue-a200: hsl(218, 100%, 63%);
+  --clr-material-blue-a400: hsl(218, 100%, 58%);
+  --clr-material-blue-a700: hsl(224, 100%, 58%);
+
+  /* 4.8. Light Blues */
+  --clr-material-light-blue-50: hsl(199, 94%, 94%);
+  --clr-material-light-blue-100: hsl(199, 92%, 85%);
+  --clr-material-light-blue-200: hsl(199, 92%, 74%);
+  --clr-material-light-blue-300: hsl(199, 91%, 64%);
+  --clr-material-light-blue-400: hsl(199, 92%, 56%);
+  --clr-material-light-blue-500: hsl(199, 98%, 48%);
+  --clr-material-light-blue-600: hsl(200, 97%, 45%);
+  --clr-material-light-blue-700: hsl(201, 98%, 41%);
+  --clr-material-light-blue-800: hsl(202, 98%, 37%);
+  --clr-material-light-blue-900: hsl(206, 99%, 31%);
+  --clr-material-light-blue-a100: hsl(198, 100%, 75%);
+  --clr-material-light-blue-a200: hsl(199, 100%, 63%);
+  --clr-material-light-blue-a400: hsl(199, 100%, 50%);
+  --clr-material-light-blue-a700: hsl(203, 100%, 46%);
+
+  /* 4.9. Cyans */
+  --clr-material-cyan-50: hsl(187, 72%, 93%);
+  --clr-material-cyan-100: hsl(187, 71%, 82%);
+  --clr-material-cyan-200: hsl(187, 72%, 71%);
+  --clr-material-cyan-300: hsl(187, 71%, 59%);
+  --clr-material-cyan-400: hsl(187, 71%, 50%);
+  --clr-material-cyan-500: hsl(187, 100%, 42%);
+  --clr-material-cyan-600: hsl(187, 100%, 38%);
+  --clr-material-cyan-700: hsl(186, 100%, 33%);
+  --clr-material-cyan-800: hsl(185, 100%, 28%);
+  --clr-material-cyan-900: hsl(182, 100%, 20%);
+  --clr-material-cyan-a100: hsl(180, 100%, 76%);
+  --clr-material-cyan-a200: hsl(180, 100%, 55%);
+  --clr-material-cyan-a400: hsl(186, 100%, 50%);
+  --clr-material-cyan-a700: hsl(188, 100%, 42%);
+
+  /* 4.10. Teals */
+  --clr-material-undefined-50: hsl(177, 41%, 91%);
+  --clr-material-undefined-100: hsl(175, 41%, 79%);
+  --clr-material-undefined-200: hsl(174, 42%, 65%);
+  --clr-material-undefined-300: hsl(174, 42%, 51%);
+  --clr-material-undefined-400: hsl(174, 63%, 40%);
+  --clr-material-undefined-500: hsl(174, 100%, 29%);
+  --clr-material-undefined-600: hsl(174, 100%, 27%);
+  --clr-material-undefined-700: hsl(173, 100%, 24%);
+  --clr-material-undefined-800: hsl(173, 100%, 21%);
+  --clr-material-undefined-900: hsl(170, 100%, 15%);
+  --clr-material-undefined-a100: hsl(166, 100%, 83%);
+  --clr-material-undefined-a200: hsl(166, 100%, 70%);
+  --clr-material-undefined-a400: hsl(165, 82%, 51%);
+  --clr-material-undefined-a700: hsl(172, 100%, 37%);
+
+  /* 4.11. Greens */
+  --clr-material-green-50: hsl(125, 39%, 94%);
+  --clr-material-green-100: hsl(122, 37%, 84%);
+  --clr-material-green-200: hsl(122, 37%, 74%);
+  --clr-material-green-300: hsl(123, 38%, 64%);
+  --clr-material-green-400: hsl(123, 38%, 57%);
+  --clr-material-green-500: hsl(122, 39%, 49%);
+  --clr-material-green-600: hsl(123, 41%, 45%);
+  --clr-material-green-700: hsl(123, 43%, 39%);
+  --clr-material-green-800: hsl(123, 46%, 34%);
+  --clr-material-green-900: hsl(124, 55%, 24%);
+  --clr-material-green-a100: hsl(137, 77%, 85%);
+  --clr-material-green-a200: hsl(151, 82%, 68%);
+  --clr-material-green-a400: hsl(151, 100%, 45%);
+  --clr-material-green-a700: hsl(145, 100%, 39%);
+
+  /* 4.12. Light Greens */
+  --clr-material-light-green-50: hsl(88, 52%, 94%);
+  --clr-material-light-green-100: hsl(88, 51%, 86%);
+  --clr-material-light-green-200: hsl(88, 50%, 76%);
+  --clr-material-light-green-300: hsl(88, 50%, 67%);
+  --clr-material-light-green-400: hsl(88, 50%, 60%);
+  --clr-material-light-green-500: hsl(88, 50%, 53%);
+  --clr-material-light-green-600: hsl(89, 46%, 48%);
+  --clr-material-light-green-700: hsl(92, 48%, 42%);
+  --clr-material-light-green-800: hsl(95, 49%, 36%);
+  --clr-material-light-green-900: hsl(103, 56%, 26%);
+  --clr-material-light-green-a100: hsl(88, 100%, 78%);
+  --clr-material-light-green-a200: hsl(88, 100%, 67%);
+  --clr-material-light-green-a400: hsl(93, 100%, 51%);
+  --clr-material-light-green-a700: hsl(97, 81%, 48%);
+
+  /* 4.13. Limes */
+  --clr-material-lime-50: hsl(66, 71%, 95%);
+  --clr-material-lime-100: hsl(65, 69%, 86%);
+  --clr-material-lime-200: hsl(66, 71%, 77%);
+  --clr-material-lime-300: hsl(66, 70%, 68%);
+  --clr-material-lime-400: hsl(66, 70%, 61%);
+  --clr-material-lime-500: hsl(66, 70%, 54%);
+  --clr-material-lime-600: hsl(64, 60%, 50%);
+  --clr-material-lime-700: hsl(62, 61%, 44%);
+  --clr-material-lime-800: hsl(60, 63%, 38%);
+  --clr-material-lime-900: hsl(54, 70%, 30%);
+  --clr-material-lime-a100: hsl(65, 100%, 75%);
+  --clr-material-lime-a200: hsl(65, 100%, 63%);
+  --clr-material-lime-a400: hsl(73, 100%, 50%);
+  --clr-material-lime-a700: hsl(75, 100%, 46%);
+
+  /* 4.14. Yellows */
+  --clr-material-yellow-50: hsl(55, 100%, 95%);
+  --clr-material-yellow-100: hsl(54, 100%, 88%);
+  --clr-material-yellow-200: hsl(54, 100%, 81%);
+  --clr-material-yellow-300: hsl(54, 100%, 73%);
+  --clr-material-yellow-400: hsl(54, 100%, 67%);
+  --clr-material-yellow-500: hsl(54, 100%, 62%);
+  --clr-material-yellow-600: hsl(49, 98%, 60%);
+  --clr-material-yellow-700: hsl(43, 96%, 58%);
+  --clr-material-yellow-800: hsl(37, 95%, 56%);
+  --clr-material-yellow-900: hsl(28, 92%, 53%);
+  --clr-material-yellow-a100: hsl(60, 100%, 78%);
+  --clr-material-yellow-a200: hsl(60, 100%, 50%);
+  --clr-material-yellow-a400: hsl(55, 100%, 50%);
+  --clr-material-yellow-a700: hsl(50, 100%, 50%);
+
+  /* 4.15. Ambers */
+  --clr-material-amber-50: hsl(46, 100%, 94%);
+  --clr-material-amber-100: hsl(45, 100%, 85%);
+  --clr-material-amber-200: hsl(45, 100%, 75%);
+  --clr-material-amber-300: hsl(46, 100%, 65%);
+  --clr-material-amber-400: hsl(45, 100%, 58%);
+  --clr-material-amber-500: hsl(45, 100%, 51%);
+  --clr-material-amber-600: hsl(42, 100%, 50%);
+  --clr-material-amber-700: hsl(38, 100%, 50%);
+  --clr-material-amber-800: hsl(34, 100%, 50%);
+  --clr-material-amber-900: hsl(26, 100%, 50%);
+  --clr-material-amber-a100: hsl(48, 100%, 75%);
+  --clr-material-amber-a200: hsl(47, 100%, 63%);
+  --clr-material-amber-a400: hsl(46, 100%, 50%);
+  --clr-material-amber-a700: hsl(40, 100%, 50%);
+
+  /* 4.16. Oranges */
+  --clr-material-orange-50: hsl(37, 100%, 94%);
+  --clr-material-orange-100: hsl(36, 100%, 85%);
+  --clr-material-orange-200: hsl(36, 100%, 75%);
+  --clr-material-orange-300: hsl(36, 100%, 65%);
+  --clr-material-orange-400: hsl(36, 100%, 57%);
+  --clr-material-orange-500: hsl(36, 100%, 50%);
+  --clr-material-orange-600: hsl(33, 100%, 49%);
+  --clr-material-orange-700: hsl(30, 100%, 48%);
+  --clr-material-orange-800: hsl(27, 100%, 47%);
+  --clr-material-orange-900: hsl(21, 100%, 45%);
+  --clr-material-orange-a100: hsl(38, 100%, 75%);
+  --clr-material-orange-a200: hsl(34, 100%, 63%);
+  --clr-material-orange-a400: hsl(34, 100%, 50%);
+  --clr-material-orange-a700: hsl(26, 100%, 50%);
+
+  /* 4.17. Deep Oranges */
+  --clr-material-deep-orange-50: hsl(6, 71%, 95%);
+  --clr-material-deep-orange-100: hsl(14, 100%, 87%);
+  --clr-material-deep-orange-200: hsl(14, 100%, 78%);
+  --clr-material-deep-orange-300: hsl(14, 100%, 70%);
+  --clr-material-deep-orange-400: hsl(14, 100%, 63%);
+  --clr-material-deep-orange-500: hsl(14, 100%, 57%);
+  --clr-material-deep-orange-600: hsl(14, 91%, 54%);
+  --clr-material-deep-orange-700: hsl(14, 80%, 50%);
+  --clr-material-deep-orange-800: hsl(14, 82%, 46%);
+  --clr-material-deep-orange-900: hsl(14, 88%, 40%);
+  --clr-material-deep-orange-a100: hsl(14, 100%, 75%);
+  --clr-material-deep-orange-a200: ;
+  --clr-material-deep-orange-a400: hsl(14, 100%, 50%);
+  --clr-material-deep-orange-a700: hsl(12, 100%, 43%);
+
+  /* 4.18. Browns */
+  --clr-material-brown-50: hsl(20, 16%, 93%);
+  --clr-material-brown-100: hsl(16, 16%, 81%);
+  --clr-material-brown-200: hsl(15, 15%, 69%);
+  --clr-material-brown-300: hsl(16, 15%, 56%);
+  --clr-material-brown-400: hsl(16, 18%, 47%);
+  --clr-material-brown-500: hsl(16, 25%, 38%);
+  --clr-material-brown-600: hsl(15, 25%, 34%);
+  --clr-material-brown-700: hsl(14, 26%, 29%);
+  --clr-material-brown-800: hsl(11, 26%, 24%);
+  --clr-material-brown-900: hsl(9, 28%, 19%);
+
+  /* 4.19. Grays */
+  --clr-material-gray-50: hsl(204, 15%, 94%);
+  --clr-material-gray-100: hsl(198, 16%, 84%);
+  --clr-material-gray-200: hsl(200, 15%, 73%);
+  --clr-material-gray-300: hsl(200, 16%, 62%);
+  --clr-material-gray-400: hsl(200, 15%, 54%);
+  --clr-material-gray-500: hsl(200, 18%, 46%);
+  --clr-material-gray-600: hsl(199, 18%, 40%);
+  --clr-material-gray-700: hsl(199, 18%, 33%);
+  --clr-material-gray-800: hsl(200, 18%, 26%);
+  --clr-material-gray-900: hsl(200, 19%, 18%);
+
+  /* 5. Brand Colors */
+  --clr-brand-html: hsl(13, 79%, 51%);
+  --clr-brand-css: hsl(221, 88%, 54%);
+  --clr-brand-javascript: hsl(54, 100%, 61%);
+  --clr-brand-bootstrap: hsl(260, 94%, 57%);
+  --clr-brand-react: hsl(193, 86%, 66%);
+  --clr-brand-laravel: hsl(3, 100%, 56%);
+  --clr-brand-astro: hsl(22, 100%, 50%);
+}
+
+/* 1. Basic Colors */
+
+.text-basic-white {
+  color: var(--clr-basic-white);
+}
+
+.bg-basic-white {
+  background-color: var(--clr-basic-white);
+}
+
+.fill-basic-white {
+  fill: var(--clr-basic-white);
+}
+
+.text-basic-black {
+  color: var(--clr-basic-black);
+}
+
+.bg-basic-black {
+  background-color: var(--clr-basic-black);
+}
+
+.fill-basic-black {
+  fill: var(--clr-basic-black);
+}
+
+.text-basic-gray {
+  color: var(--clr-basic-gray);
+}
+
+.bg-basic-gray {
+  background-color: var(--clr-basic-gray);
+}
+
+.fill-basic-gray {
+  fill: var(--clr-basic-gray);
+}
+
+.text-basic-red {
+  color: var(--clr-basic-red);
+}
+
+.bg-basic-red {
+  background-color: var(--clr-basic-red);
+}
+
+.fill-basic-red {
+  fill: var(--clr-basic-red);
+}
+
+.text-basic-yellow {
+  color: var(--clr-basic-yellow);
+}
+
+.bg-basic-yellow {
+  background-color: var(--clr-basic-yellow);
+}
+
+.fill-basic-yellow {
+  fill: var(--clr-basic-yellow);
+}
+
+.text-basic-green {
+  color: var(--clr-basic-green);
+}
+
+.bg-basic-green {
+  background-color: var(--clr-basic-green);
+}
+
+.fill-basic-green {
+  fill: var(--clr-basic-green);
+}
+
+.text-basic-cyan {
+  color: var(--clr-basic-cyan);
+}
+
+.bg-basic-cyan {
+  background-color: var(--clr-basic-cyan);
+}
+
+.fill-basic-cyan {
+  fill: var(--clr-basic-cyan);
+}
+
+.text-basic-blue {
+  color: var(--clr-basic-blue);
+}
+
+.bg-basic-blue {
+  background-color: var(--clr-basic-blue);
+}
+
+.fill-basic-blue {
+  fill: var(--clr-basic-blue);
+}
+
+.text-basic-magenta {
+  color: var(--clr-basic-magenta);
+}
+
+.bg-basic-magenta {
+  background-color: var(--clr-basic-magenta);
+}
+
+.fill-basic-magenta {
+  fill: var(--clr-basic-magenta);
+}
+
+/* 2. Pokémon Colors */
+
+.text-pokemon-bug {
+  color: var(--clr-pokemon-bug);
+}
+
+.bg-pokemon-bug {
+  background-color: var(--clr-pokemon-bug);
+}
+
+.fill-pokemon-bug {
+  fill: var(--clr-pokemon-bug);
+}
+
+.text-pokemon-dark {
+  color: var(--clr-pokemon-dark);
+}
+
+.bg-pokemon-dark {
+  background-color: var(--clr-pokemon-dark);
+}
+
+.fill-pokemon-dark {
+  fill: var(--clr-pokemon-dark);
+}
+
+.text-pokemon-dragon {
+  color: var(--clr-pokemon-dragon);
+}
+
+.bg-pokemon-dragon {
+  background-color: var(--clr-pokemon-dragon);
+}
+
+.fill-pokemon-dragon {
+  fill: var(--clr-pokemon-dragon);
+}
+
+.text-pokemon-electric {
+  color: var(--clr-pokemon-electric);
+}
+
+.bg-pokemon-electric {
+  background-color: var(--clr-pokemon-electric);
+}
+
+.fill-pokemon-electric {
+  fill: var(--clr-pokemon-electric);
+}
+
+.text-pokemon-fairy {
+  color: var(--clr-pokemon-fairy);
+}
+
+.bg-pokemon-fairy {
+  background-color: var(--clr-pokemon-fairy);
+}
+
+.fill-pokemon-fairy {
+  fill: var(--clr-pokemon-fairy);
+}
+
+.text-pokemon-fighting {
+  color: var(--clr-pokemon-fighting);
+}
+
+.bg-pokemon-fighting {
+  background-color: var(--clr-pokemon-fighting);
+}
+
+.fill-pokemon-fighting {
+  fill: var(--clr-pokemon-fighting);
+}
+
+.text-pokemon-fire {
+  color: var(--clr-pokemon-fire);
+}
+
+.bg-pokemon-fire {
+  background-color: var(--clr-pokemon-fire);
+}
+
+.fill-pokemon-fire {
+  fill: var(--clr-pokemon-fire);
+}
+
+.text-pokemon-flying {
+  color: var(--clr-pokemon-flying);
+}
+
+.bg-pokemon-flying {
+  background-color: var(--clr-pokemon-flying);
+}
+
+.fill-pokemon-flying {
+  fill: var(--clr-pokemon-flying);
+}
+
+.text-pokemon-ghost {
+  color: var(--clr-pokemon-ghost);
+}
+
+.bg-pokemon-ghost {
+  background-color: var(--clr-pokemon-ghost);
+}
+
+.fill-pokemon-ghost {
+  fill: var(--clr-pokemon-ghost);
+}
+
+.text-pokemon-grass {
+  color: var(--clr-pokemon-grass);
+}
+
+.bg-pokemon-grass {
+  background-color: var(--clr-pokemon-grass);
+}
+
+.fill-pokemon-grass {
+  fill: var(--clr-pokemon-grass);
+}
+
+.text-pokemon-ground {
+  color: var(--clr-pokemon-ground);
+}
+
+.bg-pokemon-ground {
+  background-color: var(--clr-pokemon-ground);
+}
+
+.fill-pokemon-ground {
+  fill: var(--clr-pokemon-ground);
+}
+
+.text-pokemon-ice {
+  color: var(--clr-pokemon-ice);
+}
+
+.bg-pokemon-ice {
+  background-color: var(--clr-pokemon-ice);
+}
+
+.fill-pokemon-ice {
+  fill: var(--clr-pokemon-ice);
+}
+
+.text-pokemon-normal {
+  color: var(--clr-pokemon-normal);
+}
+
+.bg-pokemon-normal {
+  background-color: var(--clr-pokemon-normal);
+}
+
+.fill-pokemon-normal {
+  fill: var(--clr-pokemon-normal);
+}
+
+.text-pokemon-poison {
+  color: var(--clr-pokemon-poison);
+}
+
+.bg-pokemon-poison {
+  background-color: var(--clr-pokemon-poison);
+}
+
+.fill-pokemon-poison {
+  fill: var(--clr-pokemon-poison);
+}
+
+.text-pokemon-psychic {
+  color: var(--clr-pokemon-psychic);
+}
+
+.bg-pokemon-psychic {
+  background-color: var(--clr-pokemon-psychic);
+}
+
+.fill-pokemon-psychic {
+  fill: var(--clr-pokemon-psychic);
+}
+
+.text-pokemon-rock {
+  color: var(--clr-pokemon-rock);
+}
+
+.bg-pokemon-rock {
+  background-color: var(--clr-pokemon-rock);
+}
+
+.fill-pokemon-rock {
+  fill: var(--clr-pokemon-rock);
+}
+
+.text-pokemon-steel {
+  color: var(--clr-pokemon-steel);
+}
+
+.bg-pokemon-steel {
+  background-color: var(--clr-pokemon-steel);
+}
+
+.fill-pokemon-steel {
+  fill: var(--clr-pokemon-steel);
+}
+
+.text-pokemon-water {
+  color: var(--clr-pokemon-water);
+}
+
+.bg-pokemon-water {
+  background-color: var(--clr-pokemon-water);
+}
+
+.fill-pokemon-water {
+  fill: var(--clr-pokemon-water);
+}
+
+/* 3. Bootstrap Colors */
+
+/* 3.1. Colors */
+
+.text-bootstrap-blue {
+  color: var(--clr-bootstrap-blue);
+}
+
+.bg-bootstrap-blue {
+  background-color: var(--clr-bootstrap-blue);
+}
+
+.fill-bootstrap-blue {
+  fill: var(--clr-bootstrap-blue);
+}
+
+.text-bootstrap-indigo {
+  color: var(--clr-bootstrap-indigo);
+}
+
+.bg-bootstrap-indigo {
+  background-color: var(--clr-bootstrap-indigo);
+}
+
+.fill-bootstrap-indigo {
+  fill: var(--clr-bootstrap-indigo);
+}
+
+.text-bootstrap-purple {
+  color: var(--clr-bootstrap-purple);
+}
+
+.bg-bootstrap-purple {
+  background-color: var(--clr-bootstrap-purple);
+}
+
+.fill-bootstrap-purple {
+  fill: var(--clr-bootstrap-purple);
+}
+
+.text-bootstrap-pink {
+  color: var(--clr-bootstrap-pink);
+}
+
+.bg-bootstrap-pink {
+  background-color: var(--clr-bootstrap-pink);
+}
+
+.fill-bootstrap-pink {
+  fill: var(--clr-bootstrap-pink);
+}
+
+.text-bootstrap-danger {
+  color: var(--clr-bootstrap-danger);
+}
+
+.bg-bootstrap-danger {
+  background-color: var(--clr-bootstrap-danger);
+}
+
+.fill-bootstrap-danger {
+  fill: var(--clr-bootstrap-danger);
+}
+
+.text-bootstrap-orange {
+  color: var(--clr-bootstrap-orange);
+}
+
+.bg-bootstrap-orange {
+  background-color: var(--clr-bootstrap-orange);
+}
+
+.fill-bootstrap-orange {
+  fill: var(--clr-bootstrap-orange);
+}
+
+.text-bootstrap-yellow {
+  color: var(--clr-bootstrap-yellow);
+}
+
+.bg-bootstrap-yellow {
+  background-color: var(--clr-bootstrap-yellow);
+}
+
+.fill-bootstrap-yellow {
+  fill: var(--clr-bootstrap-yellow);
+}
+
+.text-bootstrap-green {
+  color: var(--clr-bootstrap-green);
+}
+
+.bg-bootstrap-green {
+  background-color: var(--clr-bootstrap-green);
+}
+
+.fill-bootstrap-green {
+  fill: var(--clr-bootstrap-green);
+}
+
+.text-bootstrap-teal {
+  color: var(--clr-bootstrap-teal);
+}
+
+.bg-bootstrap-teal {
+  background-color: var(--clr-bootstrap-teal);
+}
+
+.fill-bootstrap-teal {
+  fill: var(--clr-bootstrap-teal);
+}
+
+.text-bootstrap-cyan {
+  color: var(--clr-bootstrap-cyan);
+}
+
+.bg-bootstrap-cyan {
+  background-color: var(--clr-bootstrap-cyan);
+}
+
+.fill-bootstrap-cyan {
+  fill: var(--clr-bootstrap-cyan);
+}
+
+/* 3.2. Neutral */
+
+.text-bootstrap-gray-100 {
+  color: var(--clr-bootstrap-gray-100);
+}
+
+.bg-bootstrap-gray-100 {
+  background-color: var(--clr-bootstrap-gray-100);
+}
+
+.fill-bootstrap-gray-100 {
+  fill: var(--clr-bootstrap-gray-100);
+}
+
+.text-bootstrap-gray-200 {
+  color: var(--clr-bootstrap-gray-200);
+}
+
+.bg-bootstrap-gray-200 {
+  background-color: var(--clr-bootstrap-gray-200);
+}
+
+.fill-bootstrap-gray-200 {
+  fill: var(--clr-bootstrap-gray-200);
+}
+
+.text-bootstrap-gray-300 {
+  color: var(--clr-bootstrap-gray-300);
+}
+
+.bg-bootstrap-gray-300 {
+  background-color: var(--clr-bootstrap-gray-300);
+}
+
+.fill-bootstrap-gray-300 {
+  fill: var(--clr-bootstrap-gray-300);
+}
+
+.text-bootstrap-gray-400 {
+  color: var(--clr-bootstrap-gray-400);
+}
+
+.bg-bootstrap-gray-400 {
+  background-color: var(--clr-bootstrap-gray-400);
+}
+
+.fill-bootstrap-gray-400 {
+  fill: var(--clr-bootstrap-gray-400);
+}
+
+.text-bootstrap-gray-500 {
+  color: var(--clr-bootstrap-gray-500);
+}
+
+.bg-bootstrap-gray-500 {
+  background-color: var(--clr-bootstrap-gray-500);
+}
+
+.fill-bootstrap-gray-500 {
+  fill: var(--clr-bootstrap-gray-500);
+}
+
+.text-bootstrap-gray-600 {
+  color: var(--clr-bootstrap-gray-600);
+}
+
+.bg-bootstrap-gray-600 {
+  background-color: var(--clr-bootstrap-gray-600);
+}
+
+.fill-bootstrap-gray-600 {
+  fill: var(--clr-bootstrap-gray-600);
+}
+
+.text-bootstrap-gray-700 {
+  color: var(--clr-bootstrap-gray-700);
+}
+
+.bg-bootstrap-gray-700 {
+  background-color: var(--clr-bootstrap-gray-700);
+}
+
+.fill-bootstrap-gray-700 {
+  fill: var(--clr-bootstrap-gray-700);
+}
+
+.text-bootstrap-gray-800 {
+  color: var(--clr-bootstrap-gray-800);
+}
+
+.bg-bootstrap-gray-800 {
+  background-color: var(--clr-bootstrap-gray-800);
+}
+
+.fill-bootstrap-gray-800 {
+  fill: var(--clr-bootstrap-gray-800);
+}
+
+.text-bootstrap-gray-900 {
+  color: var(--clr-bootstrap-gray-900);
+}
+
+.bg-bootstrap-gray-900 {
+  background-color: var(--clr-bootstrap-gray-900);
+}
+
+.fill-bootstrap-gray-900 {
+  fill: var(--clr-bootstrap-gray-900);
+}
+
+/* 4. Material Colors */
+
+/* 4.1. Grays */
+
+.text-material-gray-50 {
+  color: var(--clr-material-gray-50);
+}
+
+.bg-material-gray-50 {
+  background-color: var(--clr-material-gray-50);
+}
+
+.fill-material-gray-50 {
+  fill: var(--clr-material-gray-50);
+}
+
+.text-material-gray-100 {
+  color: var(--clr-material-gray-100);
+}
+
+.bg-material-gray-100 {
+  background-color: var(--clr-material-gray-100);
+}
+
+.fill-material-gray-100 {
+  fill: var(--clr-material-gray-100);
+}
+
+.text-material-gray-200 {
+  color: var(--clr-material-gray-200);
+}
+
+.bg-material-gray-200 {
+  background-color: var(--clr-material-gray-200);
+}
+
+.fill-material-gray-200 {
+  fill: var(--clr-material-gray-200);
+}
+
+.text-material-gray-300 {
+  color: var(--clr-material-gray-300);
+}
+
+.bg-material-gray-300 {
+  background-color: var(--clr-material-gray-300);
+}
+
+.fill-material-gray-300 {
+  fill: var(--clr-material-gray-300);
+}
+
+.text-material-gray-400 {
+  color: var(--clr-material-gray-400);
+}
+
+.bg-material-gray-400 {
+  background-color: var(--clr-material-gray-400);
+}
+
+.fill-material-gray-400 {
+  fill: var(--clr-material-gray-400);
+}
+
+.text-material-gray-500 {
+  color: var(--clr-material-gray-500);
+}
+
+.bg-material-gray-500 {
+  background-color: var(--clr-material-gray-500);
+}
+
+.fill-material-gray-500 {
+  fill: var(--clr-material-gray-500);
+}
+
+.text-material-gray-600 {
+  color: var(--clr-material-gray-600);
+}
+
+.bg-material-gray-600 {
+  background-color: var(--clr-material-gray-600);
+}
+
+.fill-material-gray-600 {
+  fill: var(--clr-material-gray-600);
+}
+
+.text-material-gray-700 {
+  color: var(--clr-material-gray-700);
+}
+
+.bg-material-gray-700 {
+  background-color: var(--clr-material-gray-700);
+}
+
+.fill-material-gray-700 {
+  fill: var(--clr-material-gray-700);
+}
+
+.text-material-gray-800 {
+  color: var(--clr-material-gray-800);
+}
+
+.bg-material-gray-800 {
+  background-color: var(--clr-material-gray-800);
+}
+
+.fill-material-gray-800 {
+  fill: var(--clr-material-gray-800);
+}
+
+.text-material-gray-900 {
+  color: var(--clr-material-gray-900);
+}
+
+.bg-material-gray-900 {
+  background-color: var(--clr-material-gray-900);
+}
+
+.fill-material-gray-900 {
+  fill: var(--clr-material-gray-900);
+}
+
+/* 4.2. Reds */
+
+.text-material-red-50 {
+  color: var(--clr-material-red-50);
+}
+
+.bg-material-red-50 {
+  background-color: var(--clr-material-red-50);
+}
+
+.fill-material-red-50 {
+  fill: var(--clr-material-red-50);
+}
+
+.text-material-red-100 {
+  color: var(--clr-material-red-100);
+}
+
+.bg-material-red-100 {
+  background-color: var(--clr-material-red-100);
+}
+
+.fill-material-red-100 {
+  fill: var(--clr-material-red-100);
+}
+
+.text-material-red-200 {
+  color: var(--clr-material-red-200);
+}
+
+.bg-material-red-200 {
+  background-color: var(--clr-material-red-200);
+}
+
+.fill-material-red-200 {
+  fill: var(--clr-material-red-200);
+}
+
+.text-material-red-300 {
+  color: var(--clr-material-red-300);
+}
+
+.bg-material-red-300 {
+  background-color: var(--clr-material-red-300);
+}
+
+.fill-material-red-300 {
+  fill: var(--clr-material-red-300);
+}
+
+.text-material-red-400 {
+  color: var(--clr-material-red-400);
+}
+
+.bg-material-red-400 {
+  background-color: var(--clr-material-red-400);
+}
+
+.fill-material-red-400 {
+  fill: var(--clr-material-red-400);
+}
+
+.text-material-red-500 {
+  color: var(--clr-material-red-500);
+}
+
+.bg-material-red-500 {
+  background-color: var(--clr-material-red-500);
+}
+
+.fill-material-red-500 {
+  fill: var(--clr-material-red-500);
+}
+
+.text-material-red-600 {
+  color: var(--clr-material-red-600);
+}
+
+.bg-material-red-600 {
+  background-color: var(--clr-material-red-600);
+}
+
+.fill-material-red-600 {
+  fill: var(--clr-material-red-600);
+}
+
+.text-material-red-700 {
+  color: var(--clr-material-red-700);
+}
+
+.bg-material-red-700 {
+  background-color: var(--clr-material-red-700);
+}
+
+.fill-material-red-700 {
+  fill: var(--clr-material-red-700);
+}
+
+.text-material-red-800 {
+  color: var(--clr-material-red-800);
+}
+
+.bg-material-red-800 {
+  background-color: var(--clr-material-red-800);
+}
+
+.fill-material-red-800 {
+  fill: var(--clr-material-red-800);
+}
+
+.text-material-red-900 {
+  color: var(--clr-material-red-900);
+}
+
+.bg-material-red-900 {
+  background-color: var(--clr-material-red-900);
+}
+
+.fill-material-red-900 {
+  fill: var(--clr-material-red-900);
+}
+
+.text-material-red-a100 {
+  color: var(--clr-material-red-a100);
+}
+
+.bg-material-red-a100 {
+  background-color: var(--clr-material-red-a100);
+}
+
+.fill-material-red-a100 {
+  fill: var(--clr-material-red-a100);
+}
+
+.text-material-red-a200 {
+  color: var(--clr-material-red-a200);
+}
+
+.bg-material-red-a200 {
+  background-color: var(--clr-material-red-a200);
+}
+
+.fill-material-red-a200 {
+  fill: var(--clr-material-red-a200);
+}
+
+.text-material-red-a400 {
+  color: var(--clr-material-red-a400);
+}
+
+.bg-material-red-a400 {
+  background-color: var(--clr-material-red-a400);
+}
+
+.fill-material-red-a400 {
+  fill: var(--clr-material-red-a400);
+}
+
+.text-material-red-a700 {
+  color: var(--clr-material-red-a700);
+}
+
+.bg-material-red-a700 {
+  background-color: var(--clr-material-red-a700);
+}
+
+.fill-material-red-a700 {
+  fill: var(--clr-material-red-a700);
+}
+
+/* 4.3. Pinks */
+
+.text-material-pink-50 {
+  color: var(--clr-material-pink-50);
+}
+
+.bg-material-pink-50 {
+  background-color: var(--clr-material-pink-50);
+}
+
+.fill-material-pink-50 {
+  fill: var(--clr-material-pink-50);
+}
+
+.text-material-pink-100 {
+  color: var(--clr-material-pink-100);
+}
+
+.bg-material-pink-100 {
+  background-color: var(--clr-material-pink-100);
+}
+
+.fill-material-pink-100 {
+  fill: var(--clr-material-pink-100);
+}
+
+.text-material-pink-200 {
+  color: var(--clr-material-pink-200);
+}
+
+.bg-material-pink-200 {
+  background-color: var(--clr-material-pink-200);
+}
+
+.fill-material-pink-200 {
+  fill: var(--clr-material-pink-200);
+}
+
+.text-material-pink-300 {
+  color: var(--clr-material-pink-300);
+}
+
+.bg-material-pink-300 {
+  background-color: var(--clr-material-pink-300);
+}
+
+.fill-material-pink-300 {
+  fill: var(--clr-material-pink-300);
+}
+
+.text-material-pink-400 {
+  color: var(--clr-material-pink-400);
+}
+
+.bg-material-pink-400 {
+  background-color: var(--clr-material-pink-400);
+}
+
+.fill-material-pink-400 {
+  fill: var(--clr-material-pink-400);
+}
+
+.text-material-pink-500 {
+  color: var(--clr-material-pink-500);
+}
+
+.bg-material-pink-500 {
+  background-color: var(--clr-material-pink-500);
+}
+
+.fill-material-pink-500 {
+  fill: var(--clr-material-pink-500);
+}
+
+.text-material-pink-600 {
+  color: var(--clr-material-pink-600);
+}
+
+.bg-material-pink-600 {
+  background-color: var(--clr-material-pink-600);
+}
+
+.fill-material-pink-600 {
+  fill: var(--clr-material-pink-600);
+}
+
+.text-material-pink-700 {
+  color: var(--clr-material-pink-700);
+}
+
+.bg-material-pink-700 {
+  background-color: var(--clr-material-pink-700);
+}
+
+.fill-material-pink-700 {
+  fill: var(--clr-material-pink-700);
+}
+
+.text-material-pink-800 {
+  color: var(--clr-material-pink-800);
+}
+
+.bg-material-pink-800 {
+  background-color: var(--clr-material-pink-800);
+}
+
+.fill-material-pink-800 {
+  fill: var(--clr-material-pink-800);
+}
+
+.text-material-pink-900 {
+  color: var(--clr-material-pink-900);
+}
+
+.bg-material-pink-900 {
+  background-color: var(--clr-material-pink-900);
+}
+
+.fill-material-pink-900 {
+  fill: var(--clr-material-pink-900);
+}
+
+.text-material-pink-a100 {
+  color: var(--clr-material-pink-a100);
+}
+
+.bg-material-pink-a100 {
+  background-color: var(--clr-material-pink-a100);
+}
+
+.fill-material-pink-a100 {
+  fill: var(--clr-material-pink-a100);
+}
+
+.text-material-pink-a200 {
+  color: var(--clr-material-pink-a200);
+}
+
+.bg-material-pink-a200 {
+  background-color: var(--clr-material-pink-a200);
+}
+
+.fill-material-pink-a200 {
+  fill: var(--clr-material-pink-a200);
+}
+
+.text-material-pink-a400 {
+  color: var(--clr-material-pink-a400);
+}
+
+.bg-material-pink-a400 {
+  background-color: var(--clr-material-pink-a400);
+}
+
+.fill-material-pink-a400 {
+  fill: var(--clr-material-pink-a400);
+}
+
+.text-material-pink-a700 {
+  color: var(--clr-material-pink-a700);
+}
+
+.bg-material-pink-a700 {
+  background-color: var(--clr-material-pink-a700);
+}
+
+.fill-material-pink-a700 {
+  fill: var(--clr-material-pink-a700);
+}
+
+/* 4.4. Purples */
+
+.text-material-purple-50 {
+  color: var(--clr-material-purple-50);
+}
+
+.bg-material-purple-50 {
+  background-color: var(--clr-material-purple-50);
+}
+
+.fill-material-purple-50 {
+  fill: var(--clr-material-purple-50);
+}
+
+.text-material-purple-100 {
+  color: var(--clr-material-purple-100);
+}
+
+.bg-material-purple-100 {
+  background-color: var(--clr-material-purple-100);
+}
+
+.fill-material-purple-100 {
+  fill: var(--clr-material-purple-100);
+}
+
+.text-material-purple-200 {
+  color: var(--clr-material-purple-200);
+}
+
+.bg-material-purple-200 {
+  background-color: var(--clr-material-purple-200);
+}
+
+.fill-material-purple-200 {
+  fill: var(--clr-material-purple-200);
+}
+
+.text-material-purple-300 {
+  color: var(--clr-material-purple-300);
+}
+
+.bg-material-purple-300 {
+  background-color: var(--clr-material-purple-300);
+}
+
+.fill-material-purple-300 {
+  fill: var(--clr-material-purple-300);
+}
+
+.text-material-purple-400 {
+  color: var(--clr-material-purple-400);
+}
+
+.bg-material-purple-400 {
+  background-color: var(--clr-material-purple-400);
+}
+
+.fill-material-purple-400 {
+  fill: var(--clr-material-purple-400);
+}
+
+.text-material-purple-500 {
+  color: var(--clr-material-purple-500);
+}
+
+.bg-material-purple-500 {
+  background-color: var(--clr-material-purple-500);
+}
+
+.fill-material-purple-500 {
+  fill: var(--clr-material-purple-500);
+}
+
+.text-material-purple-600 {
+  color: var(--clr-material-purple-600);
+}
+
+.bg-material-purple-600 {
+  background-color: var(--clr-material-purple-600);
+}
+
+.fill-material-purple-600 {
+  fill: var(--clr-material-purple-600);
+}
+
+.text-material-purple-700 {
+  color: var(--clr-material-purple-700);
+}
+
+.bg-material-purple-700 {
+  background-color: var(--clr-material-purple-700);
+}
+
+.fill-material-purple-700 {
+  fill: var(--clr-material-purple-700);
+}
+
+.text-material-purple-800 {
+  color: var(--clr-material-purple-800);
+}
+
+.bg-material-purple-800 {
+  background-color: var(--clr-material-purple-800);
+}
+
+.fill-material-purple-800 {
+  fill: var(--clr-material-purple-800);
+}
+
+.text-material-purple-900 {
+  color: var(--clr-material-purple-900);
+}
+
+.bg-material-purple-900 {
+  background-color: var(--clr-material-purple-900);
+}
+
+.fill-material-purple-900 {
+  fill: var(--clr-material-purple-900);
+}
+
+.text-material-purple-a100 {
+  color: var(--clr-material-purple-a100);
+}
+
+.bg-material-purple-a100 {
+  background-color: var(--clr-material-purple-a100);
+}
+
+.fill-material-purple-a100 {
+  fill: var(--clr-material-purple-a100);
+}
+
+.text-material-purple-a200 {
+  color: var(--clr-material-purple-a200);
+}
+
+.bg-material-purple-a200 {
+  background-color: var(--clr-material-purple-a200);
+}
+
+.fill-material-purple-a200 {
+  fill: var(--clr-material-purple-a200);
+}
+
+.text-material-purple-a400 {
+  color: var(--clr-material-purple-a400);
+}
+
+.bg-material-purple-a400 {
+  background-color: var(--clr-material-purple-a400);
+}
+
+.fill-material-purple-a400 {
+  fill: var(--clr-material-purple-a400);
+}
+
+.text-material-purple-a700 {
+  color: var(--clr-material-purple-a700);
+}
+
+.bg-material-purple-a700 {
+  background-color: var(--clr-material-purple-a700);
+}
+
+.fill-material-purple-a700 {
+  fill: var(--clr-material-purple-a700);
+}
+
+/* 4.5. Deep Purples */
+
+.text-material-deep-purple-50 {
+  color: var(--clr-material-deep-purple-50);
+}
+
+.bg-material-deep-purple-50 {
+  background-color: var(--clr-material-deep-purple-50);
+}
+
+.fill-material-deep-purple-50 {
+  fill: var(--clr-material-deep-purple-50);
+}
+
+.text-material-deep-purple-100 {
+  color: var(--clr-material-deep-purple-100);
+}
+
+.bg-material-deep-purple-100 {
+  background-color: var(--clr-material-deep-purple-100);
+}
+
+.fill-material-deep-purple-100 {
+  fill: var(--clr-material-deep-purple-100);
+}
+
+.text-material-deep-purple-200 {
+  color: var(--clr-material-deep-purple-200);
+}
+
+.bg-material-deep-purple-200 {
+  background-color: var(--clr-material-deep-purple-200);
+}
+
+.fill-material-deep-purple-200 {
+  fill: var(--clr-material-deep-purple-200);
+}
+
+.text-material-deep-purple-300 {
+  color: var(--clr-material-deep-purple-300);
+}
+
+.bg-material-deep-purple-300 {
+  background-color: var(--clr-material-deep-purple-300);
+}
+
+.fill-material-deep-purple-300 {
+  fill: var(--clr-material-deep-purple-300);
+}
+
+.text-material-deep-purple-400 {
+  color: var(--clr-material-deep-purple-400);
+}
+
+.bg-material-deep-purple-400 {
+  background-color: var(--clr-material-deep-purple-400);
+}
+
+.fill-material-deep-purple-400 {
+  fill: var(--clr-material-deep-purple-400);
+}
+
+.text-material-deep-purple-500 {
+  color: var(--clr-material-deep-purple-500);
+}
+
+.bg-material-deep-purple-500 {
+  background-color: var(--clr-material-deep-purple-500);
+}
+
+.fill-material-deep-purple-500 {
+  fill: var(--clr-material-deep-purple-500);
+}
+
+.text-material-deep-purple-600 {
+  color: var(--clr-material-deep-purple-600);
+}
+
+.bg-material-deep-purple-600 {
+  background-color: var(--clr-material-deep-purple-600);
+}
+
+.fill-material-deep-purple-600 {
+  fill: var(--clr-material-deep-purple-600);
+}
+
+.text-material-deep-purple-700 {
+  color: var(--clr-material-deep-purple-700);
+}
+
+.bg-material-deep-purple-700 {
+  background-color: var(--clr-material-deep-purple-700);
+}
+
+.fill-material-deep-purple-700 {
+  fill: var(--clr-material-deep-purple-700);
+}
+
+.text-material-deep-purple-800 {
+  color: var(--clr-material-deep-purple-800);
+}
+
+.bg-material-deep-purple-800 {
+  background-color: var(--clr-material-deep-purple-800);
+}
+
+.fill-material-deep-purple-800 {
+  fill: var(--clr-material-deep-purple-800);
+}
+
+.text-material-deep-purple-900 {
+  color: var(--clr-material-deep-purple-900);
+}
+
+.bg-material-deep-purple-900 {
+  background-color: var(--clr-material-deep-purple-900);
+}
+
+.fill-material-deep-purple-900 {
+  fill: var(--clr-material-deep-purple-900);
+}
+
+.text-material-deep-purple-a100 {
+  color: var(--clr-material-deep-purple-a100);
+}
+
+.bg-material-deep-purple-a100 {
+  background-color: var(--clr-material-deep-purple-a100);
+}
+
+.fill-material-deep-purple-a100 {
+  fill: var(--clr-material-deep-purple-a100);
+}
+
+.text-material-deep-purple-a200 {
+  color: var(--clr-material-deep-purple-a200);
+}
+
+.bg-material-deep-purple-a200 {
+  background-color: var(--clr-material-deep-purple-a200);
+}
+
+.fill-material-deep-purple-a200 {
+  fill: var(--clr-material-deep-purple-a200);
+}
+
+.text-material-deep-purple-a400 {
+  color: var(--clr-material-deep-purple-a400);
+}
+
+.bg-material-deep-purple-a400 {
+  background-color: var(--clr-material-deep-purple-a400);
+}
+
+.fill-material-deep-purple-a400 {
+  fill: var(--clr-material-deep-purple-a400);
+}
+
+.text-material-deep-purple-a700 {
+  color: var(--clr-material-deep-purple-a700);
+}
+
+.bg-material-deep-purple-a700 {
+  background-color: var(--clr-material-deep-purple-a700);
+}
+
+.fill-material-deep-purple-a700 {
+  fill: var(--clr-material-deep-purple-a700);
+}
+
+/* 4.6. Indigoes */
+
+.text-material-indigo-50 {
+  color: var(--clr-material-indigo-50);
+}
+
+.bg-material-indigo-50 {
+  background-color: var(--clr-material-indigo-50);
+}
+
+.fill-material-indigo-50 {
+  fill: var(--clr-material-indigo-50);
+}
+
+.text-material-indigo-100 {
+  color: var(--clr-material-indigo-100);
+}
+
+.bg-material-indigo-100 {
+  background-color: var(--clr-material-indigo-100);
+}
+
+.fill-material-indigo-100 {
+  fill: var(--clr-material-indigo-100);
+}
+
+.text-material-indigo-200 {
+  color: var(--clr-material-indigo-200);
+}
+
+.bg-material-indigo-200 {
+  background-color: var(--clr-material-indigo-200);
+}
+
+.fill-material-indigo-200 {
+  fill: var(--clr-material-indigo-200);
+}
+
+.text-material-indigo-300 {
+  color: var(--clr-material-indigo-300);
+}
+
+.bg-material-indigo-300 {
+  background-color: var(--clr-material-indigo-300);
+}
+
+.fill-material-indigo-300 {
+  fill: var(--clr-material-indigo-300);
+}
+
+.text-material-indigo-400 {
+  color: var(--clr-material-indigo-400);
+}
+
+.bg-material-indigo-400 {
+  background-color: var(--clr-material-indigo-400);
+}
+
+.fill-material-indigo-400 {
+  fill: var(--clr-material-indigo-400);
+}
+
+.text-material-indigo-500 {
+  color: var(--clr-material-indigo-500);
+}
+
+.bg-material-indigo-500 {
+  background-color: var(--clr-material-indigo-500);
+}
+
+.fill-material-indigo-500 {
+  fill: var(--clr-material-indigo-500);
+}
+
+.text-material-indigo-600 {
+  color: var(--clr-material-indigo-600);
+}
+
+.bg-material-indigo-600 {
+  background-color: var(--clr-material-indigo-600);
+}
+
+.fill-material-indigo-600 {
+  fill: var(--clr-material-indigo-600);
+}
+
+.text-material-indigo-700 {
+  color: var(--clr-material-indigo-700);
+}
+
+.bg-material-indigo-700 {
+  background-color: var(--clr-material-indigo-700);
+}
+
+.fill-material-indigo-700 {
+  fill: var(--clr-material-indigo-700);
+}
+
+.text-material-indigo-800 {
+  color: var(--clr-material-indigo-800);
+}
+
+.bg-material-indigo-800 {
+  background-color: var(--clr-material-indigo-800);
+}
+
+.fill-material-indigo-800 {
+  fill: var(--clr-material-indigo-800);
+}
+
+.text-material-indigo-900 {
+  color: var(--clr-material-indigo-900);
+}
+
+.bg-material-indigo-900 {
+  background-color: var(--clr-material-indigo-900);
+}
+
+.fill-material-indigo-900 {
+  fill: var(--clr-material-indigo-900);
+}
+
+.text-material-indigo-a100 {
+  color: var(--clr-material-indigo-a100);
+}
+
+.bg-material-indigo-a100 {
+  background-color: var(--clr-material-indigo-a100);
+}
+
+.fill-material-indigo-a100 {
+  fill: var(--clr-material-indigo-a100);
+}
+
+.text-material-indigo-a200 {
+  color: var(--clr-material-indigo-a200);
+}
+
+.bg-material-indigo-a200 {
+  background-color: var(--clr-material-indigo-a200);
+}
+
+.fill-material-indigo-a200 {
+  fill: var(--clr-material-indigo-a200);
+}
+
+.text-material-indigo-a400 {
+  color: var(--clr-material-indigo-a400);
+}
+
+.bg-material-indigo-a400 {
+  background-color: var(--clr-material-indigo-a400);
+}
+
+.fill-material-indigo-a400 {
+  fill: var(--clr-material-indigo-a400);
+}
+
+.text-material-indigo-a700 {
+  color: var(--clr-material-indigo-a700);
+}
+
+.bg-material-indigo-a700 {
+  background-color: var(--clr-material-indigo-a700);
+}
+
+.fill-material-indigo-a700 {
+  fill: var(--clr-material-indigo-a700);
+}
+
+/* 4.7. Blues */
+
+.text-material-blue-50 {
+  color: var(--clr-material-blue-50);
+}
+
+.bg-material-blue-50 {
+  background-color: var(--clr-material-blue-50);
+}
+
+.fill-material-blue-50 {
+  fill: var(--clr-material-blue-50);
+}
+
+.text-material-blue-100 {
+  color: var(--clr-material-blue-100);
+}
+
+.bg-material-blue-100 {
+  background-color: var(--clr-material-blue-100);
+}
+
+.fill-material-blue-100 {
+  fill: var(--clr-material-blue-100);
+}
+
+.text-material-blue-200 {
+  color: var(--clr-material-blue-200);
+}
+
+.bg-material-blue-200 {
+  background-color: var(--clr-material-blue-200);
+}
+
+.fill-material-blue-200 {
+  fill: var(--clr-material-blue-200);
+}
+
+.text-material-blue-300 {
+  color: var(--clr-material-blue-300);
+}
+
+.bg-material-blue-300 {
+  background-color: var(--clr-material-blue-300);
+}
+
+.fill-material-blue-300 {
+  fill: var(--clr-material-blue-300);
+}
+
+.text-material-blue-400 {
+  color: var(--clr-material-blue-400);
+}
+
+.bg-material-blue-400 {
+  background-color: var(--clr-material-blue-400);
+}
+
+.fill-material-blue-400 {
+  fill: var(--clr-material-blue-400);
+}
+
+.text-material-blue-500 {
+  color: var(--clr-material-blue-500);
+}
+
+.bg-material-blue-500 {
+  background-color: var(--clr-material-blue-500);
+}
+
+.fill-material-blue-500 {
+  fill: var(--clr-material-blue-500);
+}
+
+.text-material-blue-600 {
+  color: var(--clr-material-blue-600);
+}
+
+.bg-material-blue-600 {
+  background-color: var(--clr-material-blue-600);
+}
+
+.fill-material-blue-600 {
+  fill: var(--clr-material-blue-600);
+}
+
+.text-material-blue-700 {
+  color: var(--clr-material-blue-700);
+}
+
+.bg-material-blue-700 {
+  background-color: var(--clr-material-blue-700);
+}
+
+.fill-material-blue-700 {
+  fill: var(--clr-material-blue-700);
+}
+
+.text-material-blue-800 {
+  color: var(--clr-material-blue-800);
+}
+
+.bg-material-blue-800 {
+  background-color: var(--clr-material-blue-800);
+}
+
+.fill-material-blue-800 {
+  fill: var(--clr-material-blue-800);
+}
+
+.text-material-blue-900 {
+  color: var(--clr-material-blue-900);
+}
+
+.bg-material-blue-900 {
+  background-color: var(--clr-material-blue-900);
+}
+
+.fill-material-blue-900 {
+  fill: var(--clr-material-blue-900);
+}
+
+.text-material-blue-a100 {
+  color: var(--clr-material-blue-a100);
+}
+
+.bg-material-blue-a100 {
+  background-color: var(--clr-material-blue-a100);
+}
+
+.fill-material-blue-a100 {
+  fill: var(--clr-material-blue-a100);
+}
+
+.text-material-blue-a200 {
+  color: var(--clr-material-blue-a200);
+}
+
+.bg-material-blue-a200 {
+  background-color: var(--clr-material-blue-a200);
+}
+
+.fill-material-blue-a200 {
+  fill: var(--clr-material-blue-a200);
+}
+
+.text-material-blue-a400 {
+  color: var(--clr-material-blue-a400);
+}
+
+.bg-material-blue-a400 {
+  background-color: var(--clr-material-blue-a400);
+}
+
+.fill-material-blue-a400 {
+  fill: var(--clr-material-blue-a400);
+}
+
+.text-material-blue-a700 {
+  color: var(--clr-material-blue-a700);
+}
+
+.bg-material-blue-a700 {
+  background-color: var(--clr-material-blue-a700);
+}
+
+.fill-material-blue-a700 {
+  fill: var(--clr-material-blue-a700);
+}
+
+/* 4.8. Light Blues */
+
+.text-material-light-blue-50 {
+  color: var(--clr-material-light-blue-50);
+}
+
+.bg-material-light-blue-50 {
+  background-color: var(--clr-material-light-blue-50);
+}
+
+.fill-material-light-blue-50 {
+  fill: var(--clr-material-light-blue-50);
+}
+
+.text-material-light-blue-100 {
+  color: var(--clr-material-light-blue-100);
+}
+
+.bg-material-light-blue-100 {
+  background-color: var(--clr-material-light-blue-100);
+}
+
+.fill-material-light-blue-100 {
+  fill: var(--clr-material-light-blue-100);
+}
+
+.text-material-light-blue-200 {
+  color: var(--clr-material-light-blue-200);
+}
+
+.bg-material-light-blue-200 {
+  background-color: var(--clr-material-light-blue-200);
+}
+
+.fill-material-light-blue-200 {
+  fill: var(--clr-material-light-blue-200);
+}
+
+.text-material-light-blue-300 {
+  color: var(--clr-material-light-blue-300);
+}
+
+.bg-material-light-blue-300 {
+  background-color: var(--clr-material-light-blue-300);
+}
+
+.fill-material-light-blue-300 {
+  fill: var(--clr-material-light-blue-300);
+}
+
+.text-material-light-blue-400 {
+  color: var(--clr-material-light-blue-400);
+}
+
+.bg-material-light-blue-400 {
+  background-color: var(--clr-material-light-blue-400);
+}
+
+.fill-material-light-blue-400 {
+  fill: var(--clr-material-light-blue-400);
+}
+
+.text-material-light-blue-500 {
+  color: var(--clr-material-light-blue-500);
+}
+
+.bg-material-light-blue-500 {
+  background-color: var(--clr-material-light-blue-500);
+}
+
+.fill-material-light-blue-500 {
+  fill: var(--clr-material-light-blue-500);
+}
+
+.text-material-light-blue-600 {
+  color: var(--clr-material-light-blue-600);
+}
+
+.bg-material-light-blue-600 {
+  background-color: var(--clr-material-light-blue-600);
+}
+
+.fill-material-light-blue-600 {
+  fill: var(--clr-material-light-blue-600);
+}
+
+.text-material-light-blue-700 {
+  color: var(--clr-material-light-blue-700);
+}
+
+.bg-material-light-blue-700 {
+  background-color: var(--clr-material-light-blue-700);
+}
+
+.fill-material-light-blue-700 {
+  fill: var(--clr-material-light-blue-700);
+}
+
+.text-material-light-blue-800 {
+  color: var(--clr-material-light-blue-800);
+}
+
+.bg-material-light-blue-800 {
+  background-color: var(--clr-material-light-blue-800);
+}
+
+.fill-material-light-blue-800 {
+  fill: var(--clr-material-light-blue-800);
+}
+
+.text-material-light-blue-900 {
+  color: var(--clr-material-light-blue-900);
+}
+
+.bg-material-light-blue-900 {
+  background-color: var(--clr-material-light-blue-900);
+}
+
+.fill-material-light-blue-900 {
+  fill: var(--clr-material-light-blue-900);
+}
+
+.text-material-light-blue-a100 {
+  color: var(--clr-material-light-blue-a100);
+}
+
+.bg-material-light-blue-a100 {
+  background-color: var(--clr-material-light-blue-a100);
+}
+
+.fill-material-light-blue-a100 {
+  fill: var(--clr-material-light-blue-a100);
+}
+
+.text-material-light-blue-a200 {
+  color: var(--clr-material-light-blue-a200);
+}
+
+.bg-material-light-blue-a200 {
+  background-color: var(--clr-material-light-blue-a200);
+}
+
+.fill-material-light-blue-a200 {
+  fill: var(--clr-material-light-blue-a200);
+}
+
+.text-material-light-blue-a400 {
+  color: var(--clr-material-light-blue-a400);
+}
+
+.bg-material-light-blue-a400 {
+  background-color: var(--clr-material-light-blue-a400);
+}
+
+.fill-material-light-blue-a400 {
+  fill: var(--clr-material-light-blue-a400);
+}
+
+.text-material-light-blue-a700 {
+  color: var(--clr-material-light-blue-a700);
+}
+
+.bg-material-light-blue-a700 {
+  background-color: var(--clr-material-light-blue-a700);
+}
+
+.fill-material-light-blue-a700 {
+  fill: var(--clr-material-light-blue-a700);
+}
+
+/* 4.9. Cyans */
+
+.text-material-cyan-50 {
+  color: var(--clr-material-cyan-50);
+}
+
+.bg-material-cyan-50 {
+  background-color: var(--clr-material-cyan-50);
+}
+
+.fill-material-cyan-50 {
+  fill: var(--clr-material-cyan-50);
+}
+
+.text-material-cyan-100 {
+  color: var(--clr-material-cyan-100);
+}
+
+.bg-material-cyan-100 {
+  background-color: var(--clr-material-cyan-100);
+}
+
+.fill-material-cyan-100 {
+  fill: var(--clr-material-cyan-100);
+}
+
+.text-material-cyan-200 {
+  color: var(--clr-material-cyan-200);
+}
+
+.bg-material-cyan-200 {
+  background-color: var(--clr-material-cyan-200);
+}
+
+.fill-material-cyan-200 {
+  fill: var(--clr-material-cyan-200);
+}
+
+.text-material-cyan-300 {
+  color: var(--clr-material-cyan-300);
+}
+
+.bg-material-cyan-300 {
+  background-color: var(--clr-material-cyan-300);
+}
+
+.fill-material-cyan-300 {
+  fill: var(--clr-material-cyan-300);
+}
+
+.text-material-cyan-400 {
+  color: var(--clr-material-cyan-400);
+}
+
+.bg-material-cyan-400 {
+  background-color: var(--clr-material-cyan-400);
+}
+
+.fill-material-cyan-400 {
+  fill: var(--clr-material-cyan-400);
+}
+
+.text-material-cyan-500 {
+  color: var(--clr-material-cyan-500);
+}
+
+.bg-material-cyan-500 {
+  background-color: var(--clr-material-cyan-500);
+}
+
+.fill-material-cyan-500 {
+  fill: var(--clr-material-cyan-500);
+}
+
+.text-material-cyan-600 {
+  color: var(--clr-material-cyan-600);
+}
+
+.bg-material-cyan-600 {
+  background-color: var(--clr-material-cyan-600);
+}
+
+.fill-material-cyan-600 {
+  fill: var(--clr-material-cyan-600);
+}
+
+.text-material-cyan-700 {
+  color: var(--clr-material-cyan-700);
+}
+
+.bg-material-cyan-700 {
+  background-color: var(--clr-material-cyan-700);
+}
+
+.fill-material-cyan-700 {
+  fill: var(--clr-material-cyan-700);
+}
+
+.text-material-cyan-800 {
+  color: var(--clr-material-cyan-800);
+}
+
+.bg-material-cyan-800 {
+  background-color: var(--clr-material-cyan-800);
+}
+
+.fill-material-cyan-800 {
+  fill: var(--clr-material-cyan-800);
+}
+
+.text-material-cyan-900 {
+  color: var(--clr-material-cyan-900);
+}
+
+.bg-material-cyan-900 {
+  background-color: var(--clr-material-cyan-900);
+}
+
+.fill-material-cyan-900 {
+  fill: var(--clr-material-cyan-900);
+}
+
+.text-material-cyan-a100 {
+  color: var(--clr-material-cyan-a100);
+}
+
+.bg-material-cyan-a100 {
+  background-color: var(--clr-material-cyan-a100);
+}
+
+.fill-material-cyan-a100 {
+  fill: var(--clr-material-cyan-a100);
+}
+
+.text-material-cyan-a200 {
+  color: var(--clr-material-cyan-a200);
+}
+
+.bg-material-cyan-a200 {
+  background-color: var(--clr-material-cyan-a200);
+}
+
+.fill-material-cyan-a200 {
+  fill: var(--clr-material-cyan-a200);
+}
+
+.text-material-cyan-a400 {
+  color: var(--clr-material-cyan-a400);
+}
+
+.bg-material-cyan-a400 {
+  background-color: var(--clr-material-cyan-a400);
+}
+
+.fill-material-cyan-a400 {
+  fill: var(--clr-material-cyan-a400);
+}
+
+.text-material-cyan-a700 {
+  color: var(--clr-material-cyan-a700);
+}
+
+.bg-material-cyan-a700 {
+  background-color: var(--clr-material-cyan-a700);
+}
+
+.fill-material-cyan-a700 {
+  fill: var(--clr-material-cyan-a700);
+}
+
+/* 4.10. Teals */
+
+.text-material-undefined-50 {
+  color: var(--clr-material-undefined-50);
+}
+
+.bg-material-undefined-50 {
+  background-color: var(--clr-material-undefined-50);
+}
+
+.fill-material-undefined-50 {
+  fill: var(--clr-material-undefined-50);
+}
+
+.text-material-undefined-100 {
+  color: var(--clr-material-undefined-100);
+}
+
+.bg-material-undefined-100 {
+  background-color: var(--clr-material-undefined-100);
+}
+
+.fill-material-undefined-100 {
+  fill: var(--clr-material-undefined-100);
+}
+
+.text-material-undefined-200 {
+  color: var(--clr-material-undefined-200);
+}
+
+.bg-material-undefined-200 {
+  background-color: var(--clr-material-undefined-200);
+}
+
+.fill-material-undefined-200 {
+  fill: var(--clr-material-undefined-200);
+}
+
+.text-material-undefined-300 {
+  color: var(--clr-material-undefined-300);
+}
+
+.bg-material-undefined-300 {
+  background-color: var(--clr-material-undefined-300);
+}
+
+.fill-material-undefined-300 {
+  fill: var(--clr-material-undefined-300);
+}
+
+.text-material-undefined-400 {
+  color: var(--clr-material-undefined-400);
+}
+
+.bg-material-undefined-400 {
+  background-color: var(--clr-material-undefined-400);
+}
+
+.fill-material-undefined-400 {
+  fill: var(--clr-material-undefined-400);
+}
+
+.text-material-undefined-500 {
+  color: var(--clr-material-undefined-500);
+}
+
+.bg-material-undefined-500 {
+  background-color: var(--clr-material-undefined-500);
+}
+
+.fill-material-undefined-500 {
+  fill: var(--clr-material-undefined-500);
+}
+
+.text-material-undefined-600 {
+  color: var(--clr-material-undefined-600);
+}
+
+.bg-material-undefined-600 {
+  background-color: var(--clr-material-undefined-600);
+}
+
+.fill-material-undefined-600 {
+  fill: var(--clr-material-undefined-600);
+}
+
+.text-material-undefined-700 {
+  color: var(--clr-material-undefined-700);
+}
+
+.bg-material-undefined-700 {
+  background-color: var(--clr-material-undefined-700);
+}
+
+.fill-material-undefined-700 {
+  fill: var(--clr-material-undefined-700);
+}
+
+.text-material-undefined-800 {
+  color: var(--clr-material-undefined-800);
+}
+
+.bg-material-undefined-800 {
+  background-color: var(--clr-material-undefined-800);
+}
+
+.fill-material-undefined-800 {
+  fill: var(--clr-material-undefined-800);
+}
+
+.text-material-undefined-900 {
+  color: var(--clr-material-undefined-900);
+}
+
+.bg-material-undefined-900 {
+  background-color: var(--clr-material-undefined-900);
+}
+
+.fill-material-undefined-900 {
+  fill: var(--clr-material-undefined-900);
+}
+
+.text-material-undefined-a100 {
+  color: var(--clr-material-undefined-a100);
+}
+
+.bg-material-undefined-a100 {
+  background-color: var(--clr-material-undefined-a100);
+}
+
+.fill-material-undefined-a100 {
+  fill: var(--clr-material-undefined-a100);
+}
+
+.text-material-undefined-a200 {
+  color: var(--clr-material-undefined-a200);
+}
+
+.bg-material-undefined-a200 {
+  background-color: var(--clr-material-undefined-a200);
+}
+
+.fill-material-undefined-a200 {
+  fill: var(--clr-material-undefined-a200);
+}
+
+.text-material-undefined-a400 {
+  color: var(--clr-material-undefined-a400);
+}
+
+.bg-material-undefined-a400 {
+  background-color: var(--clr-material-undefined-a400);
+}
+
+.fill-material-undefined-a400 {
+  fill: var(--clr-material-undefined-a400);
+}
+
+.text-material-undefined-a700 {
+  color: var(--clr-material-undefined-a700);
+}
+
+.bg-material-undefined-a700 {
+  background-color: var(--clr-material-undefined-a700);
+}
+
+.fill-material-undefined-a700 {
+  fill: var(--clr-material-undefined-a700);
+}
+
+/* 4.11. Greens */
+
+.text-material-green-50 {
+  color: var(--clr-material-green-50);
+}
+
+.bg-material-green-50 {
+  background-color: var(--clr-material-green-50);
+}
+
+.fill-material-green-50 {
+  fill: var(--clr-material-green-50);
+}
+
+.text-material-green-100 {
+  color: var(--clr-material-green-100);
+}
+
+.bg-material-green-100 {
+  background-color: var(--clr-material-green-100);
+}
+
+.fill-material-green-100 {
+  fill: var(--clr-material-green-100);
+}
+
+.text-material-green-200 {
+  color: var(--clr-material-green-200);
+}
+
+.bg-material-green-200 {
+  background-color: var(--clr-material-green-200);
+}
+
+.fill-material-green-200 {
+  fill: var(--clr-material-green-200);
+}
+
+.text-material-green-300 {
+  color: var(--clr-material-green-300);
+}
+
+.bg-material-green-300 {
+  background-color: var(--clr-material-green-300);
+}
+
+.fill-material-green-300 {
+  fill: var(--clr-material-green-300);
+}
+
+.text-material-green-400 {
+  color: var(--clr-material-green-400);
+}
+
+.bg-material-green-400 {
+  background-color: var(--clr-material-green-400);
+}
+
+.fill-material-green-400 {
+  fill: var(--clr-material-green-400);
+}
+
+.text-material-green-500 {
+  color: var(--clr-material-green-500);
+}
+
+.bg-material-green-500 {
+  background-color: var(--clr-material-green-500);
+}
+
+.fill-material-green-500 {
+  fill: var(--clr-material-green-500);
+}
+
+.text-material-green-600 {
+  color: var(--clr-material-green-600);
+}
+
+.bg-material-green-600 {
+  background-color: var(--clr-material-green-600);
+}
+
+.fill-material-green-600 {
+  fill: var(--clr-material-green-600);
+}
+
+.text-material-green-700 {
+  color: var(--clr-material-green-700);
+}
+
+.bg-material-green-700 {
+  background-color: var(--clr-material-green-700);
+}
+
+.fill-material-green-700 {
+  fill: var(--clr-material-green-700);
+}
+
+.text-material-green-800 {
+  color: var(--clr-material-green-800);
+}
+
+.bg-material-green-800 {
+  background-color: var(--clr-material-green-800);
+}
+
+.fill-material-green-800 {
+  fill: var(--clr-material-green-800);
+}
+
+.text-material-green-900 {
+  color: var(--clr-material-green-900);
+}
+
+.bg-material-green-900 {
+  background-color: var(--clr-material-green-900);
+}
+
+.fill-material-green-900 {
+  fill: var(--clr-material-green-900);
+}
+
+.text-material-green-a100 {
+  color: var(--clr-material-green-a100);
+}
+
+.bg-material-green-a100 {
+  background-color: var(--clr-material-green-a100);
+}
+
+.fill-material-green-a100 {
+  fill: var(--clr-material-green-a100);
+}
+
+.text-material-green-a200 {
+  color: var(--clr-material-green-a200);
+}
+
+.bg-material-green-a200 {
+  background-color: var(--clr-material-green-a200);
+}
+
+.fill-material-green-a200 {
+  fill: var(--clr-material-green-a200);
+}
+
+.text-material-green-a400 {
+  color: var(--clr-material-green-a400);
+}
+
+.bg-material-green-a400 {
+  background-color: var(--clr-material-green-a400);
+}
+
+.fill-material-green-a400 {
+  fill: var(--clr-material-green-a400);
+}
+
+.text-material-green-a700 {
+  color: var(--clr-material-green-a700);
+}
+
+.bg-material-green-a700 {
+  background-color: var(--clr-material-green-a700);
+}
+
+.fill-material-green-a700 {
+  fill: var(--clr-material-green-a700);
+}
+
+/* 4.12. Light Greens */
+
+.text-material-light-green-50 {
+  color: var(--clr-material-light-green-50);
+}
+
+.bg-material-light-green-50 {
+  background-color: var(--clr-material-light-green-50);
+}
+
+.fill-material-light-green-50 {
+  fill: var(--clr-material-light-green-50);
+}
+
+.text-material-light-green-100 {
+  color: var(--clr-material-light-green-100);
+}
+
+.bg-material-light-green-100 {
+  background-color: var(--clr-material-light-green-100);
+}
+
+.fill-material-light-green-100 {
+  fill: var(--clr-material-light-green-100);
+}
+
+.text-material-light-green-200 {
+  color: var(--clr-material-light-green-200);
+}
+
+.bg-material-light-green-200 {
+  background-color: var(--clr-material-light-green-200);
+}
+
+.fill-material-light-green-200 {
+  fill: var(--clr-material-light-green-200);
+}
+
+.text-material-light-green-300 {
+  color: var(--clr-material-light-green-300);
+}
+
+.bg-material-light-green-300 {
+  background-color: var(--clr-material-light-green-300);
+}
+
+.fill-material-light-green-300 {
+  fill: var(--clr-material-light-green-300);
+}
+
+.text-material-light-green-400 {
+  color: var(--clr-material-light-green-400);
+}
+
+.bg-material-light-green-400 {
+  background-color: var(--clr-material-light-green-400);
+}
+
+.fill-material-light-green-400 {
+  fill: var(--clr-material-light-green-400);
+}
+
+.text-material-light-green-500 {
+  color: var(--clr-material-light-green-500);
+}
+
+.bg-material-light-green-500 {
+  background-color: var(--clr-material-light-green-500);
+}
+
+.fill-material-light-green-500 {
+  fill: var(--clr-material-light-green-500);
+}
+
+.text-material-light-green-600 {
+  color: var(--clr-material-light-green-600);
+}
+
+.bg-material-light-green-600 {
+  background-color: var(--clr-material-light-green-600);
+}
+
+.fill-material-light-green-600 {
+  fill: var(--clr-material-light-green-600);
+}
+
+.text-material-light-green-700 {
+  color: var(--clr-material-light-green-700);
+}
+
+.bg-material-light-green-700 {
+  background-color: var(--clr-material-light-green-700);
+}
+
+.fill-material-light-green-700 {
+  fill: var(--clr-material-light-green-700);
+}
+
+.text-material-light-green-800 {
+  color: var(--clr-material-light-green-800);
+}
+
+.bg-material-light-green-800 {
+  background-color: var(--clr-material-light-green-800);
+}
+
+.fill-material-light-green-800 {
+  fill: var(--clr-material-light-green-800);
+}
+
+.text-material-light-green-900 {
+  color: var(--clr-material-light-green-900);
+}
+
+.bg-material-light-green-900 {
+  background-color: var(--clr-material-light-green-900);
+}
+
+.fill-material-light-green-900 {
+  fill: var(--clr-material-light-green-900);
+}
+
+.text-material-light-green-a100 {
+  color: var(--clr-material-light-green-a100);
+}
+
+.bg-material-light-green-a100 {
+  background-color: var(--clr-material-light-green-a100);
+}
+
+.fill-material-light-green-a100 {
+  fill: var(--clr-material-light-green-a100);
+}
+
+.text-material-light-green-a200 {
+  color: var(--clr-material-light-green-a200);
+}
+
+.bg-material-light-green-a200 {
+  background-color: var(--clr-material-light-green-a200);
+}
+
+.fill-material-light-green-a200 {
+  fill: var(--clr-material-light-green-a200);
+}
+
+.text-material-light-green-a400 {
+  color: var(--clr-material-light-green-a400);
+}
+
+.bg-material-light-green-a400 {
+  background-color: var(--clr-material-light-green-a400);
+}
+
+.fill-material-light-green-a400 {
+  fill: var(--clr-material-light-green-a400);
+}
+
+.text-material-light-green-a700 {
+  color: var(--clr-material-light-green-a700);
+}
+
+.bg-material-light-green-a700 {
+  background-color: var(--clr-material-light-green-a700);
+}
+
+.fill-material-light-green-a700 {
+  fill: var(--clr-material-light-green-a700);
+}
+
+/* 4.13. Limes */
+
+.text-material-lime-50 {
+  color: var(--clr-material-lime-50);
+}
+
+.bg-material-lime-50 {
+  background-color: var(--clr-material-lime-50);
+}
+
+.fill-material-lime-50 {
+  fill: var(--clr-material-lime-50);
+}
+
+.text-material-lime-100 {
+  color: var(--clr-material-lime-100);
+}
+
+.bg-material-lime-100 {
+  background-color: var(--clr-material-lime-100);
+}
+
+.fill-material-lime-100 {
+  fill: var(--clr-material-lime-100);
+}
+
+.text-material-lime-200 {
+  color: var(--clr-material-lime-200);
+}
+
+.bg-material-lime-200 {
+  background-color: var(--clr-material-lime-200);
+}
+
+.fill-material-lime-200 {
+  fill: var(--clr-material-lime-200);
+}
+
+.text-material-lime-300 {
+  color: var(--clr-material-lime-300);
+}
+
+.bg-material-lime-300 {
+  background-color: var(--clr-material-lime-300);
+}
+
+.fill-material-lime-300 {
+  fill: var(--clr-material-lime-300);
+}
+
+.text-material-lime-400 {
+  color: var(--clr-material-lime-400);
+}
+
+.bg-material-lime-400 {
+  background-color: var(--clr-material-lime-400);
+}
+
+.fill-material-lime-400 {
+  fill: var(--clr-material-lime-400);
+}
+
+.text-material-lime-500 {
+  color: var(--clr-material-lime-500);
+}
+
+.bg-material-lime-500 {
+  background-color: var(--clr-material-lime-500);
+}
+
+.fill-material-lime-500 {
+  fill: var(--clr-material-lime-500);
+}
+
+.text-material-lime-600 {
+  color: var(--clr-material-lime-600);
+}
+
+.bg-material-lime-600 {
+  background-color: var(--clr-material-lime-600);
+}
+
+.fill-material-lime-600 {
+  fill: var(--clr-material-lime-600);
+}
+
+.text-material-lime-700 {
+  color: var(--clr-material-lime-700);
+}
+
+.bg-material-lime-700 {
+  background-color: var(--clr-material-lime-700);
+}
+
+.fill-material-lime-700 {
+  fill: var(--clr-material-lime-700);
+}
+
+.text-material-lime-800 {
+  color: var(--clr-material-lime-800);
+}
+
+.bg-material-lime-800 {
+  background-color: var(--clr-material-lime-800);
+}
+
+.fill-material-lime-800 {
+  fill: var(--clr-material-lime-800);
+}
+
+.text-material-lime-900 {
+  color: var(--clr-material-lime-900);
+}
+
+.bg-material-lime-900 {
+  background-color: var(--clr-material-lime-900);
+}
+
+.fill-material-lime-900 {
+  fill: var(--clr-material-lime-900);
+}
+
+.text-material-lime-a100 {
+  color: var(--clr-material-lime-a100);
+}
+
+.bg-material-lime-a100 {
+  background-color: var(--clr-material-lime-a100);
+}
+
+.fill-material-lime-a100 {
+  fill: var(--clr-material-lime-a100);
+}
+
+.text-material-lime-a200 {
+  color: var(--clr-material-lime-a200);
+}
+
+.bg-material-lime-a200 {
+  background-color: var(--clr-material-lime-a200);
+}
+
+.fill-material-lime-a200 {
+  fill: var(--clr-material-lime-a200);
+}
+
+.text-material-lime-a400 {
+  color: var(--clr-material-lime-a400);
+}
+
+.bg-material-lime-a400 {
+  background-color: var(--clr-material-lime-a400);
+}
+
+.fill-material-lime-a400 {
+  fill: var(--clr-material-lime-a400);
+}
+
+.text-material-lime-a700 {
+  color: var(--clr-material-lime-a700);
+}
+
+.bg-material-lime-a700 {
+  background-color: var(--clr-material-lime-a700);
+}
+
+.fill-material-lime-a700 {
+  fill: var(--clr-material-lime-a700);
+}
+
+/* 4.14. Yellows */
+
+.text-material-yellow-50 {
+  color: var(--clr-material-yellow-50);
+}
+
+.bg-material-yellow-50 {
+  background-color: var(--clr-material-yellow-50);
+}
+
+.fill-material-yellow-50 {
+  fill: var(--clr-material-yellow-50);
+}
+
+.text-material-yellow-100 {
+  color: var(--clr-material-yellow-100);
+}
+
+.bg-material-yellow-100 {
+  background-color: var(--clr-material-yellow-100);
+}
+
+.fill-material-yellow-100 {
+  fill: var(--clr-material-yellow-100);
+}
+
+.text-material-yellow-200 {
+  color: var(--clr-material-yellow-200);
+}
+
+.bg-material-yellow-200 {
+  background-color: var(--clr-material-yellow-200);
+}
+
+.fill-material-yellow-200 {
+  fill: var(--clr-material-yellow-200);
+}
+
+.text-material-yellow-300 {
+  color: var(--clr-material-yellow-300);
+}
+
+.bg-material-yellow-300 {
+  background-color: var(--clr-material-yellow-300);
+}
+
+.fill-material-yellow-300 {
+  fill: var(--clr-material-yellow-300);
+}
+
+.text-material-yellow-400 {
+  color: var(--clr-material-yellow-400);
+}
+
+.bg-material-yellow-400 {
+  background-color: var(--clr-material-yellow-400);
+}
+
+.fill-material-yellow-400 {
+  fill: var(--clr-material-yellow-400);
+}
+
+.text-material-yellow-500 {
+  color: var(--clr-material-yellow-500);
+}
+
+.bg-material-yellow-500 {
+  background-color: var(--clr-material-yellow-500);
+}
+
+.fill-material-yellow-500 {
+  fill: var(--clr-material-yellow-500);
+}
+
+.text-material-yellow-600 {
+  color: var(--clr-material-yellow-600);
+}
+
+.bg-material-yellow-600 {
+  background-color: var(--clr-material-yellow-600);
+}
+
+.fill-material-yellow-600 {
+  fill: var(--clr-material-yellow-600);
+}
+
+.text-material-yellow-700 {
+  color: var(--clr-material-yellow-700);
+}
+
+.bg-material-yellow-700 {
+  background-color: var(--clr-material-yellow-700);
+}
+
+.fill-material-yellow-700 {
+  fill: var(--clr-material-yellow-700);
+}
+
+.text-material-yellow-800 {
+  color: var(--clr-material-yellow-800);
+}
+
+.bg-material-yellow-800 {
+  background-color: var(--clr-material-yellow-800);
+}
+
+.fill-material-yellow-800 {
+  fill: var(--clr-material-yellow-800);
+}
+
+.text-material-yellow-900 {
+  color: var(--clr-material-yellow-900);
+}
+
+.bg-material-yellow-900 {
+  background-color: var(--clr-material-yellow-900);
+}
+
+.fill-material-yellow-900 {
+  fill: var(--clr-material-yellow-900);
+}
+
+.text-material-yellow-a100 {
+  color: var(--clr-material-yellow-a100);
+}
+
+.bg-material-yellow-a100 {
+  background-color: var(--clr-material-yellow-a100);
+}
+
+.fill-material-yellow-a100 {
+  fill: var(--clr-material-yellow-a100);
+}
+
+.text-material-yellow-a200 {
+  color: var(--clr-material-yellow-a200);
+}
+
+.bg-material-yellow-a200 {
+  background-color: var(--clr-material-yellow-a200);
+}
+
+.fill-material-yellow-a200 {
+  fill: var(--clr-material-yellow-a200);
+}
+
+.text-material-yellow-a400 {
+  color: var(--clr-material-yellow-a400);
+}
+
+.bg-material-yellow-a400 {
+  background-color: var(--clr-material-yellow-a400);
+}
+
+.fill-material-yellow-a400 {
+  fill: var(--clr-material-yellow-a400);
+}
+
+.text-material-yellow-a700 {
+  color: var(--clr-material-yellow-a700);
+}
+
+.bg-material-yellow-a700 {
+  background-color: var(--clr-material-yellow-a700);
+}
+
+.fill-material-yellow-a700 {
+  fill: var(--clr-material-yellow-a700);
+}
+
+/* 4.15. Ambers */
+
+.text-material-amber-50 {
+  color: var(--clr-material-amber-50);
+}
+
+.bg-material-amber-50 {
+  background-color: var(--clr-material-amber-50);
+}
+
+.fill-material-amber-50 {
+  fill: var(--clr-material-amber-50);
+}
+
+.text-material-amber-100 {
+  color: var(--clr-material-amber-100);
+}
+
+.bg-material-amber-100 {
+  background-color: var(--clr-material-amber-100);
+}
+
+.fill-material-amber-100 {
+  fill: var(--clr-material-amber-100);
+}
+
+.text-material-amber-200 {
+  color: var(--clr-material-amber-200);
+}
+
+.bg-material-amber-200 {
+  background-color: var(--clr-material-amber-200);
+}
+
+.fill-material-amber-200 {
+  fill: var(--clr-material-amber-200);
+}
+
+.text-material-amber-300 {
+  color: var(--clr-material-amber-300);
+}
+
+.bg-material-amber-300 {
+  background-color: var(--clr-material-amber-300);
+}
+
+.fill-material-amber-300 {
+  fill: var(--clr-material-amber-300);
+}
+
+.text-material-amber-400 {
+  color: var(--clr-material-amber-400);
+}
+
+.bg-material-amber-400 {
+  background-color: var(--clr-material-amber-400);
+}
+
+.fill-material-amber-400 {
+  fill: var(--clr-material-amber-400);
+}
+
+.text-material-amber-500 {
+  color: var(--clr-material-amber-500);
+}
+
+.bg-material-amber-500 {
+  background-color: var(--clr-material-amber-500);
+}
+
+.fill-material-amber-500 {
+  fill: var(--clr-material-amber-500);
+}
+
+.text-material-amber-600 {
+  color: var(--clr-material-amber-600);
+}
+
+.bg-material-amber-600 {
+  background-color: var(--clr-material-amber-600);
+}
+
+.fill-material-amber-600 {
+  fill: var(--clr-material-amber-600);
+}
+
+.text-material-amber-700 {
+  color: var(--clr-material-amber-700);
+}
+
+.bg-material-amber-700 {
+  background-color: var(--clr-material-amber-700);
+}
+
+.fill-material-amber-700 {
+  fill: var(--clr-material-amber-700);
+}
+
+.text-material-amber-800 {
+  color: var(--clr-material-amber-800);
+}
+
+.bg-material-amber-800 {
+  background-color: var(--clr-material-amber-800);
+}
+
+.fill-material-amber-800 {
+  fill: var(--clr-material-amber-800);
+}
+
+.text-material-amber-900 {
+  color: var(--clr-material-amber-900);
+}
+
+.bg-material-amber-900 {
+  background-color: var(--clr-material-amber-900);
+}
+
+.fill-material-amber-900 {
+  fill: var(--clr-material-amber-900);
+}
+
+.text-material-amber-a100 {
+  color: var(--clr-material-amber-a100);
+}
+
+.bg-material-amber-a100 {
+  background-color: var(--clr-material-amber-a100);
+}
+
+.fill-material-amber-a100 {
+  fill: var(--clr-material-amber-a100);
+}
+
+.text-material-amber-a200 {
+  color: var(--clr-material-amber-a200);
+}
+
+.bg-material-amber-a200 {
+  background-color: var(--clr-material-amber-a200);
+}
+
+.fill-material-amber-a200 {
+  fill: var(--clr-material-amber-a200);
+}
+
+.text-material-amber-a400 {
+  color: var(--clr-material-amber-a400);
+}
+
+.bg-material-amber-a400 {
+  background-color: var(--clr-material-amber-a400);
+}
+
+.fill-material-amber-a400 {
+  fill: var(--clr-material-amber-a400);
+}
+
+.text-material-amber-a700 {
+  color: var(--clr-material-amber-a700);
+}
+
+.bg-material-amber-a700 {
+  background-color: var(--clr-material-amber-a700);
+}
+
+.fill-material-amber-a700 {
+  fill: var(--clr-material-amber-a700);
+}
+
+/* 4.16. Oranges */
+
+.text-material-orange-50 {
+  color: var(--clr-material-orange-50);
+}
+
+.bg-material-orange-50 {
+  background-color: var(--clr-material-orange-50);
+}
+
+.fill-material-orange-50 {
+  fill: var(--clr-material-orange-50);
+}
+
+.text-material-orange-100 {
+  color: var(--clr-material-orange-100);
+}
+
+.bg-material-orange-100 {
+  background-color: var(--clr-material-orange-100);
+}
+
+.fill-material-orange-100 {
+  fill: var(--clr-material-orange-100);
+}
+
+.text-material-orange-200 {
+  color: var(--clr-material-orange-200);
+}
+
+.bg-material-orange-200 {
+  background-color: var(--clr-material-orange-200);
+}
+
+.fill-material-orange-200 {
+  fill: var(--clr-material-orange-200);
+}
+
+.text-material-orange-300 {
+  color: var(--clr-material-orange-300);
+}
+
+.bg-material-orange-300 {
+  background-color: var(--clr-material-orange-300);
+}
+
+.fill-material-orange-300 {
+  fill: var(--clr-material-orange-300);
+}
+
+.text-material-orange-400 {
+  color: var(--clr-material-orange-400);
+}
+
+.bg-material-orange-400 {
+  background-color: var(--clr-material-orange-400);
+}
+
+.fill-material-orange-400 {
+  fill: var(--clr-material-orange-400);
+}
+
+.text-material-orange-500 {
+  color: var(--clr-material-orange-500);
+}
+
+.bg-material-orange-500 {
+  background-color: var(--clr-material-orange-500);
+}
+
+.fill-material-orange-500 {
+  fill: var(--clr-material-orange-500);
+}
+
+.text-material-orange-600 {
+  color: var(--clr-material-orange-600);
+}
+
+.bg-material-orange-600 {
+  background-color: var(--clr-material-orange-600);
+}
+
+.fill-material-orange-600 {
+  fill: var(--clr-material-orange-600);
+}
+
+.text-material-orange-700 {
+  color: var(--clr-material-orange-700);
+}
+
+.bg-material-orange-700 {
+  background-color: var(--clr-material-orange-700);
+}
+
+.fill-material-orange-700 {
+  fill: var(--clr-material-orange-700);
+}
+
+.text-material-orange-800 {
+  color: var(--clr-material-orange-800);
+}
+
+.bg-material-orange-800 {
+  background-color: var(--clr-material-orange-800);
+}
+
+.fill-material-orange-800 {
+  fill: var(--clr-material-orange-800);
+}
+
+.text-material-orange-900 {
+  color: var(--clr-material-orange-900);
+}
+
+.bg-material-orange-900 {
+  background-color: var(--clr-material-orange-900);
+}
+
+.fill-material-orange-900 {
+  fill: var(--clr-material-orange-900);
+}
+
+.text-material-orange-a100 {
+  color: var(--clr-material-orange-a100);
+}
+
+.bg-material-orange-a100 {
+  background-color: var(--clr-material-orange-a100);
+}
+
+.fill-material-orange-a100 {
+  fill: var(--clr-material-orange-a100);
+}
+
+.text-material-orange-a200 {
+  color: var(--clr-material-orange-a200);
+}
+
+.bg-material-orange-a200 {
+  background-color: var(--clr-material-orange-a200);
+}
+
+.fill-material-orange-a200 {
+  fill: var(--clr-material-orange-a200);
+}
+
+.text-material-orange-a400 {
+  color: var(--clr-material-orange-a400);
+}
+
+.bg-material-orange-a400 {
+  background-color: var(--clr-material-orange-a400);
+}
+
+.fill-material-orange-a400 {
+  fill: var(--clr-material-orange-a400);
+}
+
+.text-material-orange-a700 {
+  color: var(--clr-material-orange-a700);
+}
+
+.bg-material-orange-a700 {
+  background-color: var(--clr-material-orange-a700);
+}
+
+.fill-material-orange-a700 {
+  fill: var(--clr-material-orange-a700);
+}
+
+/* 4.17. Deep Oranges */
+
+.text-material-deep-orange-50 {
+  color: var(--clr-material-deep-orange-50);
+}
+
+.bg-material-deep-orange-50 {
+  background-color: var(--clr-material-deep-orange-50);
+}
+
+.fill-material-deep-orange-50 {
+  fill: var(--clr-material-deep-orange-50);
+}
+
+.text-material-deep-orange-100 {
+  color: var(--clr-material-deep-orange-100);
+}
+
+.bg-material-deep-orange-100 {
+  background-color: var(--clr-material-deep-orange-100);
+}
+
+.fill-material-deep-orange-100 {
+  fill: var(--clr-material-deep-orange-100);
+}
+
+.text-material-deep-orange-200 {
+  color: var(--clr-material-deep-orange-200);
+}
+
+.bg-material-deep-orange-200 {
+  background-color: var(--clr-material-deep-orange-200);
+}
+
+.fill-material-deep-orange-200 {
+  fill: var(--clr-material-deep-orange-200);
+}
+
+.text-material-deep-orange-300 {
+  color: var(--clr-material-deep-orange-300);
+}
+
+.bg-material-deep-orange-300 {
+  background-color: var(--clr-material-deep-orange-300);
+}
+
+.fill-material-deep-orange-300 {
+  fill: var(--clr-material-deep-orange-300);
+}
+
+.text-material-deep-orange-400 {
+  color: var(--clr-material-deep-orange-400);
+}
+
+.bg-material-deep-orange-400 {
+  background-color: var(--clr-material-deep-orange-400);
+}
+
+.fill-material-deep-orange-400 {
+  fill: var(--clr-material-deep-orange-400);
+}
+
+.text-material-deep-orange-500 {
+  color: var(--clr-material-deep-orange-500);
+}
+
+.bg-material-deep-orange-500 {
+  background-color: var(--clr-material-deep-orange-500);
+}
+
+.fill-material-deep-orange-500 {
+  fill: var(--clr-material-deep-orange-500);
+}
+
+.text-material-deep-orange-600 {
+  color: var(--clr-material-deep-orange-600);
+}
+
+.bg-material-deep-orange-600 {
+  background-color: var(--clr-material-deep-orange-600);
+}
+
+.fill-material-deep-orange-600 {
+  fill: var(--clr-material-deep-orange-600);
+}
+
+.text-material-deep-orange-700 {
+  color: var(--clr-material-deep-orange-700);
+}
+
+.bg-material-deep-orange-700 {
+  background-color: var(--clr-material-deep-orange-700);
+}
+
+.fill-material-deep-orange-700 {
+  fill: var(--clr-material-deep-orange-700);
+}
+
+.text-material-deep-orange-800 {
+  color: var(--clr-material-deep-orange-800);
+}
+
+.bg-material-deep-orange-800 {
+  background-color: var(--clr-material-deep-orange-800);
+}
+
+.fill-material-deep-orange-800 {
+  fill: var(--clr-material-deep-orange-800);
+}
+
+.text-material-deep-orange-900 {
+  color: var(--clr-material-deep-orange-900);
+}
+
+.bg-material-deep-orange-900 {
+  background-color: var(--clr-material-deep-orange-900);
+}
+
+.fill-material-deep-orange-900 {
+  fill: var(--clr-material-deep-orange-900);
+}
+
+.text-material-deep-orange-a100 {
+  color: var(--clr-material-deep-orange-a100);
+}
+
+.bg-material-deep-orange-a100 {
+  background-color: var(--clr-material-deep-orange-a100);
+}
+
+.fill-material-deep-orange-a100 {
+  fill: var(--clr-material-deep-orange-a100);
+}
+
+.text-material-deep-orange-a200 {
+  color: var(--clr-material-deep-orange-a200);
+}
+
+.bg-material-deep-orange-a200 {
+  background-color: var(--clr-material-deep-orange-a200);
+}
+
+.fill-material-deep-orange-a200 {
+  fill: var(--clr-material-deep-orange-a200);
+}
+
+.text-material-deep-orange-a400 {
+  color: var(--clr-material-deep-orange-a400);
+}
+
+.bg-material-deep-orange-a400 {
+  background-color: var(--clr-material-deep-orange-a400);
+}
+
+.fill-material-deep-orange-a400 {
+  fill: var(--clr-material-deep-orange-a400);
+}
+
+.text-material-deep-orange-a700 {
+  color: var(--clr-material-deep-orange-a700);
+}
+
+.bg-material-deep-orange-a700 {
+  background-color: var(--clr-material-deep-orange-a700);
+}
+
+.fill-material-deep-orange-a700 {
+  fill: var(--clr-material-deep-orange-a700);
+}
+
+/* 4.18. Browns */
+
+.text-material-brown-50 {
+  color: var(--clr-material-brown-50);
+}
+
+.bg-material-brown-50 {
+  background-color: var(--clr-material-brown-50);
+}
+
+.fill-material-brown-50 {
+  fill: var(--clr-material-brown-50);
+}
+
+.text-material-brown-100 {
+  color: var(--clr-material-brown-100);
+}
+
+.bg-material-brown-100 {
+  background-color: var(--clr-material-brown-100);
+}
+
+.fill-material-brown-100 {
+  fill: var(--clr-material-brown-100);
+}
+
+.text-material-brown-200 {
+  color: var(--clr-material-brown-200);
+}
+
+.bg-material-brown-200 {
+  background-color: var(--clr-material-brown-200);
+}
+
+.fill-material-brown-200 {
+  fill: var(--clr-material-brown-200);
+}
+
+.text-material-brown-300 {
+  color: var(--clr-material-brown-300);
+}
+
+.bg-material-brown-300 {
+  background-color: var(--clr-material-brown-300);
+}
+
+.fill-material-brown-300 {
+  fill: var(--clr-material-brown-300);
+}
+
+.text-material-brown-400 {
+  color: var(--clr-material-brown-400);
+}
+
+.bg-material-brown-400 {
+  background-color: var(--clr-material-brown-400);
+}
+
+.fill-material-brown-400 {
+  fill: var(--clr-material-brown-400);
+}
+
+.text-material-brown-500 {
+  color: var(--clr-material-brown-500);
+}
+
+.bg-material-brown-500 {
+  background-color: var(--clr-material-brown-500);
+}
+
+.fill-material-brown-500 {
+  fill: var(--clr-material-brown-500);
+}
+
+.text-material-brown-600 {
+  color: var(--clr-material-brown-600);
+}
+
+.bg-material-brown-600 {
+  background-color: var(--clr-material-brown-600);
+}
+
+.fill-material-brown-600 {
+  fill: var(--clr-material-brown-600);
+}
+
+.text-material-brown-700 {
+  color: var(--clr-material-brown-700);
+}
+
+.bg-material-brown-700 {
+  background-color: var(--clr-material-brown-700);
+}
+
+.fill-material-brown-700 {
+  fill: var(--clr-material-brown-700);
+}
+
+.text-material-brown-800 {
+  color: var(--clr-material-brown-800);
+}
+
+.bg-material-brown-800 {
+  background-color: var(--clr-material-brown-800);
+}
+
+.fill-material-brown-800 {
+  fill: var(--clr-material-brown-800);
+}
+
+.text-material-brown-900 {
+  color: var(--clr-material-brown-900);
+}
+
+.bg-material-brown-900 {
+  background-color: var(--clr-material-brown-900);
+}
+
+.fill-material-brown-900 {
+  fill: var(--clr-material-brown-900);
+}
+
+/* 4.19. Grays */
+
+.text-material-gray-50 {
+  color: var(--clr-material-gray-50);
+}
+
+.bg-material-gray-50 {
+  background-color: var(--clr-material-gray-50);
+}
+
+.fill-material-gray-50 {
+  fill: var(--clr-material-gray-50);
+}
+
+.text-material-gray-100 {
+  color: var(--clr-material-gray-100);
+}
+
+.bg-material-gray-100 {
+  background-color: var(--clr-material-gray-100);
+}
+
+.fill-material-gray-100 {
+  fill: var(--clr-material-gray-100);
+}
+
+.text-material-gray-200 {
+  color: var(--clr-material-gray-200);
+}
+
+.bg-material-gray-200 {
+  background-color: var(--clr-material-gray-200);
+}
+
+.fill-material-gray-200 {
+  fill: var(--clr-material-gray-200);
+}
+
+.text-material-gray-300 {
+  color: var(--clr-material-gray-300);
+}
+
+.bg-material-gray-300 {
+  background-color: var(--clr-material-gray-300);
+}
+
+.fill-material-gray-300 {
+  fill: var(--clr-material-gray-300);
+}
+
+.text-material-gray-400 {
+  color: var(--clr-material-gray-400);
+}
+
+.bg-material-gray-400 {
+  background-color: var(--clr-material-gray-400);
+}
+
+.fill-material-gray-400 {
+  fill: var(--clr-material-gray-400);
+}
+
+.text-material-gray-500 {
+  color: var(--clr-material-gray-500);
+}
+
+.bg-material-gray-500 {
+  background-color: var(--clr-material-gray-500);
+}
+
+.fill-material-gray-500 {
+  fill: var(--clr-material-gray-500);
+}
+
+.text-material-gray-600 {
+  color: var(--clr-material-gray-600);
+}
+
+.bg-material-gray-600 {
+  background-color: var(--clr-material-gray-600);
+}
+
+.fill-material-gray-600 {
+  fill: var(--clr-material-gray-600);
+}
+
+.text-material-gray-700 {
+  color: var(--clr-material-gray-700);
+}
+
+.bg-material-gray-700 {
+  background-color: var(--clr-material-gray-700);
+}
+
+.fill-material-gray-700 {
+  fill: var(--clr-material-gray-700);
+}
+
+.text-material-gray-800 {
+  color: var(--clr-material-gray-800);
+}
+
+.bg-material-gray-800 {
+  background-color: var(--clr-material-gray-800);
+}
+
+.fill-material-gray-800 {
+  fill: var(--clr-material-gray-800);
+}
+
+.text-material-gray-900 {
+  color: var(--clr-material-gray-900);
+}
+
+.bg-material-gray-900 {
+  background-color: var(--clr-material-gray-900);
+}
+
+.fill-material-gray-900 {
+  fill: var(--clr-material-gray-900);
+}
+
+/* 5. Brand Colors */
+
+.text-brand-html {
+  color: var(--clr-brand-html);
+}
+
+.bg-brand-html {
+  background-color: var(--clr-brand-html);
+}
+
+.fill-brand-html {
+  fill: var(--clr-brand-html);
+}
+
+.text-brand-css {
+  color: var(--clr-brand-css);
+}
+
+.bg-brand-css {
+  background-color: var(--clr-brand-css);
+}
+
+.fill-brand-css {
+  fill: var(--clr-brand-css);
+}
+
+.text-brand-javascript {
+  color: var(--clr-brand-javascript);
+}
+
+.bg-brand-javascript {
+  background-color: var(--clr-brand-javascript);
+}
+
+.fill-brand-javascript {
+  fill: var(--clr-brand-javascript);
+}
+
+.text-brand-bootstrap {
+  color: var(--clr-brand-bootstrap);
+}
+
+.bg-brand-bootstrap {
+  background-color: var(--clr-brand-bootstrap);
+}
+
+.fill-brand-bootstrap {
+  fill: var(--clr-brand-bootstrap);
+}
+
+.text-brand-react {
+  color: var(--clr-brand-react);
+}
+
+.bg-brand-react {
+  background-color: var(--clr-brand-react);
+}
+
+.fill-brand-react {
+  fill: var(--clr-brand-react);
+}
+
+.text-brand-laravel {
+  color: var(--clr-brand-laravel);
+}
+
+.bg-brand-laravel {
+  background-color: var(--clr-brand-laravel);
+}
+
+.fill-brand-laravel {
+  fill: var(--clr-brand-laravel);
+}
+
+.text-brand-astro {
+  color: var(--clr-brand-astro);
+}
+
+.bg-brand-astro {
+  background-color: var(--clr-brand-astro);
+}
+
+.fill-brand-astro {
+  fill: var(--clr-brand-astro);
+}

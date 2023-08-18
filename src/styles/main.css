@@ -44,11 +44,20 @@
   --clr-gray-900: hsl(0, 0%, 10%);
   --clr-gray-1000: hsl(0, 0%, 0%);
 
+  --clr-html-500: hsl(13, 79%, 51%);
+  --clr-css-500: hsl(221, 88%, 54%);
+  --clr-javascript-500: hsl(54, 100%, 61%);
+  --clr-bootstrap-500: hsl(260, 94%, 57%);
+  --clr-react-500: hsl(193, 86%, 66%);
+  --clr-laravel-500: hsl(3, 100%, 56%);
+  --clr-astro-500: hsl(22, 100%, 50%);
+
   --clr-black: #000;
   --clr-white: #fff;
 
   --ff-primary: "Nunito", Arial, sans-serif;
   --ff-secondary: "Montserrat", Verdana, serif;
+  --ff-monospace: "Source Code Pro", "Courier New", Courier, monospace;
   --ff-body: var(--ff-primary);
   --ff-heading: var(--ff-secondary);
 
@@ -143,9 +152,10 @@ code,
 
 .container {
   --container-width: 1110px;
+  --container-spacer: var(--size-400);
 
   max-width: var(--container-width);
-  padding-inline: var(--size-400);
+  padding-inline: var(--container-spacer);
   margin-inline: auto;
 }
 
@@ -585,6 +595,9 @@ hr {
 }
 .ff-heading {
   font-family: var(--ff-heading);
+}
+.ff-monospace {
+  font-family: var(--ff-monospace);
 }
 
 /** Utility - Font Weights **/
