@@ -396,6 +396,25 @@ hr {
   align-items: center;
 }
 
+.toast {
+  width: min(100% - var(--size-400), 30em);
+  position: fixed;
+  top: var(--size-400);
+  left: 50%;
+  translate: -50% -120%;
+  border-radius: var(--size-100);
+  padding: var(--size-400);
+  box-shadow: 0.1em 0.1em 0.2em hsla(0, 0%, 0%, 0.2);
+  color: var(--clr-black);
+  background-color: var(--clr-white);
+  z-index: 2;
+  transition: translate 0.3s ease-in-out;
+}
+
+.toast[data-active="true"] {
+  translate: -50% 0;
+}
+
 @media (min-width: 62em) {
   .content {
     width: calc(100vw - var(--details-width));

@@ -5,7 +5,6 @@
  */
 console.log(`main.js loaded`)
 
-
 // A. Render Nav Links & Swatches
 const headerCenterNavEl = document.querySelector(
   `[data-element=header-center-nav]`
@@ -14,7 +13,6 @@ const colorGroupsEl = document.querySelector(`[data-element=color-groups]`)
 
 let headerNavListHtml = ``
 let colorGroupsHtml = ``
-
 
 data.forEach(({ name, colors }, index) => {
   const colorGroupName = name
@@ -78,7 +76,6 @@ const detailsSwatchLightBgEl = document.querySelector(
   `[data-element=details-swatch-light-bg]`
 )
 
-
 // B. Show Color Details
 const valueHexEl = document.querySelector(`[data-element=value-hex]`)
 const valueRgbEl = document.querySelector(`[data-element=value-rgb]`)
@@ -120,6 +117,24 @@ function updateDetails(dataset) {
   )
 }
 
+function toggleToast(message = ``) {
+  console.log(`toggleToast`)
+  const toastEl = document.querySelector(`[data-element=toast]`)
+
+  if (!toastEl) {
+    return
+  }
+
+  if (message && message !== ``) {
+    toastEl.querySelector(`p`).innerText = message
+    toastEl.setAttribute(`data-active`, true)
+    setInterval(function () {
+      toastEl.removeAttribute(`data-active`)
+    }, 3000)
+  } else {
+    toastEl.removeAttribute(`data-active`)
+  }
+}
 
 // C. Copy Color Value to Clipboard
 const copyHexBtnEl = document.querySelector(`[data-element=copy-hex]`)
@@ -132,22 +147,22 @@ copyHexBtnEl.addEventListener(`click`, (e) => {
   console.log(`Copy-hex button clicked`)
 
   const value = valueHexEl.innerHTML
-  navigator.clipboard.writeText(value);
-  alert(`Copied ${value}`)
+  navigator.clipboard.writeText(value)
+  toggleToast(`Copied ${value}`)
 })
 
 copyRgbBtnEl.addEventListener(`click`, (e) => {
   console.log(`Copy-rgb button clicked`)
 
   const value = valueRgbEl.innerHTML
-  navigator.clipboard.writeText(value);
-  alert(`Copied ${value}`)
+  navigator.clipboard.writeText(value)
+  toggleToast(`Copied ${value}`)
 })
 
 copyHslBtnEl.addEventListener(`click`, (e) => {
   console.log(`Copy-hsl button clicked`)
 
   const value = valueHslEl.innerHTML
-  navigator.clipboard.writeText(value);
-  alert(`Copied ${value}`)
+  navigator.clipboard.writeText(value)
+  toggleToast(`Copied ${value}`)
 })
