@@ -1,12 +1,11 @@
-console.log(`color-list.js loaded`)
+console.log(`color-groups.js loaded`)
 
-const colorList = [
+const colors = [
   {
     name: "Basic Colors",
-    colors: [
+    groups: [
       {
         name: "",
-        count: 9,
         swatches: [
           {
             name: "White",
@@ -77,10 +76,9 @@ const colorList = [
   },
   {
     name: "Pokémon Colors",
-    colors: [
+    groups: [
       {
         name: "",
-        count: 18,
         swatches: [
           {
             name: "Bug",
@@ -214,10 +212,9 @@ const colorList = [
   },
   {
     name: "Bootstrap Colors",
-    colors: [
+    groups: [
       {
         name: "Colors",
-        count: 10,
         swatches: [
           {
             name: "Blue (Primary)",
@@ -364,7 +361,7 @@ const colorList = [
   },
   {
     name: "Material Colors",
-    colors: [
+    groups: [
       {
         name: "Grays",
         count: 10,
@@ -2253,6 +2250,65 @@ const colorList = [
             hex: "#263238",
             rgb: "rgb(38, 50, 56)",
             hsl: "hsl(200, 19%, 18%)",
+            text: "#FFFFFF",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "Brand Colors",
+    groups: [
+      {
+        name: "",
+        swatches: [
+          {
+            name: "HTML",
+            hex: "#E54A1f",
+            rgb: "rgb(229, 74, 31)",
+            hsl: "hsl(13, 79%, 51%)",
+            text: "#FFFFFF",
+          },
+          {
+            name: "CSS",
+            hex: "#2264f1",
+            rgb: "rgb(34, 100, 241)",
+            hsl: "hsl(221, 88%, 54%)",
+            text: "#FFFFFF",
+          },
+          {
+            name: "JavaScript",
+            hex: "#FFEb38",
+            rgb: "rgb(255, 235, 56)",
+            hsl: "hsl(54, 100%, 61%)",
+            text: "#000000",
+          },
+          {
+            name: "Bootstrap",
+            hex: "#6F2AF8",
+            rgb: "rgb(111, 42, 248)",
+            hsl: "hsl(260, 94%, 57%)",
+            text: "#FFFFFF",
+          },
+          {
+            name: "React",
+            hex: "#5ED3F3",
+            rgb: "rgb(94, 211, 243)",
+            hsl: "hsl(193, 86%, 66%)",
+            text: "#000000",
+          },
+          {
+            name: "Laravel",
+            hex: "#FF2A1F",
+            rgb: "rgb(255, 42, 31)",
+            hsl: "hsl(3, 100%, 56%)",
+            text: "#FFFFFF",
+          },
+          {
+            name: "Astro",
+            hex: "#FF5E00",
+            rgb: "rgb(255, 94, 0)",
+            hsl: "hsl(22, 100%, 50%)",
             text: "#FFFFFF",
           },
         ],

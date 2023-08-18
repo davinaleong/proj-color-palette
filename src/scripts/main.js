@@ -110,19 +110,19 @@ function main() {
   let colorGroupsHtml = ``
 
   /// Logic
-  colorList.forEach(function ({ name, colors }, index) {
+  colors.forEach(function ({ name, groups }, index) {
     const colorGroupName = name
     let swatchGroupsHtml = ``
     let swatchGroupCountHtml = ``
 
-    colors.forEach(({ name, count, swatches }) => {
+    groups.forEach(({ name, count, swatches }) => {
       let swatchesHtml = ``
 
       let swatchHeadingHtml = ``
       if (name != "") {
-        swatchHeadingHtml = `<h3 class="swatch-heading">${name} (${count})</h3>`
+        swatchHeadingHtml = `<h3 class="swatch-heading">${name} (${swatches.length})</h3>`
       } else {
-        swatchGroupCountHtml = ` (${count})`
+        swatchGroupCountHtml = ` (${swatches.length})`
       }
 
       swatches.forEach(({ name, hex, rgb, hsl, text }) => {
@@ -138,7 +138,7 @@ function main() {
 
       swatchGroupsHtml += `<div class="swatch-group">
           ${swatchHeadingHtml}
-          <div class="swatches" style="--swatch-count: ${count}">${swatchesHtml}</div>
+          <div class="swatches" style="--swatch-count: ${swatches.length}">${swatchesHtml}</div>
       </div>`
     })
 
