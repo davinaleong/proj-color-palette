@@ -1,20 +1,14 @@
 {
   "name": "proj-color-palette",
-  "version": "0.1.0",
-  "description": "Tech Stack\r - jQuery\r - HTML/CSS",
-  "main": "index.js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/davinaleong/proj-color-palette.git"
-  },
-  "keywords": [],
-  "author": "Davina Leong <leong.shi.yun@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/davinaleong/proj-color-palette/issues"
-  },
-  "homepage": "https://github.com/davinaleong/proj-color-palette#readme"
+  "devDependencies": {
+    "vite": "^4.4.5"
+  }
 }

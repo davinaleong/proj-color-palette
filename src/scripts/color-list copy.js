@@ -1,6 +1,6 @@
-console.log(`colors.js loaded`);
+console.log(`color-list.js loaded`)
 
-const data = [
+const colorList = [
   {
     name: "Basic Colors",
     colors: [
@@ -2259,4 +2259,4 @@ const data = [
       },
     ],
   },
-];
+]
