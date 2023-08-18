@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/davinaleong/proj-color-palette/issues"
   },
-  "homepage": "https://github.com/davinaleong/proj-color-palette#readme",
-  "dependencies": {
-    "jquery": "^3.4.1"
-  }
+  "homepage": "https://github.com/davinaleong/proj-color-palette#readme"
 }
