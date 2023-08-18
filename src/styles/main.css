@@ -57,6 +57,7 @@
 
   --ff-primary: "Nunito", Arial, sans-serif;
   --ff-secondary: "Montserrat", Verdana, serif;
+  --ff-monospace: "Source Code Pro", "Courier New", Courier, monospace;
   --ff-body: var(--ff-primary);
   --ff-heading: var(--ff-secondary);
 
@@ -151,9 +152,10 @@ code,
 
 .container {
   --container-width: 1110px;
+  --container-spacer: var(--size-400);
 
   max-width: var(--container-width);
-  padding-inline: var(--size-400);
+  padding-inline: var(--container-spacer);
   margin-inline: auto;
 }
 
@@ -593,6 +595,9 @@ hr {
 }
 .ff-heading {
   font-family: var(--ff-heading);
+}
+.ff-monospace {
+  font-family: var(--ff-monospace);
 }
 
 /** Utility - Font Weights **/
